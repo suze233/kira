@@ -1,0 +1,7 @@
+WARNING 2021-08-09 21:13:18,057 log 224 Not Found: /register/login.html
+WARNING 2021-08-09 21:13:18,058 basehttp 161 "GET /register/login.html HTTP/1.1" 404 2305
+WARNING 2021-08-09 21:13:27,830 log 224 Not Found: /register/login.html
+WARNING 2021-08-09 21:13:27,831 basehttp 161 "GET /register/login.html HTTP/1.1" 404 2305
+INFO 2021-08-09 21:13:32,423 basehttp 161 "GET /register HTTP/1.1" 301 0
+INFO 2021-08-09 21:13:32,432 basehttp 161 "GET /register/ HTTP/1.1" 200 5188
+INFO 2021-08-09 21:14:03,446 basehttp 161 "GET /register/ HTTP/1.1" 200 5188
