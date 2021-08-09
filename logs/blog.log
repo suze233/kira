@@ -341,3 +341,64 @@ INFO 2021-08-10 01:17:33,065 basehttp 161 "GET /register/ HTTP/1.1" 200 5185
 INFO 2021-08-10 01:26:24,170 autoreload 251 C:\Users\suze\Desktop\kira\users\models.py changed, reloading.
 INFO 2021-08-10 01:26:24,900 autoreload 637 Watching for file changes with StatReloader
 INFO 2021-08-10 01:26:56,143 autoreload 251 C:\Users\suze\Desktop\kira\users\models.py changed, reloading.
+INFO 2021-08-10 01:39:57,752 autoreload 637 Watching for file changes with StatReloader
+WARNING 2021-08-10 01:39:58,832 log 224 Not Found: /
+WARNING 2021-08-10 01:39:58,833 basehttp 161 "GET / HTTP/1.1" 404 2397
+INFO 2021-08-10 01:40:02,435 basehttp 161 "GET /register/ HTTP/1.1" 200 5185
+INFO 2021-08-10 01:43:44,541 autoreload 251 C:\Users\suze\Desktop\kira\users\views.py changed, reloading.
+INFO 2021-08-10 01:43:45,294 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-08-10 01:46:17,048 autoreload 251 C:\Users\suze\Desktop\kira\users\views.py changed, reloading.
+INFO 2021-08-10 01:46:18,148 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-08-10 01:47:53,447 autoreload 251 C:\Users\suze\Desktop\kira\users\views.py changed, reloading.
+INFO 2021-08-10 01:47:54,119 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-08-10 01:48:23,302 autoreload 251 C:\Users\suze\Desktop\kira\users\views.py changed, reloading.
+INFO 2021-08-10 01:48:24,061 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-08-10 01:48:52,203 autoreload 251 C:\Users\suze\Desktop\kira\users\views.py changed, reloading.
+INFO 2021-08-10 01:48:52,922 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-08-10 01:49:03,531 autoreload 251 C:\Users\suze\Desktop\kira\users\views.py changed, reloading.
+INFO 2021-08-10 01:49:04,176 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-08-10 01:49:25,847 autoreload 251 C:\Users\suze\Desktop\kira\users\views.py changed, reloading.
+INFO 2021-08-10 01:49:26,627 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-08-10 01:49:50,632 autoreload 251 C:\Users\suze\Desktop\kira\users\views.py changed, reloading.
+INFO 2021-08-10 01:49:51,323 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-08-10 01:50:29,755 autoreload 251 C:\Users\suze\Desktop\kira\users\views.py changed, reloading.
+INFO 2021-08-10 01:50:30,474 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-08-10 01:50:34,881 autoreload 251 C:\Users\suze\Desktop\kira\users\views.py changed, reloading.
+INFO 2021-08-10 02:11:10,206 autoreload 637 Watching for file changes with StatReloader
+WARNING 2021-08-10 02:11:12,313 log 224 Not Found: /
+WARNING 2021-08-10 02:11:12,323 basehttp 161 "GET / HTTP/1.1" 404 2572
+INFO 2021-08-10 02:11:20,387 basehttp 161 "GET /register/ HTTP/1.1" 200 5185
+INFO 2021-08-10 02:14:29,993 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-08-10 02:16:18,940 autoreload 637 Watching for file changes with StatReloader
+WARNING 2021-08-10 02:16:21,191 log 224 Not Found: /
+WARNING 2021-08-10 02:16:21,192 basehttp 161 "GET / HTTP/1.1" 404 2572
+INFO 2021-08-10 02:16:27,923 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-08-10 02:17:14,100 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-08-10 02:19:39,613 basehttp 161 "GET /imagecode/?uuid=123 HTTP/1.1" 200 2991
+INFO 2021-08-10 02:19:39,630 basehttp 75 - Broken pipe from ('127.0.0.1', 54982)
+
+INFO 2021-08-10 02:22:35,808 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-08-10 02:22:43,549 basehttp 161 "GET /register/ HTTP/1.1" 200 5174
+INFO 2021-08-10 02:22:43,581 basehttp 161 "GET /static/js/vue-2.5.16.js HTTP/1.1" 304 0
+INFO 2021-08-10 02:22:43,583 basehttp 161 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 304 0
+INFO 2021-08-10 02:22:43,586 basehttp 161 "GET /static/js/host.js HTTP/1.1" 304 0
+INFO 2021-08-10 02:22:43,587 basehttp 161 "GET /static/js/common.js HTTP/1.1" 304 0
+INFO 2021-08-10 02:22:43,589 basehttp 161 "GET /static/js/register.js HTTP/1.1" 304 0
+INFO 2021-08-10 02:22:43,803 basehttp 161 "GET /imagecode/?uuid=ba1beb0e-d2a7-4bed-8ad5-517e3bea84af HTTP/1.1" 200 2931
+INFO 2021-08-10 02:22:45,087 basehttp 161 "GET /imagecode/?uuid=5649b263-6c22-4e8a-b0b3-575459a63412 HTTP/1.1" 200 3146
+INFO 2021-08-10 02:22:45,965 basehttp 161 "GET /imagecode/?uuid=eae7a065-250a-4af2-8555-7c371ff7d8b8 HTTP/1.1" 200 3064
+INFO 2021-08-10 02:22:48,752 basehttp 161 "GET /imagecode/?uuid=be1500c9-5a34-4248-8d41-0a717dc3b015 HTTP/1.1" 200 3270
+INFO 2021-08-10 02:22:50,549 basehttp 161 "GET /register/ HTTP/1.1" 200 5174
+INFO 2021-08-10 02:22:50,647 basehttp 161 "GET /imagecode/?uuid=4375af45-8c3c-4c41-8090-123a70ac7620 HTTP/1.1" 200 3695
+INFO 2021-08-10 02:22:55,319 basehttp 161 "GET /register/ HTTP/1.1" 200 5174
+INFO 2021-08-10 02:22:55,409 basehttp 161 "GET /imagecode/?uuid=1a6ace00-e5f2-466b-b346-2335e5350873 HTTP/1.1" 200 2695
+INFO 2021-08-10 02:22:58,796 basehttp 161 "GET /imagecode/?uuid=d6dc529b-c261-40fe-ba3b-54952f50c400 HTTP/1.1" 200 2985
+INFO 2021-08-10 02:23:00,064 basehttp 161 "GET /imagecode/?uuid=243b760a-ec8a-4f4a-990a-8365bf974c0c HTTP/1.1" 200 3236
+INFO 2021-08-10 02:23:00,693 basehttp 161 "GET /imagecode/?uuid=deb0cfca-7cd1-4906-8d59-396d45bc436b HTTP/1.1" 200 3438
+INFO 2021-08-10 02:23:01,239 basehttp 161 "GET /imagecode/?uuid=1048b21a-fcdb-4f32-a643-157c447e27b8 HTTP/1.1" 200 3152
+INFO 2021-08-10 02:23:02,536 basehttp 161 "GET /imagecode/?uuid=1363818e-3a4d-44d4-a723-789771740002 HTTP/1.1" 200 3339
+INFO 2021-08-10 02:23:58,851 basehttp 161 "GET /register/ HTTP/1.1" 200 5173
+WARNING 2021-08-10 02:23:58,879 log 224 Not Found: /register/image_code_url
+WARNING 2021-08-10 02:23:58,880 basehttp 161 "GET /register/image_code_url HTTP/1.1" 404 2659
+INFO 2021-08-10 02:24:04,147 basehttp 161 "GET /register/ HTTP/1.1" 200 5174
+INFO 2021-08-10 02:24:04,196 basehttp 161 "GET /imagecode/?uuid=e7865da5-eccc-4155-b84f-e95d47de4cc1 HTTP/1.1" 200 3593
