@@ -402,3 +402,30 @@ WARNING 2021-08-10 02:23:58,879 log 224 Not Found: /register/image_code_url
 WARNING 2021-08-10 02:23:58,880 basehttp 161 "GET /register/image_code_url HTTP/1.1" 404 2659
 INFO 2021-08-10 02:24:04,147 basehttp 161 "GET /register/ HTTP/1.1" 200 5174
 INFO 2021-08-10 02:24:04,196 basehttp 161 "GET /imagecode/?uuid=e7865da5-eccc-4155-b84f-e95d47de4cc1 HTTP/1.1" 200 3593
+INFO 2021-08-10 03:06:42,630 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-08-10 03:06:53,758 basehttp 161 "GET /register/ HTTP/1.1" 200 5174
+INFO 2021-08-10 03:06:53,889 basehttp 161 "GET /imagecode/?uuid=0a1fa394-b3ac-46f1-a607-f3b9d6458c48 HTTP/1.1" 200 3010
+INFO 2021-08-10 03:07:19,014 basehttp 161 "GET /imagecode/?uuid=0fcbd3a9-6215-4265-af5d-ec8c188be325 HTTP/1.1" 200 3226
+WARNING 2021-08-10 03:07:24,228 log 224 Not Found: /smscode/
+WARNING 2021-08-10 03:07:24,229 basehttp 161 "GET /smscode/?mobile=18740773558&image_code=unrn&uuid=0fcbd3a9-6215-4265-af5d-ec8c188be325 HTTP/1.1" 404 2699
+WARNING 2021-08-10 03:07:52,614 log 224 Not Found: /smscode/
+WARNING 2021-08-10 03:07:52,615 basehttp 161 "GET /smscode/?mobile=18740773558&image_code=unrn&uuid=0fcbd3a9-6215-4265-af5d-ec8c188be325 HTTP/1.1" 404 2699
+WARNING 2021-08-10 03:08:01,139 log 224 Not Found: /smscode/
+WARNING 2021-08-10 03:08:01,140 basehttp 161 "GET /smscode/?mobile=18740773558&image_code=unrn&uuid=0fcbd3a9-6215-4265-af5d-ec8c188be325 HTTP/1.1" 404 2699
+WARNING 2021-08-10 03:08:02,292 log 224 Not Found: /smscode/
+WARNING 2021-08-10 03:08:02,293 basehttp 161 "GET /smscode/?mobile=18740773558&image_code=unrn&uuid=0fcbd3a9-6215-4265-af5d-ec8c188be325 HTTP/1.1" 404 2699
+WARNING 2021-08-10 03:08:07,999 log 224 Not Found: /smscode/
+WARNING 2021-08-10 03:08:08,000 basehttp 161 "GET /smscode/?mobile=18740773558&image_code=unrn&uuid=0fcbd3a9-6215-4265-af5d-ec8c188be325 HTTP/1.1" 404 2699
+INFO 2021-08-10 03:09:45,763 autoreload 251 C:\Users\suze\Desktop\kira\users\urls.py changed, reloading.
+INFO 2021-08-10 03:09:47,033 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-08-10 03:10:05,329 autoreload 251 C:\Users\suze\Desktop\kira\users\urls.py changed, reloading.
+INFO 2021-08-10 03:10:06,626 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-08-10 03:10:35,436 autoreload 251 C:\Users\suze\Desktop\kira\users\urls.py changed, reloading.
+INFO 2021-08-10 03:10:36,771 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-08-10 03:10:39,677 basehttp 161 "GET /register/ HTTP/1.1" 200 5174
+INFO 2021-08-10 03:10:39,775 basehttp 161 "GET /imagecode/?uuid=0a312781-2d5b-4110-b089-d6234d8cb48a HTTP/1.1" 200 3331
+INFO 2021-08-10 03:10:46,379 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-08-10 03:10:53,075 basehttp 161 "GET /register/ HTTP/1.1" 200 5174
+INFO 2021-08-10 03:10:53,194 basehttp 161 "GET /imagecode/?uuid=6fe69e55-372f-4e0c-bc1d-7bd40f29a5db HTTP/1.1" 200 3327
+INFO 2021-08-10 03:12:14,352 views 86 313572
+INFO 2021-08-10 03:12:54,327 basehttp 161 "GET /smscode/?mobile=18740773558&image_code=jnwb&uuid=6fe69e55-372f-4e0c-bc1d-7bd40f29a5db HTTP/1.1" 200 13
