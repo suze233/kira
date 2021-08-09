@@ -429,3 +429,66 @@ INFO 2021-08-10 03:10:53,075 basehttp 161 "GET /register/ HTTP/1.1" 200 5174
 INFO 2021-08-10 03:10:53,194 basehttp 161 "GET /imagecode/?uuid=6fe69e55-372f-4e0c-bc1d-7bd40f29a5db HTTP/1.1" 200 3327
 INFO 2021-08-10 03:12:14,352 views 86 313572
 INFO 2021-08-10 03:12:54,327 basehttp 161 "GET /smscode/?mobile=18740773558&image_code=jnwb&uuid=6fe69e55-372f-4e0c-bc1d-7bd40f29a5db HTTP/1.1" 200 13
+INFO 2021-08-10 03:21:49,143 autoreload 251 C:\Users\suze\Desktop\kira\users\views.py changed, reloading.
+INFO 2021-08-10 03:21:50,509 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-08-10 03:21:57,182 autoreload 251 C:\Users\suze\Desktop\kira\users\views.py changed, reloading.
+INFO 2021-08-10 03:21:58,481 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-08-10 03:45:30,281 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-08-10 03:47:19,358 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-08-10 03:47:24,378 basehttp 161 "GET /register/ HTTP/1.1" 200 5174
+INFO 2021-08-10 03:47:24,491 basehttp 161 "GET /imagecode/?uuid=85f34d2c-a915-4a03-96b4-0c0b7cf2ce04 HTTP/1.1" 200 3524
+INFO 2021-08-10 03:47:39,672 basehttp 161 "GET /imagecode/?uuid=7bdffc88-2880-454f-a8f1-53b5fc6f5a78 HTTP/1.1" 200 3352
+INFO 2021-08-10 03:47:53,022 views 141 319108
+INFO 2021-08-10 03:47:53,305 basehttp 161 "GET /smscode/?mobile=18740773558&image_code=ofxw&uuid=7bdffc88-2880-454f-a8f1-53b5fc6f5a78 HTTP/1.1" 200 13
+WARNING 2021-08-10 03:50:07,940 basehttp 161 "GET /static/js/axios.min.map HTTP/1.1" 404 1807
+INFO 2021-08-10 03:50:07,953 basehttp 161 "GET /static/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 200 562427
+INFO 2021-08-10 03:52:20,162 basehttp 161 "GET /imagecode/?uuid=1fd08505-e325-40d4-b17a-72a3522fe869 HTTP/1.1" 200 3544
+INFO 2021-08-10 04:02:39,861 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-08-10 04:02:45,143 basehttp 161 "GET /register/ HTTP/1.1" 200 5316
+INFO 2021-08-10 04:02:45,446 basehttp 161 "GET /imagecode/?uuid=1cb7338d-6468-4a70-84dc-94c63d2e2e1d HTTP/1.1" 200 2958
+INFO 2021-08-10 04:03:04,223 views 141 983754
+INFO 2021-08-10 04:03:04,509 basehttp 161 "GET /smscode/?mobile=18740773558&image_code=akpt&uuid=1cb7338d-6468-4a70-84dc-94c63d2e2e1d HTTP/1.1" 200 13
+WARNING 2021-08-10 04:03:20,038 log 224 Bad Request: /register/
+WARNING 2021-08-10 04:03:20,039 basehttp 161 "POST /register/ HTTP/1.1" 400 21
+INFO 2021-08-10 04:03:23,513 basehttp 161 "GET /imagecode/?uuid=06fcdae2-4d50-496a-994e-7fd17070adbf HTTP/1.1" 200 3198
+INFO 2021-08-10 04:03:32,839 basehttp 161 "GET /imagecode/?uuid=b1377889-e687-41c5-a829-8fba7b89d49d HTTP/1.1" 200 3239
+WARNING 2021-08-10 04:03:38,970 log 224 Bad Request: /register/
+WARNING 2021-08-10 04:03:38,970 basehttp 161 "POST /register/ HTTP/1.1" 400 21
+INFO 2021-08-10 04:03:40,622 basehttp 161 "GET /imagecode/?uuid=c2b5ee32-bd4c-43e6-a93c-318028fc84a9 HTTP/1.1" 200 3240
+INFO 2021-08-10 04:04:09,326 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-08-10 04:04:12,014 basehttp 161 "GET /register/ HTTP/1.1" 200 5316
+INFO 2021-08-10 04:04:12,133 basehttp 161 "GET /imagecode/?uuid=3d414112-2d4b-4742-b00e-10fea3a415ee HTTP/1.1" 200 3170
+INFO 2021-08-10 04:04:24,632 basehttp 161 "GET /imagecode/?uuid=852aecbe-c590-4148-9b94-8446feaf25df HTTP/1.1" 200 3392
+INFO 2021-08-10 04:04:28,906 views 142 125123
+INFO 2021-08-10 04:04:29,195 basehttp 161 "GET /smscode/?mobile=18740773558&image_code=slgz&uuid=852aecbe-c590-4148-9b94-8446feaf25df HTTP/1.1" 200 13
+WARNING 2021-08-10 04:06:27,795 basehttp 161 "GET /static/js/axios.min.map HTTP/1.1" 404 1807
+INFO 2021-08-10 04:06:27,807 basehttp 161 "GET /static/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 200 562427
+INFO 2021-08-10 04:07:46,608 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-08-10 04:08:04,000 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-08-10 04:08:11,135 basehttp 161 "GET /register/ HTTP/1.1" 200 5316
+INFO 2021-08-10 04:08:11,381 basehttp 161 "GET /imagecode/?uuid=599d5483-2c3a-48b7-a0cd-3410b9b39292 HTTP/1.1" 200 3344
+INFO 2021-08-10 04:08:16,258 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-08-10 04:08:17,260 basehttp 161 "GET /register/ HTTP/1.1" 200 5316
+INFO 2021-08-10 04:08:17,373 basehttp 161 "GET /imagecode/?uuid=44dff029-f687-4004-b1f2-9188b79d1166 HTTP/1.1" 200 2993
+INFO 2021-08-10 04:08:32,358 basehttp 161 "GET /imagecode/?uuid=247c432a-bf35-447e-8e6d-53629901a9cf HTTP/1.1" 200 3085
+INFO 2021-08-10 04:08:36,470 views 142 405528
+INFO 2021-08-10 04:08:36,722 basehttp 161 "GET /smscode/?mobile=18740773558&image_code=ksjy&uuid=247c432a-bf35-447e-8e6d-53629901a9cf HTTP/1.1" 200 13
+WARNING 2021-08-10 04:09:52,262 log 224 Bad Request: /register/
+WARNING 2021-08-10 04:09:58,309 basehttp 161 "POST /register/ HTTP/1.1" 400 50
+INFO 2021-08-10 04:10:13,148 basehttp 161 "GET /imagecode/?uuid=2584ebdf-06bd-4a85-84a8-36d4ff950f8e HTTP/1.1" 200 2999
+INFO 2021-08-10 04:10:24,594 basehttp 161 "GET /imagecode/?uuid=90af11df-35a0-4a48-b91a-9d8d84a2a207 HTTP/1.1" 200 3066
+INFO 2021-08-10 04:10:25,522 basehttp 161 "GET /imagecode/?uuid=4e488a6c-6ecd-4382-b218-f1a3621892ac HTTP/1.1" 200 3042
+WARNING 2021-08-10 04:10:54,023 log 224 Bad Request: /register/
+WARNING 2021-08-10 04:10:54,447 basehttp 161 "POST /register/ HTTP/1.1" 400 50
+INFO 2021-08-10 04:10:59,753 basehttp 161 "GET /imagecode/?uuid=e40d21fc-1650-450d-91e6-865b1ccba252 HTTP/1.1" 200 2894
+INFO 2021-08-10 04:11:14,141 basehttp 161 "GET /imagecode/?uuid=9dabf8fa-94d5-4377-9ffd-fdcd926e0485 HTTP/1.1" 200 3376
+INFO 2021-08-10 04:13:03,881 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-08-10 04:13:17,415 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-08-10 04:13:27,228 basehttp 161 "GET /register/ HTTP/1.1" 200 5316
+INFO 2021-08-10 04:13:27,488 basehttp 161 "GET /imagecode/?uuid=ef1b5a16-2b72-490c-adf3-4c5a8ff13c0e HTTP/1.1" 200 3498
+INFO 2021-08-10 04:13:33,643 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-08-10 04:13:36,004 basehttp 161 "GET /register/ HTTP/1.1" 200 5316
+INFO 2021-08-10 04:13:36,108 basehttp 161 "GET /imagecode/?uuid=b7fe2dc6-786b-4a7f-aa68-750ae1ef24fa HTTP/1.1" 200 3197
+INFO 2021-08-10 04:13:55,661 views 142 984977
+INFO 2021-08-10 04:13:55,923 basehttp 161 "GET /smscode/?mobile=18740773558&image_code=j4eq&uuid=b7fe2dc6-786b-4a7f-aa68-750ae1ef24fa HTTP/1.1" 200 13
+INFO 2021-08-10 04:14:36,898 basehttp 161 "POST /register/ HTTP/1.1" 200 12
