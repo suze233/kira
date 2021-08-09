@@ -8,3 +8,8 @@ from django.views import View
 class RegisterView(View):
     def get(self, request):
         return render(request, 'register.html')
+
+
+class LoginView(View):
+    def get(self, request):
+        return render(request, 'login.html')
