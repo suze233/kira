@@ -14,7 +14,7 @@ from users.models import User
 from django.db import DatabaseError
 from django.shortcuts import redirect
 from django.urls import reverse
-from django.contrib.auth import login, authenticate
+from django.contrib.auth import login, logout, authenticate
 
 # Create your views here.
 
@@ -119,11 +119,11 @@ class LoginView(View):
         if remember != 'on':  # 没有记住
             request.session.set_expiry(0)
             response.set_cookie('is_login', True)
-            response.set_cookie('username', user.username, max_age=14*24*2600)
+            response.set_cookie('username', user.username, max_age=14 * 24 * 2600)
         else:
             request.session.set_expiry(None)  # 默认记住两周
-            response.set_cookie('is_login', True, max_age=14*24*2600)
-            response.set_cookie('username', user.username, max_age=14*24*2600)
+            response.set_cookie('is_login', True, max_age=14 * 24 * 2600)
+            response.set_cookie('username', user.username, max_age=14 * 24 * 2600)
         # 7. 返回响应
         return response
 
@@ -201,3 +201,15 @@ class SmsCodeView(View):
         CCP().send_template_sms(mobile, [sms_code, 5], 1)
         # 6. 返回响应
         return JsonResponse({'code': RETCODE.OK})
+
+
+class LogoutView(View):
+
+    def get(self, request):
+        # 1. session数据清除
+        logout(request)
+        # 2. 删除部分cookie数据
+        response = redirect(reverse('home:index'))
+        response.delete_cookie('is_login')
+        # 3. 跳转到首页
+        return response
