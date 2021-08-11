@@ -962,3 +962,122 @@ INFO 2021-08-11 15:13:47,215 basehttp 161 "GET /static/js/index.js HTTP/1.1" 304
 INFO 2021-08-11 15:14:04,423 basehttp 161 "GET /logout/ HTTP/1.1" 302 0
 INFO 2021-08-11 15:14:04,429 basehttp 161 "GET / HTTP/1.1" 200 11855
 INFO 2021-08-11 15:14:14,259 basehttp 161 "GET / HTTP/1.1" 200 11855
+INFO 2021-08-11 15:17:02,503 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-08-11 15:17:05,468 basehttp 161 "GET / HTTP/1.1" 200 11855
+INFO 2021-08-11 15:17:05,559 basehttp 161 "GET /static/js/index.js HTTP/1.1" 304 0
+INFO 2021-08-11 15:17:07,378 basehttp 161 "GET /login/ HTTP/1.1" 200 3194
+WARNING 2021-08-11 15:17:08,625 log 224 Not Found: /login/forget_password.html
+WARNING 2021-08-11 15:17:08,626 basehttp 161 "GET /login/forget_password.html HTTP/1.1" 404 3169
+INFO 2021-08-11 15:18:10,291 autoreload 251 C:\Users\suze\Desktop\kira\users\views.py changed, reloading.
+INFO 2021-08-11 15:18:10,968 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-08-11 15:18:33,991 autoreload 251 C:\Users\suze\Desktop\kira\users\views.py changed, reloading.
+INFO 2021-08-11 15:18:34,860 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-08-11 15:19:22,810 autoreload 251 C:\Users\suze\Desktop\kira\users\urls.py changed, reloading.
+INFO 2021-08-11 15:19:23,474 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-08-11 15:19:45,540 autoreload 251 C:\Users\suze\Desktop\kira\users\urls.py changed, reloading.
+INFO 2021-08-11 15:19:46,229 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-08-11 15:19:51,900 basehttp 161 "GET / HTTP/1.1" 200 11855
+INFO 2021-08-11 15:19:57,549 basehttp 161 "GET /forget HTTP/1.1" 301 0
+ERROR 2021-08-11 15:19:57,581 log 224 Internal Server Error: /forget/
+Traceback (most recent call last):
+  File "C:\Users\suze\Desktop\kira\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\suze\Desktop\kira\venv\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: as_view() takes 1 positional argument but 2 were given
+ERROR 2021-08-11 15:19:57,582 basehttp 161 "GET /forget/ HTTP/1.1" 500 66680
+ERROR 2021-08-11 15:21:05,827 log 224 Internal Server Error: /forget/
+Traceback (most recent call last):
+  File "C:\Users\suze\Desktop\kira\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\suze\Desktop\kira\venv\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: as_view() takes 1 positional argument but 2 were given
+ERROR 2021-08-11 15:21:05,829 basehttp 161 "GET /forget/ HTTP/1.1" 500 66817
+INFO 2021-08-11 15:21:06,310 autoreload 251 C:\Users\suze\Desktop\kira\users\views.py changed, reloading.
+INFO 2021-08-11 15:21:06,966 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-08-11 15:21:07,863 basehttp 161 "GET /forget/ HTTP/1.1" 200 5144
+WARNING 2021-08-11 15:21:07,909 log 224 Not Found: /forget/js/axios-0.18.0.min.js
+WARNING 2021-08-11 15:21:07,910 log 224 Not Found: /forget/js/vue-2.5.16.js
+WARNING 2021-08-11 15:21:07,911 log 224 Not Found: /forget/bootstrap/css/bootstrap.min.css
+WARNING 2021-08-11 15:21:07,912 basehttp 161 "GET /forget/js/vue-2.5.16.js HTTP/1.1" 404 3329
+WARNING 2021-08-11 15:21:07,912 basehttp 161 "GET /forget/js/axios-0.18.0.min.js HTTP/1.1" 404 3347
+WARNING 2021-08-11 15:21:07,912 basehttp 161 "GET /forget/bootstrap/css/bootstrap.min.css HTTP/1.1" 404 3374
+WARNING 2021-08-11 15:21:07,924 log 224 Not Found: /forget/js/host.js
+WARNING 2021-08-11 15:21:07,926 log 224 Not Found: /forget/js/axios-0.18.0.min.js
+WARNING 2021-08-11 15:21:07,927 log 224 Not Found: /forget/js/common.js
+WARNING 2021-08-11 15:21:07,927 basehttp 161 "GET /forget/js/axios-0.18.0.min.js HTTP/1.1" 404 3347
+WARNING 2021-08-11 15:21:07,927 basehttp 161 "GET /forget/js/common.js HTTP/1.1" 404 3317
+WARNING 2021-08-11 15:21:07,928 basehttp 161 "GET /forget/js/host.js HTTP/1.1" 404 3311
+WARNING 2021-08-11 15:21:07,938 log 224 Not Found: /forget/js/forget_password.js
+WARNING 2021-08-11 15:21:07,939 log 224 Not Found: /forget/img/image_code.png
+WARNING 2021-08-11 15:21:07,939 basehttp 161 "GET /forget/img/image_code.png HTTP/1.1" 404 3335
+WARNING 2021-08-11 15:21:07,939 basehttp 161 "GET /forget/js/forget_password.js HTTP/1.1" 404 3344
+INFO 2021-08-11 15:24:31,165 basehttp 161 "GET /forget/ HTTP/1.1" 200 5331
+INFO 2021-08-11 15:24:31,236 basehttp 161 "GET /static/img/image_code.png HTTP/1.1" 200 3483
+INFO 2021-08-11 15:24:31,236 basehttp 161 "GET /static/js/forget_password.js HTTP/1.1" 200 6567
+INFO 2021-08-11 15:30:49,997 basehttp 161 "GET /forget/ HTTP/1.1" 200 5320
+INFO 2021-08-11 15:30:50,122 basehttp 161 "GET /imagecode/?uuid=ece837a9-feea-4a13-a55a-73cade1232d6 HTTP/1.1" 200 3504
+INFO 2021-08-11 15:30:51,198 basehttp 161 "GET /imagecode/?uuid=8fafe7d4-342a-40ca-989b-2f9efe19e301 HTTP/1.1" 200 3248
+INFO 2021-08-11 15:30:52,578 basehttp 161 "GET /imagecode/?uuid=d9d7e907-5bd1-4179-b9e9-99c2086579c3 HTTP/1.1" 200 2973
+INFO 2021-08-11 15:30:56,832 basehttp 161 "GET /imagecode/?uuid=919312da-782b-43b4-8b49-0fd489d61e27 HTTP/1.1" 200 2773
+INFO 2021-08-11 15:31:58,786 basehttp 161 "GET /forget/ HTTP/1.1" 200 5320
+INFO 2021-08-11 15:31:58,897 basehttp 161 "GET /imagecode/?uuid=5a43385c-d32f-4ab7-b33b-d2ef1955da5e HTTP/1.1" 200 3003
+INFO 2021-08-11 15:32:02,172 basehttp 161 "GET /login/ HTTP/1.1" 200 3180
+INFO 2021-08-11 15:32:04,016 basehttp 161 "GET /forget/ HTTP/1.1" 200 5320
+INFO 2021-08-11 15:32:04,103 basehttp 161 "GET /imagecode/?uuid=ba4b0c6c-4b26-490f-889c-5696725982bc HTTP/1.1" 200 3010
+INFO 2021-08-11 15:35:01,855 autoreload 251 C:\Users\suze\Desktop\kira\users\views.py changed, reloading.
+INFO 2021-08-11 15:35:02,691 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-08-11 15:53:00,422 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-08-11 15:53:12,226 basehttp 161 "GET / HTTP/1.1" 200 11855
+INFO 2021-08-11 15:53:12,286 basehttp 161 "GET /static/js/index.js HTTP/1.1" 304 0
+INFO 2021-08-11 15:53:14,021 basehttp 161 "GET /login/ HTTP/1.1" 200 3180
+INFO 2021-08-11 15:53:15,314 basehttp 161 "GET /forget/ HTTP/1.1" 200 5320
+INFO 2021-08-11 15:53:15,371 basehttp 161 "GET /imagecode/?uuid=0801902e-de89-4513-bf99-491e363f0112 HTTP/1.1" 200 2967
+INFO 2021-08-11 15:53:32,975 views 197 585697
+INFO 2021-08-11 15:53:33,221 basehttp 161 "GET /smscode/?mobile=18740773558&image_code=vph5&uuid=0801902e-de89-4513-bf99-491e363f0112 HTTP/1.1" 200 13
+INFO 2021-08-11 15:53:39,379 basehttp 161 "POST /forget/ HTTP/1.1" 302 0
+INFO 2021-08-11 15:53:39,385 basehttp 161 "GET /login/ HTTP/1.1" 200 3180
+WARNING 2021-08-11 15:53:57,637 log 224 Bad Request: /login/
+WARNING 2021-08-11 15:53:57,637 basehttp 161 "POST /login/ HTTP/1.1" 400 24
+INFO 2021-08-11 15:54:03,217 basehttp 161 "POST /login/ HTTP/1.1" 302 0
+INFO 2021-08-11 15:54:03,224 basehttp 161 "GET / HTTP/1.1" 200 11855
+INFO 2021-08-11 15:54:05,374 basehttp 161 "GET /logout/ HTTP/1.1" 302 0
+INFO 2021-08-11 15:54:05,380 basehttp 161 "GET / HTTP/1.1" 200 11855
+INFO 2021-08-11 15:54:14,064 basehttp 161 "GET / HTTP/1.1" 200 11855
+INFO 2021-08-11 15:54:14,203 basehttp 161 "GET / HTTP/1.1" 200 11855
+INFO 2021-08-11 15:54:17,062 basehttp 161 "GET / HTTP/1.1" 200 11855
+INFO 2021-08-11 15:56:44,627 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-08-11 15:56:46,473 basehttp 161 "GET /login/ HTTP/1.1" 200 3180
+INFO 2021-08-11 15:56:48,094 basehttp 161 "GET /forget/ HTTP/1.1" 200 5320
+INFO 2021-08-11 15:56:48,169 basehttp 161 "GET /imagecode/?uuid=b9766229-a02b-4fc9-9bab-d780cd86b221 HTTP/1.1" 200 3287
+INFO 2021-08-11 15:57:02,319 basehttp 161 "GET /imagecode/?uuid=91dee786-39a3-4acd-8910-d2c9ef884f50 HTTP/1.1" 200 3010
+INFO 2021-08-11 15:57:05,673 basehttp 161 "GET /imagecode/?uuid=5c3a9cd5-ce1d-4537-91b0-b7b61e2fcd89 HTTP/1.1" 200 3282
+INFO 2021-08-11 15:57:07,228 basehttp 161 "GET /imagecode/?uuid=081880cc-3d6f-4996-a9f6-e1fdb362a129 HTTP/1.1" 200 3170
+INFO 2021-08-11 15:57:08,397 basehttp 161 "GET /imagecode/?uuid=a68037eb-f3e9-4874-a42f-3f8298e46969 HTTP/1.1" 200 3224
+INFO 2021-08-11 15:57:12,781 views 197 444709
+INFO 2021-08-11 15:57:13,040 basehttp 161 "GET /smscode/?mobile=18740773557&image_code=9fso&uuid=a68037eb-f3e9-4874-a42f-3f8298e46969 HTTP/1.1" 200 13
+INFO 2021-08-11 15:57:19,712 basehttp 161 "POST /forget/ HTTP/1.1" 302 0
+INFO 2021-08-11 15:57:19,718 basehttp 161 "GET /login/ HTTP/1.1" 200 3180
+INFO 2021-08-11 15:57:28,552 basehttp 161 "GET /forget/ HTTP/1.1" 200 5320
+INFO 2021-08-11 15:57:28,614 basehttp 161 "GET /imagecode/?uuid=f0bff325-b646-4781-86b3-73d4fd6c3e9b HTTP/1.1" 200 2981
+INFO 2021-08-11 15:57:40,838 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-08-11 15:57:41,221 basehttp 161 "GET /forget/ HTTP/1.1" 200 5320
+INFO 2021-08-11 15:57:41,326 basehttp 161 "GET /imagecode/?uuid=db2f1d5c-24cf-4cce-b567-d1abffe643f0 HTTP/1.1" 200 3242
+INFO 2021-08-11 15:58:01,461 basehttp 161 "GET /imagecode/?uuid=dfa4300f-6f43-4395-a5a7-ebd336a9d32f HTTP/1.1" 200 3279
+INFO 2021-08-11 15:58:06,269 views 197 611626
+INFO 2021-08-11 15:58:06,538 basehttp 161 "GET /smscode/?mobile=18740773550&image_code=xfdp&uuid=dfa4300f-6f43-4395-a5a7-ebd336a9d32f HTTP/1.1" 200 13
+INFO 2021-08-11 15:58:33,085 basehttp 161 "POST /forget/ HTTP/1.1" 302 0
+INFO 2021-08-11 15:58:34,930 basehttp 161 "GET /login/ HTTP/1.1" 200 3180
+INFO 2021-08-11 15:59:42,369 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-08-11 15:59:43,769 basehttp 161 "GET /login/ HTTP/1.1" 200 3180
+INFO 2021-08-11 15:59:45,297 basehttp 161 "GET /forget/ HTTP/1.1" 200 5320
+INFO 2021-08-11 15:59:45,388 basehttp 161 "GET /imagecode/?uuid=071c699a-2796-4fd1-8b43-75dd74c5af06 HTTP/1.1" 200 2913
+INFO 2021-08-11 16:00:01,143 basehttp 161 "GET /imagecode/?uuid=d9988f4e-fd5a-4a29-b0c0-08c075e8fbff HTTP/1.1" 200 3132
+INFO 2021-08-11 16:00:15,255 views 197 352269
+INFO 2021-08-11 16:00:15,541 basehttp 161 "GET /smscode/?mobile=18740773555&image_code=e8on&uuid=d9988f4e-fd5a-4a29-b0c0-08c075e8fbff HTTP/1.1" 200 13
+WARNING 2021-08-11 16:00:34,090 log 224 Bad Request: /forget/
+WARNING 2021-08-11 16:00:34,094 basehttp 161 "POST /forget/ HTTP/1.1" 400 21
+INFO 2021-08-11 16:00:40,718 basehttp 161 "GET /imagecode/?uuid=83763319-6be6-43c6-af3b-ec22169fb88c HTTP/1.1" 200 3242
+INFO 2021-08-11 16:00:42,363 basehttp 161 "GET /forget/ HTTP/1.1" 200 5320
+INFO 2021-08-11 16:00:42,415 basehttp 161 "GET /imagecode/?uuid=0d758433-edc3-41a1-97da-66476d81574d HTTP/1.1" 200 3136

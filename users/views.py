@@ -213,3 +213,61 @@ class LogoutView(View):
         response.delete_cookie('is_login')
         # 3. 跳转到首页
         return response
+
+
+class ForgetPassword(View):
+
+    def get(self, request):
+        return render(request, 'forget_password.html')
+
+    def post(self, request):
+        """
+        1. 接收数据
+        2. 验证数据(数据是否齐全、手机号格式、密码格式、密码和确认密码是否一致、短信验证码是否正确)
+        3. 查询手机号
+        4. 如果手机号存在进行修改密码，如果手机号不存在，进行新用户创建
+        5. 进行页面跳转(登录页)
+        6. 返回响应
+        """
+        # 1.接收数据
+        mobile = request.POST.get('mobile')
+        password = request.POST.get('password')
+        password2 = request.POST.get('password2')
+        smscode = request.POST.get('sms_code')
+        # 2. 验证数据
+        #   2.1 数据是否齐全
+        if not all([mobile, password, password2, smscode]):
+            return HttpResponseBadRequest('缺少参数')
+        #   2.2 手机号格式
+        if not re.match(r'^1[3-9]\d{9}$', mobile):
+            return HttpResponseBadRequest('手机号输入错误')
+        #   2.3 密码格式
+        if not re.match(r'^[0-9A-Za-z]{8,20}$', password):
+            return HttpResponseBadRequest('密码格式错误，请输入8-20位数字+字母')
+        #   2.4 密码和确认密码是否一致
+        if password != password2:
+            return HttpResponseBadRequest('两次输入密码不一致')
+        #   2.5 短信验证码是否正确)
+        redis_conn = get_redis_connection('default')
+        redis_sms_code = redis_conn.get('sms:%s' % mobile)
+        if redis_sms_code is None:
+            return HttpResponseBadRequest('短信验证码已过期')
+        if smscode != redis_sms_code.decode():
+            return HttpResponseBadRequest('短信验证码错误')
+        # 3. 查询手机号
+        try:
+            user = User.objects.get(mobile=mobile)
+        except User.DoesNotExist:
+            # 4.1 如果手机号不存在，进行新用户创建
+            # try:
+            #     User.objects.create_user(username=mobile, mobile=mobile, password=password)
+            # except Exception:
+            return HttpResponseBadRequest('手机号输入错误')
+        else:
+            # 4.2 如果手机号存在进行修改密码
+            user.set_password(password)
+            user.save()
+        # 5. 进行页面跳转(登录页)
+        response = redirect(reverse('users:login'))
+        # 6. 返回响应
+        return response
