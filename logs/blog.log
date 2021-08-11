@@ -1081,3 +1081,141 @@ WARNING 2021-08-11 16:00:34,094 basehttp 161 "POST /forget/ HTTP/1.1" 400 21
 INFO 2021-08-11 16:00:40,718 basehttp 161 "GET /imagecode/?uuid=83763319-6be6-43c6-af3b-ec22169fb88c HTTP/1.1" 200 3242
 INFO 2021-08-11 16:00:42,363 basehttp 161 "GET /forget/ HTTP/1.1" 200 5320
 INFO 2021-08-11 16:00:42,415 basehttp 161 "GET /imagecode/?uuid=0d758433-edc3-41a1-97da-66476d81574d HTTP/1.1" 200 3136
+INFO 2021-08-11 16:19:09,030 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-08-11 16:19:19,528 basehttp 161 "GET / HTTP/1.1" 200 11855
+INFO 2021-08-11 16:19:19,590 basehttp 161 "GET /static/js/index.js HTTP/1.1" 304 0
+INFO 2021-08-11 16:19:20,975 basehttp 161 "GET /login/ HTTP/1.1" 200 3180
+WARNING 2021-08-11 16:19:32,599 log 224 Bad Request: /login/
+WARNING 2021-08-11 16:19:32,599 basehttp 161 "POST /login/ HTTP/1.1" 400 24
+INFO 2021-08-11 16:19:39,092 basehttp 161 "POST /login/ HTTP/1.1" 302 0
+INFO 2021-08-11 16:19:39,099 basehttp 161 "GET / HTTP/1.1" 200 11855
+WARNING 2021-08-11 16:19:40,862 log 224 Not Found: /center.html
+WARNING 2021-08-11 16:19:40,863 basehttp 161 "GET /center.html HTTP/1.1" 404 3462
+WARNING 2021-08-11 16:23:40,213 log 224 Not Found: /center.html
+WARNING 2021-08-11 16:23:40,214 basehttp 161 "GET /center.html HTTP/1.1" 404 3462
+INFO 2021-08-11 16:23:44,547 autoreload 637 Watching for file changes with StatReloader
+WARNING 2021-08-11 16:23:45,286 log 224 Not Found: /center.html
+WARNING 2021-08-11 16:23:45,286 basehttp 161 "GET /center.html HTTP/1.1" 404 3462
+INFO 2021-08-11 16:23:48,515 basehttp 161 "GET / HTTP/1.1" 200 11855
+WARNING 2021-08-11 16:23:50,956 log 224 Not Found: /center.html
+WARNING 2021-08-11 16:23:50,957 basehttp 161 "GET /center.html HTTP/1.1" 404 3462
+INFO 2021-08-11 16:24:35,314 basehttp 161 "GET / HTTP/1.1" 200 11850
+INFO 2021-08-11 16:24:38,015 basehttp 161 "GET /center/ HTTP/1.1" 200 4224
+WARNING 2021-08-11 16:24:38,041 log 224 Not Found: /center/img/mei.png
+INFO 2021-08-11 16:24:38,041 basehttp 161 "GET /static/js/center.js HTTP/1.1" 200 522
+WARNING 2021-08-11 16:24:38,042 basehttp 161 "GET /center/img/mei.png HTTP/1.1" 404 3483
+WARNING 2021-08-11 16:24:38,111 log 224 Not Found: /center/img/mei.png
+WARNING 2021-08-11 16:24:38,112 basehttp 161 "GET /center/img/mei.png HTTP/1.1" 404 3483
+WARNING 2021-08-11 16:24:48,605 base 101 Method Not Allowed (POST): /center/
+WARNING 2021-08-11 16:24:48,606 log 224 Method Not Allowed: /center/
+WARNING 2021-08-11 16:24:48,606 basehttp 161 "POST /center/ HTTP/1.1" 405 0
+INFO 2021-08-11 16:26:44,365 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-08-11 16:26:44,985 basehttp 161 "GET /center/ HTTP/1.1" 200 4224
+WARNING 2021-08-11 16:26:45,012 log 224 Not Found: /center/img/mei.png
+WARNING 2021-08-11 16:26:45,013 basehttp 161 "GET /center/img/mei.png HTTP/1.1" 404 3483
+WARNING 2021-08-11 16:26:45,057 log 224 Not Found: /center/img/mei.png
+WARNING 2021-08-11 16:26:45,057 basehttp 161 "GET /center/img/mei.png HTTP/1.1" 404 3483
+INFO 2021-08-11 16:26:54,298 basehttp 161 "GET /logout/ HTTP/1.1" 302 0
+INFO 2021-08-11 16:26:54,304 basehttp 161 "GET / HTTP/1.1" 200 11850
+INFO 2021-08-11 16:27:12,287 basehttp 161 "GET /center HTTP/1.1" 301 0
+INFO 2021-08-11 16:27:12,294 basehttp 161 "GET /center/ HTTP/1.1" 200 4224
+WARNING 2021-08-11 16:27:12,325 log 224 Not Found: /center/img/mei.png
+WARNING 2021-08-11 16:27:12,325 basehttp 161 "GET /center/img/mei.png HTTP/1.1" 404 3483
+WARNING 2021-08-11 16:27:12,376 log 224 Not Found: /center/img/mei.png
+WARNING 2021-08-11 16:27:12,376 basehttp 161 "GET /center/img/mei.png HTTP/1.1" 404 3483
+INFO 2021-08-11 16:27:19,598 basehttp 161 "GET /login/ HTTP/1.1" 200 3180
+INFO 2021-08-11 16:33:12,539 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-08-11 16:33:20,660 basehttp 161 "GET /login/ HTTP/1.1" 200 3180
+INFO 2021-08-11 16:33:26,699 basehttp 161 "GET /center/ HTTP/1.1" 302 0
+WARNING 2021-08-11 16:33:26,709 log 224 Not Found: /accounts/login/
+WARNING 2021-08-11 16:33:26,709 basehttp 161 "GET /accounts/login/?next=/center/ HTTP/1.1" 404 3488
+INFO 2021-08-11 16:35:05,965 autoreload 251 C:\Users\suze\Desktop\kira\users\views.py changed, reloading.
+INFO 2021-08-11 16:35:06,772 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-08-11 16:35:23,690 autoreload 251 C:\Users\suze\Desktop\kira\users\views.py changed, reloading.
+INFO 2021-08-11 16:35:24,508 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-08-11 16:37:11,758 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-08-11 16:37:19,358 basehttp 161 "GET /center/ HTTP/1.1" 302 0
+INFO 2021-08-11 16:37:19,367 basehttp 161 "GET /login/?next=/center/ HTTP/1.1" 200 3180
+INFO 2021-08-11 16:37:52,989 basehttp 161 "POST /login/?next=/center/ HTTP/1.1" 302 0
+INFO 2021-08-11 16:37:52,995 basehttp 161 "GET / HTTP/1.1" 200 11850
+INFO 2021-08-11 16:37:53,039 basehttp 161 "GET /static/js/index.js HTTP/1.1" 304 0
+INFO 2021-08-11 16:37:58,065 basehttp 161 "GET /logout/ HTTP/1.1" 302 0
+INFO 2021-08-11 16:37:58,072 basehttp 161 "GET / HTTP/1.1" 200 11850
+INFO 2021-08-11 16:38:00,288 basehttp 161 "GET / HTTP/1.1" 200 11850
+INFO 2021-08-11 16:39:40,550 autoreload 251 C:\Users\suze\Desktop\kira\users\views.py changed, reloading.
+INFO 2021-08-11 16:39:41,266 autoreload 637 Watching for file changes with StatReloader
+WARNING 2021-08-11 16:39:46,850 log 224 Not Found: /c
+WARNING 2021-08-11 16:39:46,851 basehttp 161 "GET /c HTTP/1.1" 404 3432
+INFO 2021-08-11 16:39:50,797 basehttp 161 "GET /center/ HTTP/1.1" 302 0
+INFO 2021-08-11 16:39:50,805 basehttp 161 "GET /login/?next=/center/ HTTP/1.1" 200 3180
+INFO 2021-08-11 16:40:03,486 autoreload 251 C:\Users\suze\Desktop\kira\users\views.py changed, reloading.
+INFO 2021-08-11 16:40:04,383 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-08-11 16:42:07,988 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-08-11 16:42:09,881 basehttp 161 "GET /login/?next=/center/ HTTP/1.1" 200 3180
+INFO 2021-08-11 16:42:18,368 basehttp 161 "POST /login/?next=/center/ HTTP/1.1" 302 0
+INFO 2021-08-11 16:42:18,394 basehttp 161 "GET /center/ HTTP/1.1" 200 4224
+WARNING 2021-08-11 16:42:18,422 log 224 Not Found: /center/img/mei.png
+WARNING 2021-08-11 16:42:18,423 basehttp 161 "GET /center/img/mei.png HTTP/1.1" 404 3483
+WARNING 2021-08-11 16:42:18,470 log 224 Not Found: /center/img/mei.png
+WARNING 2021-08-11 16:42:18,471 basehttp 161 "GET /center/img/mei.png HTTP/1.1" 404 3483
+INFO 2021-08-11 16:42:46,628 autoreload 251 C:\Users\suze\Desktop\kira\users\views.py changed, reloading.
+INFO 2021-08-11 16:42:47,311 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-08-11 16:43:19,673 autoreload 251 C:\Users\suze\Desktop\kira\users\views.py changed, reloading.
+INFO 2021-08-11 16:43:20,341 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-08-11 17:18:49,222 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-08-11 17:18:53,294 basehttp 161 "GET /center/ HTTP/1.1" 200 4299
+INFO 2021-08-11 17:18:53,363 basehttp 161 "GET /static/img/mei.png HTTP/1.1" 200 230847
+INFO 2021-08-12 00:07:34,968 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-08-12 00:07:37,281 basehttp 161 "GET /center/ HTTP/1.1" 200 4299
+INFO 2021-08-12 00:07:37,359 basehttp 161 "GET /static/img/mei.png HTTP/1.1" 200 230847
+INFO 2021-08-12 00:07:54,067 basehttp 161 "POST /center/ HTTP/1.1" 302 0
+INFO 2021-08-12 00:07:54,092 basehttp 161 "GET /center/ HTTP/1.1" 200 4307
+WARNING 2021-08-12 00:07:54,131 log 224 Not Found: /avatar/2021/08/12/1.png
+WARNING 2021-08-12 00:07:54,131 basehttp 161 "GET /avatar/2021/08/12/1.png HTTP/1.1" 404 3498
+WARNING 2021-08-12 00:07:54,167 log 224 Not Found: /avatar/2021/08/12/1.png
+WARNING 2021-08-12 00:07:54,167 basehttp 161 "GET /avatar/2021/08/12/1.png HTTP/1.1" 404 3498
+INFO 2021-08-12 00:13:47,754 autoreload 251 C:\Users\suze\Desktop\kira\users\models.py changed, reloading.
+INFO 2021-08-12 00:13:48,493 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-08-12 00:13:48,739 basehttp 161 "GET /center/ HTTP/1.1" 200 4307
+WARNING 2021-08-12 00:13:48,800 log 224 Not Found: /avatar/2021/08/12/1.png
+WARNING 2021-08-12 00:13:48,801 basehttp 161 "GET /avatar/2021/08/12/1.png HTTP/1.1" 404 3498
+WARNING 2021-08-12 00:13:48,829 log 224 Not Found: /avatar/2021/08/12/1.png
+WARNING 2021-08-12 00:13:48,829 basehttp 161 "GET /avatar/2021/08/12/1.png HTTP/1.1" 404 3498
+INFO 2021-08-12 00:14:56,143 autoreload 251 C:\Users\suze\Desktop\kira\kira\settings.py changed, reloading.
+INFO 2021-08-12 00:15:31,720 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-08-12 00:15:31,932 basehttp 161 "POST /center/ HTTP/1.1" 302 0
+INFO 2021-08-12 00:15:31,948 basehttp 161 "GET /center/ HTTP/1.1" 200 4311
+WARNING 2021-08-12 00:15:31,983 log 224 Not Found: /media/avatar/20210812/1.png
+WARNING 2021-08-12 00:15:31,984 basehttp 161 "GET /media/avatar/20210812/1.png HTTP/1.1" 404 3510
+WARNING 2021-08-12 00:15:32,014 log 224 Not Found: /media/avatar/20210812/1.png
+WARNING 2021-08-12 00:15:32,014 basehttp 161 "GET /media/avatar/20210812/1.png HTTP/1.1" 404 3510
+INFO 2021-08-12 00:15:40,607 basehttp 161 "GET /center/ HTTP/1.1" 200 4311
+WARNING 2021-08-12 00:15:40,637 log 224 Not Found: /media/avatar/20210812/1.png
+WARNING 2021-08-12 00:15:40,637 basehttp 161 "GET /media/avatar/20210812/1.png HTTP/1.1" 404 3510
+WARNING 2021-08-12 00:15:40,664 log 224 Not Found: /media/avatar/20210812/1.png
+WARNING 2021-08-12 00:15:40,665 basehttp 161 "GET /media/avatar/20210812/1.png HTTP/1.1" 404 3510
+INFO 2021-08-12 00:15:53,007 basehttp 161 "POST /center/ HTTP/1.1" 302 0
+INFO 2021-08-12 00:15:53,016 basehttp 161 "GET /center/ HTTP/1.1" 200 4319
+WARNING 2021-08-12 00:15:53,044 log 224 Not Found: /media/avatar/20210812/1_UL8z3P4.png
+WARNING 2021-08-12 00:15:53,045 basehttp 161 "GET /media/avatar/20210812/1_UL8z3P4.png HTTP/1.1" 404 3534
+WARNING 2021-08-12 00:15:53,075 log 224 Not Found: /media/avatar/20210812/1_UL8z3P4.png
+WARNING 2021-08-12 00:15:53,075 basehttp 161 "GET /media/avatar/20210812/1_UL8z3P4.png HTTP/1.1" 404 3534
+INFO 2021-08-12 00:20:29,687 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-08-12 00:20:34,089 basehttp 161 "GET /center/ HTTP/1.1" 200 4319
+WARNING 2021-08-12 00:20:34,120 log 224 Not Found: /media/avatar/20210812/1_UL8z3P4.png
+WARNING 2021-08-12 00:20:34,121 basehttp 161 "GET /media/avatar/20210812/1_UL8z3P4.png HTTP/1.1" 404 3872
+INFO 2021-08-12 00:20:44,231 basehttp 161 "POST /center/ HTTP/1.1" 302 0
+INFO 2021-08-12 00:20:44,244 basehttp 161 "GET /center/ HTTP/1.1" 200 4311
+INFO 2021-08-12 00:20:44,268 basehttp 161 "GET /media/avatar/20210812/f.jpg HTTP/1.1" 200 99670
+INFO 2021-08-12 00:20:52,385 basehttp 161 "GET /media/avatar/20210812/f.jpg HTTP/1.1" 304 0
+INFO 2021-08-12 00:23:14,379 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-08-12 00:23:14,722 basehttp 161 "GET / HTTP/1.1" 200 11850
+INFO 2021-08-12 00:23:14,798 basehttp 161 "GET /static/js/index.js HTTP/1.1" 304 0
+INFO 2021-08-12 00:23:17,495 basehttp 161 "GET /center/ HTTP/1.1" 200 4311
+WARNING 2021-08-12 00:23:17,526 log 224 Not Found: /media/avatar/20210812/f.jpg
+WARNING 2021-08-12 00:23:17,527 basehttp 161 "GET /media/avatar/20210812/f.jpg HTTP/1.1" 404 3840
+WARNING 2021-08-12 00:23:17,579 log 224 Not Found: /media/avatar/20210812/f.jpg
+WARNING 2021-08-12 00:23:17,580 basehttp 161 "GET /media/avatar/20210812/f.jpg HTTP/1.1" 404 3840
+INFO 2021-08-12 00:23:41,971 basehttp 161 "POST /center/ HTTP/1.1" 302 0
+INFO 2021-08-12 00:23:42,001 basehttp 161 "GET /center/ HTTP/1.1" 200 4328
+INFO 2021-08-12 00:23:42,023 basehttp 161 "GET /media/avatar/2021/08/12/1.png HTTP/1.1" 200 99670

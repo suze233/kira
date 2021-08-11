@@ -186,3 +186,12 @@ LOGGING = {
 
 # 替换系统User
 AUTH_USER_MODEL = 'users.User'
+
+# 修改未登录时系统的默认跳转链接
+LOGIN_URL = '/login/'
+
+# 头像上传目录
+MEDIA_ROOT = os.path.join(BASE_DIR, 'media/')
+
+# 设置图片访问的统一路由
+MEDIA_URL = '/media/'
