@@ -492,3 +492,366 @@ INFO 2021-08-10 04:13:36,108 basehttp 161 "GET /imagecode/?uuid=b7fe2dc6-786b-4a
 INFO 2021-08-10 04:13:55,661 views 142 984977
 INFO 2021-08-10 04:13:55,923 basehttp 161 "GET /smscode/?mobile=18740773558&image_code=j4eq&uuid=b7fe2dc6-786b-4a7f-aa68-750ae1ef24fa HTTP/1.1" 200 13
 INFO 2021-08-10 04:14:36,898 basehttp 161 "POST /register/ HTTP/1.1" 200 12
+INFO 2021-08-11 13:21:57,448 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-08-11 13:22:00,549 basehttp 161 "GET / HTTP/1.1" 200 11726
+WARNING 2021-08-11 13:22:00,652 log 224 Not Found: /js/vue-2.5.16.js
+WARNING 2021-08-11 13:22:00,653 log 224 Not Found: /bootstrap/css/bootstrap.min.css
+WARNING 2021-08-11 13:22:00,655 log 224 Not Found: /common/common.css
+WARNING 2021-08-11 13:22:00,656 log 224 Not Found: /md_css/monokai.css
+WARNING 2021-08-11 13:22:00,658 log 224 Not Found: /common/jquery.pagination.css
+WARNING 2021-08-11 13:22:00,659 log 224 Not Found: /js/axios-0.18.0.min.js
+WARNING 2021-08-11 13:22:00,660 basehttp 161 "GET /js/vue-2.5.16.js HTTP/1.1" 404 2970
+WARNING 2021-08-11 13:22:00,660 basehttp 161 "GET /common/common.css HTTP/1.1" 404 2973
+WARNING 2021-08-11 13:22:00,661 basehttp 161 "GET /bootstrap/css/bootstrap.min.css HTTP/1.1" 404 3015
+WARNING 2021-08-11 13:22:00,662 basehttp 161 "GET /md_css/monokai.css HTTP/1.1" 404 2976
+WARNING 2021-08-11 13:22:00,663 basehttp 161 "GET /js/axios-0.18.0.min.js HTTP/1.1" 404 2988
+WARNING 2021-08-11 13:22:00,663 basehttp 161 "GET /common/jquery.pagination.css HTTP/1.1" 404 3006
+WARNING 2021-08-11 13:22:00,670 log 224 Not Found: /js/jquery-1.12.4.min.js
+WARNING 2021-08-11 13:22:00,670 basehttp 161 "GET /js/jquery-1.12.4.min.js HTTP/1.1" 404 2991
+WARNING 2021-08-11 13:22:00,679 log 224 Not Found: /js/host.js
+WARNING 2021-08-11 13:22:00,679 basehttp 161 "GET /js/host.js HTTP/1.1" 404 2952
+WARNING 2021-08-11 13:22:00,685 log 224 Not Found: /js/common.js
+WARNING 2021-08-11 13:22:00,686 basehttp 161 "GET /js/common.js HTTP/1.1" 404 2958
+WARNING 2021-08-11 13:22:00,693 log 224 Not Found: /js/index.js
+WARNING 2021-08-11 13:22:00,694 basehttp 161 "GET /js/index.js HTTP/1.1" 404 2955
+WARNING 2021-08-11 13:22:00,700 log 224 Not Found: /js/jquery.pagination.min.js
+WARNING 2021-08-11 13:22:00,701 basehttp 161 "GET /js/jquery.pagination.min.js HTTP/1.1" 404 3003
+WARNING 2021-08-11 13:22:00,706 log 224 Not Found: /img/1.jpg
+WARNING 2021-08-11 13:22:00,707 basehttp 161 "GET /img/1.jpg HTTP/1.1" 404 2949
+WARNING 2021-08-11 13:22:01,404 log 224 Not Found: /js/axios-0.18.0.min.js
+WARNING 2021-08-11 13:22:01,404 basehttp 161 "GET /js/axios-0.18.0.min.js HTTP/1.1" 404 2988
+WARNING 2021-08-11 13:22:01,412 log 224 Not Found: /js/jquery-1.12.4.min.js
+WARNING 2021-08-11 13:22:01,412 basehttp 161 "GET /js/jquery-1.12.4.min.js HTTP/1.1" 404 2991
+WARNING 2021-08-11 13:22:01,424 log 224 Not Found: /img/1.jpg
+WARNING 2021-08-11 13:22:01,424 basehttp 161 "GET /img/1.jpg HTTP/1.1" 404 2949
+WARNING 2021-08-11 13:22:01,503 log 224 Not Found: /js/host.js
+WARNING 2021-08-11 13:22:01,504 basehttp 161 "GET /js/host.js HTTP/1.1" 404 2952
+WARNING 2021-08-11 13:22:01,512 log 224 Not Found: /js/common.js
+WARNING 2021-08-11 13:22:01,513 basehttp 161 "GET /js/common.js HTTP/1.1" 404 2958
+WARNING 2021-08-11 13:22:01,522 log 224 Not Found: /js/index.js
+WARNING 2021-08-11 13:22:01,523 basehttp 161 "GET /js/index.js HTTP/1.1" 404 2955
+WARNING 2021-08-11 13:22:01,531 log 224 Not Found: /js/jquery.pagination.min.js
+WARNING 2021-08-11 13:22:01,532 basehttp 161 "GET /js/jquery.pagination.min.js HTTP/1.1" 404 3003
+WARNING 2021-08-11 13:22:03,918 log 224 Not Found: /favicon.ico
+WARNING 2021-08-11 13:22:03,918 basehttp 161 "GET /favicon.ico HTTP/1.1" 404 2955
+INFO 2021-08-11 13:27:08,378 basehttp 161 "GET / HTTP/1.1" 200 11831
+INFO 2021-08-11 13:27:08,406 basehttp 161 "GET /static/common/common.css HTTP/1.1" 200 381
+INFO 2021-08-11 13:27:08,408 basehttp 161 "GET /static/md_css/monokai.css HTTP/1.1" 200 4118
+INFO 2021-08-11 13:27:08,412 basehttp 161 "GET /static/js/vue-2.5.16.js HTTP/1.1" 304 0
+INFO 2021-08-11 13:27:08,412 basehttp 161 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 304 0
+INFO 2021-08-11 13:27:08,413 basehttp 161 "GET /static/common/jquery.pagination.css HTTP/1.1" 200 523
+INFO 2021-08-11 13:27:08,415 basehttp 161 "GET /static/js/jquery-1.12.4.min.js HTTP/1.1" 200 97163
+INFO 2021-08-11 13:27:08,433 basehttp 161 "GET /static/js/host.js HTTP/1.1" 304 0
+INFO 2021-08-11 13:27:08,435 basehttp 161 "GET /static/js/common.js HTTP/1.1" 304 0
+INFO 2021-08-11 13:27:08,453 basehttp 161 "GET /static/js/index.js HTTP/1.1" 200 530
+WARNING 2021-08-11 13:27:08,455 log 224 Not Found: /img/1.jpg
+WARNING 2021-08-11 13:27:08,455 basehttp 161 "GET /img/1.jpg HTTP/1.1" 404 2949
+INFO 2021-08-11 13:27:08,456 basehttp 161 "GET /static/js/jquery.pagination.min.js HTTP/1.1" 200 2935
+INFO 2021-08-11 13:27:08,458 basehttp 161 "GET /static/img/1.jpg HTTP/1.1" 200 78682
+WARNING 2021-08-11 13:27:08,544 log 224 Not Found: /img/1.jpg
+WARNING 2021-08-11 13:27:08,544 basehttp 161 "GET /img/1.jpg HTTP/1.1" 404 2949
+WARNING 2021-08-11 13:27:13,414 log 224 Not Found: /index.html
+WARNING 2021-08-11 13:27:13,415 basehttp 161 "GET /index.html HTTP/1.1" 404 2952
+WARNING 2021-08-11 13:27:21,208 log 224 Not Found: /write_blog.html
+WARNING 2021-08-11 13:27:21,209 basehttp 161 "GET /write_blog.html HTTP/1.1" 404 2967
+WARNING 2021-08-11 13:27:23,988 log 224 Not Found: /center.html
+WARNING 2021-08-11 13:27:23,988 basehttp 161 "GET /center.html HTTP/1.1" 404 2955
+INFO 2021-08-11 13:27:32,668 basehttp 161 "GET / HTTP/1.1" 200 11831
+WARNING 2021-08-11 13:27:32,726 log 224 Not Found: /img/1.jpg
+WARNING 2021-08-11 13:27:32,726 basehttp 161 "GET /img/1.jpg HTTP/1.1" 404 2949
+WARNING 2021-08-11 13:27:32,773 log 224 Not Found: /img/1.jpg
+WARNING 2021-08-11 13:27:32,774 basehttp 161 "GET /img/1.jpg HTTP/1.1" 404 2949
+INFO 2021-08-11 13:29:59,129 autoreload 251 C:\Users\suze\Desktop\kira\users\views.py changed, reloading.
+INFO 2021-08-11 13:29:59,818 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-08-11 13:30:15,057 basehttp 161 "GET /register/ HTTP/1.1" 200 5316
+INFO 2021-08-11 13:30:15,080 basehttp 161 "GET /static/js/register.js HTTP/1.1" 304 0
+INFO 2021-08-11 13:30:15,156 basehttp 161 "GET /imagecode/?uuid=8293d8e9-52aa-4207-a5ee-6e69d579c8d7 HTTP/1.1" 200 3095
+INFO 2021-08-11 13:30:29,937 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-08-11 13:30:30,979 basehttp 161 "GET /register/ HTTP/1.1" 200 5316
+INFO 2021-08-11 13:30:31,121 basehttp 161 "GET /imagecode/?uuid=b20019f7-02e5-4ac7-b934-5f0de1a92169 HTTP/1.1" 200 3211
+INFO 2021-08-11 13:31:00,953 views 145 982296
+INFO 2021-08-11 13:31:01,456 basehttp 161 "GET /smscode/?mobile=18748799765&image_code=mc67&uuid=b20019f7-02e5-4ac7-b934-5f0de1a92169 HTTP/1.1" 200 13
+INFO 2021-08-11 13:32:28,063 basehttp 161 "POST /register/ HTTP/1.1" 302 0
+INFO 2021-08-11 13:32:29,457 basehttp 161 "GET / HTTP/1.1" 200 11831
+WARNING 2021-08-11 13:32:30,080 log 224 Not Found: /img/1.jpg
+WARNING 2021-08-11 13:32:30,081 basehttp 161 "GET /img/1.jpg HTTP/1.1" 404 2949
+INFO 2021-08-11 13:36:16,269 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-08-11 13:36:22,393 autoreload 637 Watching for file changes with StatReloader
+ERROR 2021-08-11 13:36:23,888 log 224 Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\suze\Desktop\kira\venv\lib\site-packages\django\template\base.py", line 470, in parse
+    compile_func = self.tags[command]
+KeyError: 'statuc'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\suze\Desktop\kira\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\suze\Desktop\kira\venv\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\suze\Desktop\kira\venv\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\suze\Desktop\kira\venv\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "C:\Users\suze\Desktop\kira\home\views.py", line 8, in get
+    return render(request, 'index.html')
+  File "C:\Users\suze\Desktop\kira\venv\lib\site-packages\django\shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\suze\Desktop\kira\venv\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\Users\suze\Desktop\kira\venv\lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "C:\Users\suze\Desktop\kira\venv\lib\site-packages\django\template\backends\django.py", line 34, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "C:\Users\suze\Desktop\kira\venv\lib\site-packages\django\template\engine.py", line 143, in get_template
+    template, origin = self.find_template(template_name)
+  File "C:\Users\suze\Desktop\kira\venv\lib\site-packages\django\template\engine.py", line 125, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "C:\Users\suze\Desktop\kira\venv\lib\site-packages\django\template\loaders\base.py", line 29, in get_template
+    return Template(
+  File "C:\Users\suze\Desktop\kira\venv\lib\site-packages\django\template\base.py", line 155, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "C:\Users\suze\Desktop\kira\venv\lib\site-packages\django\template\base.py", line 193, in compile_nodelist
+    return parser.parse()
+  File "C:\Users\suze\Desktop\kira\venv\lib\site-packages\django\template\base.py", line 472, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "C:\Users\suze\Desktop\kira\venv\lib\site-packages\django\template\base.py", line 531, in invalid_block_tag
+    raise self.error(
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 149: 'statuc'. Did you forget to register or load this tag?
+ERROR 2021-08-11 13:36:23,892 basehttp 161 "GET / HTTP/1.1" 500 154803
+INFO 2021-08-11 13:36:51,436 basehttp 161 "GET / HTTP/1.1" 200 11855
+INFO 2021-08-11 13:36:55,338 basehttp 161 "GET / HTTP/1.1" 200 11855
+INFO 2021-08-11 13:36:57,829 basehttp 161 "GET / HTTP/1.1" 200 11855
+INFO 2021-08-11 13:37:00,000 basehttp 161 "GET / HTTP/1.1" 200 11855
+INFO 2021-08-11 13:37:01,559 basehttp 161 "GET / HTTP/1.1" 200 11855
+INFO 2021-08-11 13:37:04,039 basehttp 161 "GET / HTTP/1.1" 200 11855
+INFO 2021-08-11 13:37:06,084 basehttp 161 "GET / HTTP/1.1" 200 11855
+WARNING 2021-08-11 13:37:10,804 log 224 Not Found: /index.html
+WARNING 2021-08-11 13:37:10,805 basehttp 161 "GET /index.html HTTP/1.1" 404 2952
+INFO 2021-08-11 13:57:11,464 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-08-11 13:57:12,725 basehttp 161 "GET / HTTP/1.1" 200 11855
+INFO 2021-08-11 13:57:21,041 basehttp 161 "GET /register/ HTTP/1.1" 200 5316
+INFO 2021-08-11 13:57:21,151 basehttp 161 "GET /imagecode/?uuid=bf5d8ca6-2aa3-4e98-a50b-e9d0afa82560 HTTP/1.1" 200 2912
+INFO 2021-08-11 13:57:27,944 basehttp 161 "GET /login/ HTTP/1.1" 200 3063
+INFO 2021-08-11 13:57:27,972 basehttp 161 "GET /static/js/login.js HTTP/1.1" 200 677
+INFO 2021-08-11 13:57:29,725 basehttp 161 "GET /register/ HTTP/1.1" 200 5316
+INFO 2021-08-11 13:57:29,814 basehttp 161 "GET /imagecode/?uuid=9a14e15d-5fd7-4e82-9827-a599d75bba5f HTTP/1.1" 200 3688
+INFO 2021-08-11 13:57:35,908 basehttp 161 "GET /login/ HTTP/1.1" 200 3063
+INFO 2021-08-11 13:58:25,772 basehttp 161 "GET /login/ HTTP/1.1" 200 3063
+INFO 2021-08-11 13:58:27,531 basehttp 161 "GET /register/ HTTP/1.1" 200 5314
+INFO 2021-08-11 13:58:27,616 basehttp 161 "GET /imagecode/?uuid=70ac8477-4dfa-46d9-ac0c-2cf8461ac824 HTTP/1.1" 200 3143
+INFO 2021-08-11 13:58:29,110 basehttp 161 "GET /login/ HTTP/1.1" 200 3063
+INFO 2021-08-11 13:59:36,731 basehttp 161 "GET /login/ HTTP/1.1" 200 3063
+INFO 2021-08-11 13:59:38,373 basehttp 161 "GET /login/ HTTP/1.1" 200 3063
+ERROR 2021-08-11 13:59:39,472 log 224 Internal Server Error: /register/
+Traceback (most recent call last):
+  File "C:\Users\suze\Desktop\kira\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\suze\Desktop\kira\venv\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\suze\Desktop\kira\venv\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\suze\Desktop\kira\venv\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "C:\Users\suze\Desktop\kira\users\views.py", line 27, in get
+    return render(request, 'register.html')
+  File "C:\Users\suze\Desktop\kira\venv\lib\site-packages\django\shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\suze\Desktop\kira\venv\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "C:\Users\suze\Desktop\kira\venv\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "C:\Users\suze\Desktop\kira\venv\lib\site-packages\django\template\base.py", line 170, in render
+    return self._render(context)
+  File "C:\Users\suze\Desktop\kira\venv\lib\site-packages\django\template\base.py", line 162, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\suze\Desktop\kira\venv\lib\site-packages\django\template\base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "C:\Users\suze\Desktop\kira\venv\lib\site-packages\django\template\base.py", line 905, in render_annotated
+    return self.render(context)
+  File "C:\Users\suze\Desktop\kira\venv\lib\site-packages\django\template\defaulttags.py", line 446, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "C:\Users\suze\Desktop\kira\venv\lib\site-packages\django\urls\base.py", line 86, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "C:\Users\suze\Desktop\kira\venv\lib\site-packages\django\urls\resolvers.py", line 694, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'home' not found. 'home' is not a valid view function or pattern name.
+ERROR 2021-08-11 13:59:39,477 basehttp 161 "GET /register/ HTTP/1.1" 500 132032
+ERROR 2021-08-11 13:59:50,723 log 224 Internal Server Error: /register/
+Traceback (most recent call last):
+  File "C:\Users\suze\Desktop\kira\venv\lib\site-packages\django\urls\base.py", line 71, in reverse
+    extra, resolver = resolver.namespace_dict[ns]
+KeyError: 'kira'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\suze\Desktop\kira\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\suze\Desktop\kira\venv\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\suze\Desktop\kira\venv\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\suze\Desktop\kira\venv\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "C:\Users\suze\Desktop\kira\users\views.py", line 27, in get
+    return render(request, 'register.html')
+  File "C:\Users\suze\Desktop\kira\venv\lib\site-packages\django\shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\suze\Desktop\kira\venv\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "C:\Users\suze\Desktop\kira\venv\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "C:\Users\suze\Desktop\kira\venv\lib\site-packages\django\template\base.py", line 170, in render
+    return self._render(context)
+  File "C:\Users\suze\Desktop\kira\venv\lib\site-packages\django\template\base.py", line 162, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\suze\Desktop\kira\venv\lib\site-packages\django\template\base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "C:\Users\suze\Desktop\kira\venv\lib\site-packages\django\template\base.py", line 905, in render_annotated
+    return self.render(context)
+  File "C:\Users\suze\Desktop\kira\venv\lib\site-packages\django\template\defaulttags.py", line 446, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "C:\Users\suze\Desktop\kira\venv\lib\site-packages\django\urls\base.py", line 82, in reverse
+    raise NoReverseMatch("%s is not a registered namespace" % key)
+django.urls.exceptions.NoReverseMatch: 'kira' is not a registered namespace
+ERROR 2021-08-11 13:59:50,726 basehttp 161 "GET /register/ HTTP/1.1" 500 133211
+ERROR 2021-08-11 13:59:51,916 log 224 Internal Server Error: /register/
+Traceback (most recent call last):
+  File "C:\Users\suze\Desktop\kira\venv\lib\site-packages\django\urls\base.py", line 71, in reverse
+    extra, resolver = resolver.namespace_dict[ns]
+KeyError: 'kira'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\suze\Desktop\kira\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\suze\Desktop\kira\venv\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\suze\Desktop\kira\venv\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\suze\Desktop\kira\venv\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "C:\Users\suze\Desktop\kira\users\views.py", line 27, in get
+    return render(request, 'register.html')
+  File "C:\Users\suze\Desktop\kira\venv\lib\site-packages\django\shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\suze\Desktop\kira\venv\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "C:\Users\suze\Desktop\kira\venv\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "C:\Users\suze\Desktop\kira\venv\lib\site-packages\django\template\base.py", line 170, in render
+    return self._render(context)
+  File "C:\Users\suze\Desktop\kira\venv\lib\site-packages\django\template\base.py", line 162, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\suze\Desktop\kira\venv\lib\site-packages\django\template\base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "C:\Users\suze\Desktop\kira\venv\lib\site-packages\django\template\base.py", line 905, in render_annotated
+    return self.render(context)
+  File "C:\Users\suze\Desktop\kira\venv\lib\site-packages\django\template\defaulttags.py", line 446, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "C:\Users\suze\Desktop\kira\venv\lib\site-packages\django\urls\base.py", line 82, in reverse
+    raise NoReverseMatch("%s is not a registered namespace" % key)
+django.urls.exceptions.NoReverseMatch: 'kira' is not a registered namespace
+ERROR 2021-08-11 13:59:51,919 basehttp 161 "GET /register/ HTTP/1.1" 500 133211
+INFO 2021-08-11 14:00:34,300 basehttp 161 "GET /register/ HTTP/1.1" 200 5303
+INFO 2021-08-11 14:00:34,399 basehttp 161 "GET /imagecode/?uuid=03de6035-c044-4378-b0d9-3cecdafe9eac HTTP/1.1" 200 3090
+INFO 2021-08-11 14:00:38,739 basehttp 161 "GET /login/ HTTP/1.1" 200 3063
+WARNING 2021-08-11 14:00:39,942 log 224 Not Found: /login/index.html
+WARNING 2021-08-11 14:00:39,943 basehttp 161 "GET /login/index.html HTTP/1.1" 404 2970
+INFO 2021-08-11 14:00:44,783 basehttp 161 "GET /register/ HTTP/1.1" 200 5303
+INFO 2021-08-11 14:00:44,861 basehttp 161 "GET /imagecode/?uuid=dc58538e-4844-4b6f-87da-66ff59887517 HTTP/1.1" 200 3109
+INFO 2021-08-11 14:00:46,036 basehttp 161 "GET /register/ HTTP/1.1" 200 5303
+INFO 2021-08-11 14:00:46,078 basehttp 161 "GET /imagecode/?uuid=0154a4cc-9d48-4629-9852-e5cc97a1c31e HTTP/1.1" 200 3212
+INFO 2021-08-11 14:00:47,091 basehttp 161 "GET /register/ HTTP/1.1" 200 5303
+INFO 2021-08-11 14:00:47,138 basehttp 161 "GET /imagecode/?uuid=4cb25d58-706a-4fff-afb5-ac978cf48fad HTTP/1.1" 200 3049
+INFO 2021-08-11 14:00:54,833 basehttp 161 "GET /register/ HTTP/1.1" 200 5304
+INFO 2021-08-11 14:00:54,880 basehttp 161 "GET /imagecode/?uuid=a4aa27ff-0609-4fac-ab53-8010e0be77e3 HTTP/1.1" 200 3341
+INFO 2021-08-11 14:00:55,937 basehttp 161 "GET /register/ HTTP/1.1" 200 5304
+INFO 2021-08-11 14:00:56,021 basehttp 161 "GET /imagecode/?uuid=5e6b8c1a-7c52-4b09-81a7-657f85a58c13 HTTP/1.1" 200 3216
+INFO 2021-08-11 14:01:01,311 basehttp 161 "GET /register/ HTTP/1.1" 200 5305
+INFO 2021-08-11 14:01:01,363 basehttp 161 "GET /imagecode/?uuid=eb15e457-9833-4c29-8e4e-e14225620353 HTTP/1.1" 200 2935
+INFO 2021-08-11 14:01:02,199 basehttp 161 "GET / HTTP/1.1" 200 11855
+INFO 2021-08-11 14:02:39,782 basehttp 161 "GET / HTTP/1.1" 200 11855
+ERROR 2021-08-11 14:02:42,359 log 224 Internal Server Error: /register/
+Traceback (most recent call last):
+  File "C:\Users\suze\Desktop\kira\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\suze\Desktop\kira\venv\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\suze\Desktop\kira\venv\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\suze\Desktop\kira\venv\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "C:\Users\suze\Desktop\kira\users\views.py", line 27, in get
+    return render(request, 'register.html')
+  File "C:\Users\suze\Desktop\kira\venv\lib\site-packages\django\shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\suze\Desktop\kira\venv\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "C:\Users\suze\Desktop\kira\venv\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "C:\Users\suze\Desktop\kira\venv\lib\site-packages\django\template\base.py", line 170, in render
+    return self._render(context)
+  File "C:\Users\suze\Desktop\kira\venv\lib\site-packages\django\template\base.py", line 162, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\suze\Desktop\kira\venv\lib\site-packages\django\template\base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "C:\Users\suze\Desktop\kira\venv\lib\site-packages\django\template\base.py", line 905, in render_annotated
+    return self.render(context)
+  File "C:\Users\suze\Desktop\kira\venv\lib\site-packages\django\template\defaulttags.py", line 446, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "C:\Users\suze\Desktop\kira\venv\lib\site-packages\django\urls\base.py", line 86, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "C:\Users\suze\Desktop\kira\venv\lib\site-packages\django\urls\resolvers.py", line 694, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'home' not found. 'home' is not a valid view function or pattern name.
+ERROR 2021-08-11 14:02:42,362 basehttp 161 "GET /register/ HTTP/1.1" 500 131861
+INFO 2021-08-11 14:03:11,296 basehttp 161 "GET /register/ HTTP/1.1" 200 5303
+INFO 2021-08-11 14:03:11,400 basehttp 161 "GET /imagecode/?uuid=157384ea-ed6e-46b6-b0e3-ceab7313d7cc HTTP/1.1" 200 3088
+INFO 2021-08-11 14:03:12,753 basehttp 161 "GET / HTTP/1.1" 200 11855
+INFO 2021-08-11 14:03:50,826 basehttp 161 "GET / HTTP/1.1" 200 11855
+INFO 2021-08-11 14:03:53,901 basehttp 161 "GET /register/ HTTP/1.1" 200 5303
+INFO 2021-08-11 14:03:53,989 basehttp 161 "GET /imagecode/?uuid=7cd84ada-ba27-4182-b922-42de12d23236 HTTP/1.1" 200 3686
+INFO 2021-08-11 14:03:56,139 basehttp 161 "GET /login/ HTTP/1.1" 200 3052
+INFO 2021-08-11 14:03:58,820 basehttp 161 "GET / HTTP/1.1" 200 11855
+INFO 2021-08-11 14:04:01,226 basehttp 161 "GET /register/ HTTP/1.1" 200 5303
+INFO 2021-08-11 14:04:01,311 basehttp 161 "GET /imagecode/?uuid=36ccd43c-ef67-4db5-9b6f-a66cd8bc968d HTTP/1.1" 200 3119
+INFO 2021-08-11 14:04:02,297 basehttp 161 "GET / HTTP/1.1" 200 11855
+INFO 2021-08-11 14:04:03,146 basehttp 161 "GET /imagecode/?uuid=c8a13171-e3ce-4a62-bbc3-e27f45a758e7 HTTP/1.1" 200 3059
+INFO 2021-08-11 14:25:45,098 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-08-11 14:25:48,220 basehttp 161 "GET /register/ HTTP/1.1" 200 5303
+INFO 2021-08-11 14:25:48,359 basehttp 161 "GET /imagecode/?uuid=fc27cd9b-551d-43a5-84bf-98ef03a60fc3 HTTP/1.1" 200 2448
+INFO 2021-08-11 14:25:50,972 basehttp 161 "GET /login/ HTTP/1.1" 200 3052
+WARNING 2021-08-11 14:26:03,332 log 224 Forbidden (CSRF token missing or incorrect.): /login/
+WARNING 2021-08-11 14:26:03,333 basehttp 161 "POST /login/ HTTP/1.1" 403 2519
+WARNING 2021-08-11 14:27:11,330 log 224 Forbidden (CSRF token missing or incorrect.): /login/
+WARNING 2021-08-11 14:27:11,331 basehttp 161 "POST /login/ HTTP/1.1" 403 2519
+INFO 2021-08-11 14:27:17,979 autoreload 637 Watching for file changes with StatReloader
+WARNING 2021-08-11 14:27:19,131 log 224 Forbidden (CSRF token missing or incorrect.): /login/
+WARNING 2021-08-11 14:27:19,132 basehttp 161 "POST /login/ HTTP/1.1" 403 2519
+INFO 2021-08-11 14:27:21,331 basehttp 161 "GET /login/ HTTP/1.1" 200 3194
+WARNING 2021-08-11 14:28:29,226 log 224 Bad Request: /login/
+WARNING 2021-08-11 14:28:29,227 basehttp 161 "POST /login/ HTTP/1.1" 400 24
+INFO 2021-08-11 14:28:58,536 autoreload 251 C:\Users\suze\Desktop\kira\users\views.py changed, reloading.
+INFO 2021-08-11 14:28:59,784 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-08-11 14:30:25,387 autoreload 251 C:\Users\suze\Desktop\kira\users\models.py changed, reloading.
+INFO 2021-08-11 14:30:26,648 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-08-11 14:30:36,612 autoreload 251 C:\Users\suze\Desktop\kira\users\models.py changed, reloading.
+INFO 2021-08-11 14:30:37,900 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-08-11 14:30:53,087 autoreload 251 C:\Users\suze\Desktop\kira\users\models.py changed, reloading.
+INFO 2021-08-11 14:30:54,421 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-08-11 14:31:07,546 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-08-11 14:31:20,358 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-08-11 14:31:20,984 basehttp 161 "GET /login/ HTTP/1.1" 200 3194
+INFO 2021-08-11 14:32:00,005 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-08-11 14:32:01,010 basehttp 161 "GET /login/ HTTP/1.1" 200 3194
+INFO 2021-08-11 14:32:57,896 basehttp 161 "POST /login/ HTTP/1.1" 302 0
+INFO 2021-08-11 14:32:57,904 basehttp 161 "GET / HTTP/1.1" 200 11855
+INFO 2021-08-11 14:40:03,095 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-08-11 14:40:06,310 basehttp 161 "GET / HTTP/1.1" 200 11844
+WARNING 2021-08-11 14:40:07,513 log 224 Not Found: /detail.html
+WARNING 2021-08-11 14:40:07,514 basehttp 161 "GET /detail.html HTTP/1.1" 404 2955
+INFO 2021-08-11 14:43:21,863 basehttp 161 "GET / HTTP/1.1" 200 11851

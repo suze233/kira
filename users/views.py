@@ -12,6 +12,9 @@ from random import randint
 from libs.yuntongxun.sms import CCP
 from users.models import User
 from django.db import DatabaseError
+from django.shortcuts import redirect
+from django.urls import reverse
+from django.contrib.auth import login, authenticate
 
 # Create your views here.
 
@@ -62,15 +65,67 @@ class RegisterView(View):
         except DatabaseError as e:
             logger.error(e)
             return HttpResponseBadRequest('注册失败')
+
+        login(request, user)
         # 4. 返回响应并跳转到登录页
         # 暂时返回注册成功
-        return HttpResponse('注册成功')
+        # return HttpResponse('注册成功')
+        response = redirect(reverse('home:index'))
+        response.set_cookie('is_login', True)
+        response.set_cookie('username', user.username, max_age=7 * 24 * 3600)
+        return response
 
 
 class LoginView(View):
 
     def get(self, request):
         return render(request, 'login.html')
+
+    def post(self, request):
+        """
+        1. 接收参数
+        2. 验证参数
+            2.1 手机号
+            2.2 密码
+        3. 用户认证登录
+        4. 状态保持
+        5. 判断用户是否选择记住登陆状态
+        6. 为首页展示设置一些cookie
+        7. 返回响应
+        """
+        # 1. 接收参数
+        mobile = request.POST.get('mobile')
+        password = request.POST.get('password')
+        remember = request.POST.get('remember')
+        # 2. 验证参数
+        #     2.1 手机号
+        if not re.match(r'^1[3-9]\d{9}$', mobile):
+            return HttpResponseBadRequest('手机号错误')
+        #     2.2 密码
+        if not re.match(r'^[0-9A-Za-z]{8,20}$', password):
+            return HttpResponseBadRequest('密码错误')
+        # 3. 用户认证登录
+        # 如果用户名和密码匹配,返回user  如果用户名和密码不匹配,返回None
+        # 默认的认证方法是用username来继续判断，而当前判断信息为mobile，所以需要修改默认的认证方式
+        # 需要到User模型中修改
+        user = authenticate(mobile=mobile, password=password)
+        if user is None:
+            return HttpResponseBadRequest('用户名或密码错误')
+        # 4. 状态保持
+        login(request, user)
+        # 5. 判断用户是否选择记住登陆状态
+        # 6. 为首页展示设置一些cookie
+        response = redirect(reverse('home:index'))
+        if remember != 'on':  # 没有记住
+            request.session.set_expiry(0)
+            response.set_cookie('is_login', True)
+            response.set_cookie('username', user.username, max_age=14*24*2600)
+        else:
+            request.session.set_expiry(None)  # 默认记住两周
+            response.set_cookie('is_login', True, max_age=14*24*2600)
+            response.set_cookie('username', user.username, max_age=14*24*2600)
+        # 7. 返回响应
+        return response
 
 
 class ImageCodeView(View):

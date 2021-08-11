@@ -7,12 +7,12 @@ from django.contrib.auth.models import AbstractUser
 class User(AbstractUser):
     # 手机
     mobile = models.CharField(max_length=11, unique=True, blank=False)
-
     # 头像
     avatar = models.ImageField(upload_to='avatar/%Y/%m/%d', blank=True)
-
     # 简介
     user_desc = models.CharField(max_length=500, blank=True)
+    # 修改认证字段
+    USERNAME_FIELD = 'mobile'
 
     class Meta:
         db_table = 'tb_users'  # 修改表名
