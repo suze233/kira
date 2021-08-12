@@ -16,6 +16,7 @@ from django.shortcuts import redirect
 from django.urls import reverse
 from django.contrib.auth import login, logout, authenticate
 from django.contrib.auth.mixins import LoginRequiredMixin
+from home.models import ArticleCategory, Article
 
 # Create your views here.
 
@@ -324,6 +325,55 @@ class UserCenterView(LoginRequiredMixin, View):
         # 3. 更新cookie中的信息
         # 4. 刷新页面（重定向）
         response = redirect(reverse('users:center'))
-        response.set_cookie('username', user.username, max_age=14*24*3600)
+        response.set_cookie('username', user.username, max_age=14 * 24 * 3600)
         # 5. 返回响应
+        return response
+
+
+class WriteBlogView(LoginRequiredMixin, View):
+
+    def get(self, request):
+        # 查询所以标签
+        categories = ArticleCategory.objects.all()
+        context = {
+            'categories': categories
+        }
+        return render(request, 'write_blog.html', context=context)
+
+    def post(self, request):
+        """
+        1. 接收数据
+        2. 验证数据
+        3. 数据入库
+        4. 跳转到指定页面
+        """
+        avatar = request.FILES.get('avatar')
+        title = request.POST.get('title')
+        category_id = request.POST.get('category')
+        tags = request.POST.get('tags')
+        sumary = request.POST.get('sumary')
+        content = request.POST.get('content')
+        user = request.user
+
+        if not all([avatar, title, category_id, tags, sumary, content, user]):
+            return HttpResponseBadRequest('参数输入不全')
+        try:
+            category = ArticleCategory.objects.get(id=category_id)
+        except ArticleCategory.DoesNotExist:
+            return HttpResponseBadRequest('没有这个分类标签哦')
+
+        try:
+            article = Article.objects.create(
+                author=user,
+                avatar=avatar,
+                category=category,
+                tags=tags,
+                sumary=sumary,
+                content=content
+            )
+        except Exception as e:
+            logger.error(e)
+            return HttpResponseBadRequest('发布失败，请稍后再试')
+
+        response = redirect(reverse('home:index'))
         return response

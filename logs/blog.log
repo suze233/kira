@@ -1219,3 +1219,306 @@ WARNING 2021-08-12 00:23:17,580 basehttp 161 "GET /media/avatar/20210812/f.jpg H
 INFO 2021-08-12 00:23:41,971 basehttp 161 "POST /center/ HTTP/1.1" 302 0
 INFO 2021-08-12 00:23:42,001 basehttp 161 "GET /center/ HTTP/1.1" 200 4328
 INFO 2021-08-12 00:23:42,023 basehttp 161 "GET /media/avatar/2021/08/12/1.png HTTP/1.1" 200 99670
+INFO 2021-08-12 00:51:08,717 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-08-12 00:51:10,035 basehttp 161 "GET /logout/ HTTP/1.1" 302 0
+INFO 2021-08-12 00:51:10,045 basehttp 161 "GET / HTTP/1.1" 200 11850
+INFO 2021-08-12 00:51:16,681 basehttp 161 "GET /login/ HTTP/1.1" 200 3180
+INFO 2021-08-12 18:44:02,952 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-08-12 18:44:05,192 basehttp 161 "GET / HTTP/1.1" 200 11850
+INFO 2021-08-12 18:44:05,337 basehttp 161 "GET /static/js/index.js HTTP/1.1" 304 0
+WARNING 2021-08-12 18:44:05,623 log 224 Not Found: /favicon.ico
+WARNING 2021-08-12 18:44:05,624 basehttp 161 "GET /favicon.ico HTTP/1.1" 404 3588
+INFO 2021-08-12 18:44:10,306 basehttp 161 "GET /login/ HTTP/1.1" 200 3180
+WARNING 2021-08-12 18:44:20,999 log 224 Bad Request: /login/
+WARNING 2021-08-12 18:44:21,000 basehttp 161 "POST /login/ HTTP/1.1" 400 15
+INFO 2021-08-12 18:44:30,624 basehttp 161 "POST /login/ HTTP/1.1" 302 0
+INFO 2021-08-12 18:44:30,650 basehttp 161 "GET / HTTP/1.1" 200 11850
+INFO 2021-08-12 18:44:33,681 basehttp 161 "GET /center/ HTTP/1.1" 200 4328
+INFO 2021-08-12 18:44:33,724 basehttp 161 "GET /media/avatar/2021/08/12/1.png HTTP/1.1" 200 99670
+INFO 2021-08-12 18:44:38,448 basehttp 161 "POST /center/ HTTP/1.1" 302 0
+INFO 2021-08-12 18:44:38,482 basehttp 161 "GET /center/ HTTP/1.1" 200 4321
+INFO 2021-08-12 18:44:43,369 basehttp 161 "GET / HTTP/1.1" 200 11850
+WARNING 2021-08-12 18:44:46,545 log 224 Not Found: /write_blog.html
+WARNING 2021-08-12 18:44:46,545 basehttp 161 "GET /write_blog.html HTTP/1.1" 404 3600
+WARNING 2021-08-12 18:44:52,789 log 224 Not Found: /write_blog.html
+WARNING 2021-08-12 18:44:52,790 basehttp 161 "GET /write_blog.html HTTP/1.1" 404 3600
+INFO 2021-08-12 18:55:06,073 autoreload 637 Watching for file changes with StatReloader
+WARNING 2021-08-12 18:55:08,996 log 224 Not Found: /write_blog.html
+WARNING 2021-08-12 18:55:08,997 basehttp 161 "GET /write_blog.html HTTP/1.1" 404 3767
+WARNING 2021-08-12 18:55:11,079 log 224 Not Found: /write_blog.html
+WARNING 2021-08-12 18:55:11,080 basehttp 161 "GET /write_blog.html HTTP/1.1" 404 3767
+WARNING 2021-08-12 18:55:16,096 log 224 Not Found: /write_blog.html
+WARNING 2021-08-12 18:55:16,096 basehttp 161 "GET /write_blog.html HTTP/1.1" 404 3767
+INFO 2021-08-12 18:55:52,260 basehttp 161 "GET / HTTP/1.1" 200 11842
+INFO 2021-08-12 18:55:54,166 basehttp 161 "GET /write/ HTTP/1.1" 200 5654
+INFO 2021-08-12 18:55:54,208 basehttp 161 "GET /static/js/write_blog.js HTTP/1.1" 200 521
+INFO 2021-08-12 18:55:54,213 basehttp 161 "GET /static/ckeditor/ckeditor-init.js HTTP/1.1" 200 2039
+INFO 2021-08-12 18:55:54,225 basehttp 161 "GET /static/ckeditor/ckeditor/ckeditor.js HTTP/1.1" 200 690627
+WARNING 2021-08-12 18:55:54,318 log 224 Not Found: /write/ckeditor/ckeditor/config.js
+WARNING 2021-08-12 18:55:54,319 basehttp 161 "GET /write/ckeditor/ckeditor/config.js?t=I3I8 HTTP/1.1" 404 3828
+WARNING 2021-08-12 18:55:54,344 log 224 Not Found: /write/ckeditor/ckeditor/skins/moono-lisa/editor.css
+WARNING 2021-08-12 18:55:54,347 log 224 Not Found: /write/ckeditor/ckeditor/lang/zh-cn.js
+WARNING 2021-08-12 18:55:54,348 basehttp 161 "GET /write/ckeditor/ckeditor/lang/zh-cn.js?t=I3I8 HTTP/1.1" 404 3840
+WARNING 2021-08-12 18:55:54,348 basehttp 161 "GET /write/ckeditor/ckeditor/skins/moono-lisa/editor.css?t=I3I8 HTTP/1.1" 404 3882
+INFO 2021-08-12 19:00:41,339 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-08-12 19:00:42,699 basehttp 161 "GET /write/ HTTP/1.1" 200 5654
+WARNING 2021-08-12 19:00:42,859 log 224 Not Found: /write/ckeditor/ckeditor/config.js
+WARNING 2021-08-12 19:00:42,860 basehttp 161 "GET /write/ckeditor/ckeditor/config.js?t=I3I8 HTTP/1.1" 404 3828
+WARNING 2021-08-12 19:00:42,889 log 224 Not Found: /write/ckeditor/ckeditor/lang/zh-cn.js
+WARNING 2021-08-12 19:00:42,892 log 224 Not Found: /write/ckeditor/ckeditor/skins/moono-lisa/editor.css
+WARNING 2021-08-12 19:00:42,893 basehttp 161 "GET /write/ckeditor/ckeditor/lang/zh-cn.js?t=I3I8 HTTP/1.1" 404 3840
+WARNING 2021-08-12 19:00:42,893 basehttp 161 "GET /write/ckeditor/ckeditor/skins/moono-lisa/editor.css?t=I3I8 HTTP/1.1" 404 3882
+WARNING 2021-08-12 19:01:08,049 log 224 Not Found: /write/ckeditor/ckeditor/skins/moono-lisa/editor.css
+WARNING 2021-08-12 19:01:08,050 basehttp 161 "GET /write/ckeditor/ckeditor/skins/moono-lisa/editor.css?t=I3I8 HTTP/1.1" 404 3882
+WARNING 2021-08-12 19:01:08,158 basehttp 161 "GET /static/js/axios.min.map HTTP/1.1" 404 1807
+INFO 2021-08-12 19:01:08,219 basehttp 161 "GET /static/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 200 562427
+INFO 2021-08-12 19:01:11,965 basehttp 161 "GET /write/ HTTP/1.1" 200 5654
+INFO 2021-08-12 19:01:12,040 basehttp 161 "GET /static/md_css/monokai.css HTTP/1.1" 200 4118
+INFO 2021-08-12 19:01:12,057 basehttp 161 "GET /static/ckeditor/ckeditor-init.js HTTP/1.1" 200 2039
+INFO 2021-08-12 19:01:12,058 basehttp 161 "GET /static/js/host.js HTTP/1.1" 200 35
+INFO 2021-08-12 19:01:12,066 basehttp 161 "GET /static/js/common.js HTTP/1.1" 200 891
+INFO 2021-08-12 19:01:12,066 basehttp 161 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12941
+INFO 2021-08-12 19:01:12,067 basehttp 161 "GET /static/js/write_blog.js HTTP/1.1" 200 521
+INFO 2021-08-12 19:01:12,068 basehttp 161 "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 140942
+INFO 2021-08-12 19:01:12,079 basehttp 161 "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 289307
+INFO 2021-08-12 19:01:12,085 basehttp 161 "GET /static/ckeditor/ckeditor/ckeditor.js HTTP/1.1" 200 690627
+WARNING 2021-08-12 19:01:12,591 basehttp 161 "GET /static/js/axios.min.map HTTP/1.1" 404 1807
+INFO 2021-08-12 19:01:12,657 basehttp 161 "GET /static/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 200 562427
+WARNING 2021-08-12 19:01:12,743 log 224 Not Found: /write/ckeditor/ckeditor/config.js
+WARNING 2021-08-12 19:01:12,747 log 224 Not Found: /favicon.ico
+WARNING 2021-08-12 19:01:12,748 basehttp 161 "GET /favicon.ico HTTP/1.1" 404 3755
+WARNING 2021-08-12 19:01:12,748 basehttp 161 "GET /write/ckeditor/ckeditor/config.js?t=I3I8 HTTP/1.1" 404 3828
+WARNING 2021-08-12 19:01:12,769 log 224 Not Found: /write/ckeditor/ckeditor/skins/moono-lisa/editor.css
+WARNING 2021-08-12 19:01:12,773 log 224 Not Found: /write/ckeditor/ckeditor/lang/zh-cn.js
+WARNING 2021-08-12 19:01:12,774 basehttp 161 "GET /write/ckeditor/ckeditor/skins/moono-lisa/editor.css?t=I3I8 HTTP/1.1" 404 3882
+WARNING 2021-08-12 19:01:12,774 basehttp 161 "GET /write/ckeditor/ckeditor/lang/zh-cn.js?t=I3I8 HTTP/1.1" 404 3840
+INFO 2021-08-12 19:09:43,467 autoreload 637 Watching for file changes with StatReloader
+ERROR 2021-08-12 19:09:44,451 log 224 Internal Server Error: /write/
+Traceback (most recent call last):
+  File "C:\Users\suze\Desktop\kira\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\suze\Desktop\kira\venv\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\suze\Desktop\kira\venv\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\suze\Desktop\kira\venv\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "C:\Users\suze\Desktop\kira\users\views.py", line 334, in get
+    return render(request, 'write_blog.html')
+  File "C:\Users\suze\Desktop\kira\venv\lib\site-packages\django\shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\suze\Desktop\kira\venv\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "C:\Users\suze\Desktop\kira\venv\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "C:\Users\suze\Desktop\kira\venv\lib\site-packages\django\template\base.py", line 170, in render
+    return self._render(context)
+  File "C:\Users\suze\Desktop\kira\venv\lib\site-packages\django\template\base.py", line 162, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\suze\Desktop\kira\venv\lib\site-packages\django\template\base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "C:\Users\suze\Desktop\kira\venv\lib\site-packages\django\template\base.py", line 905, in render_annotated
+    return self.render(context)
+  File "C:\Users\suze\Desktop\kira\venv\lib\site-packages\django\template\defaulttags.py", line 446, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "C:\Users\suze\Desktop\kira\venv\lib\site-packages\django\urls\base.py", line 86, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "C:\Users\suze\Desktop\kira\venv\lib\site-packages\django\urls\resolvers.py", line 694, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'ckeditor/ckeditor/' not found. 'ckeditor/ckeditor/' is not a valid view function or pattern name.
+ERROR 2021-08-12 19:09:44,456 basehttp 161 "GET /write/ HTTP/1.1" 500 137664
+INFO 2021-08-12 19:10:08,266 basehttp 161 "GET /write/ HTTP/1.1" 200 5670
+WARNING 2021-08-12 19:10:08,404 basehttp 161 "GET /static/js/axios.min.map HTTP/1.1" 404 1807
+INFO 2021-08-12 19:10:08,463 basehttp 161 "GET /static/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 200 562427
+INFO 2021-08-12 19:10:08,558 basehttp 161 "GET /static/ckeditor/ckeditor/config.js?t=I3I8 HTTP/1.1" 200 338
+INFO 2021-08-12 19:10:08,580 basehttp 161 "GET /static/ckeditor/ckeditor/skins/moono-lisa/editor.css?t=I3I8 HTTP/1.1" 200 46921
+INFO 2021-08-12 19:10:08,582 basehttp 161 "GET /static/ckeditor/ckeditor/lang/zh-cn.js?t=I3I8 HTTP/1.1" 200 18818
+INFO 2021-08-12 19:10:08,614 basehttp 161 "GET /static/ckeditor/ckeditor/styles.js?t=I3I8 HTTP/1.1" 200 5583
+INFO 2021-08-12 19:10:08,634 basehttp 161 "GET /static/ckeditor/ckeditor/plugins/scayt/dialogs/dialog.css HTTP/1.1" 200 419
+INFO 2021-08-12 19:10:08,635 basehttp 161 "GET /static/ckeditor/ckeditor/plugins/scayt/skins/moono-lisa/scayt.css HTTP/1.1" 200 381
+INFO 2021-08-12 19:10:08,640 basehttp 161 "GET /static/ckeditor/ckeditor/plugins/tableselection/styles/tableselection.css HTTP/1.1" 200 1082
+INFO 2021-08-12 19:10:08,643 basehttp 161 "GET /static/ckeditor/ckeditor/plugins/wsc/skins/moono-lisa/wsc.css HTTP/1.1" 200 1306
+INFO 2021-08-12 19:10:08,650 basehttp 161 "GET /static/ckeditor/ckeditor/plugins/copyformatting/styles/copyformatting.css HTTP/1.1" 200 1513
+INFO 2021-08-12 19:10:08,720 basehttp 161 "GET /static/ckeditor/ckeditor/skins/moono-lisa/icons.png?t=95e5d83 HTTP/1.1" 200 12421
+INFO 2021-08-12 19:10:08,780 basehttp 161 "GET /static/ckeditor/ckeditor/contents.css?t=I3I8 HTTP/1.1" 200 2954
+INFO 2021-08-12 19:11:02,326 basehttp 161 "GET /static/ckeditor/ckeditor/skins/moono-lisa/images/close.png HTTP/1.1" 200 615
+INFO 2021-08-12 19:56:20,163 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-08-12 19:56:21,076 basehttp 161 "GET /write/ HTTP/1.1" 200 5670
+INFO 2021-08-12 19:56:21,201 basehttp 161 "GET /static/ckeditor/ckeditor/config.js?t=I3I8 HTTP/1.1" 200 338
+INFO 2021-08-12 19:56:21,213 basehttp 161 "GET /static/ckeditor/ckeditor/lang/zh-cn.js?t=I3I8 HTTP/1.1" 200 18818
+INFO 2021-08-12 19:56:21,213 basehttp 161 "GET /static/ckeditor/ckeditor/skins/moono-lisa/editor.css?t=I3I8 HTTP/1.1" 200 46921
+INFO 2021-08-12 19:56:21,227 basehttp 161 "GET /static/ckeditor/ckeditor/styles.js?t=I3I8 HTTP/1.1" 200 5583
+INFO 2021-08-12 19:56:21,237 basehttp 161 "GET /static/ckeditor/ckeditor/plugins/scayt/skins/moono-lisa/scayt.css HTTP/1.1" 200 381
+INFO 2021-08-12 19:56:21,239 basehttp 161 "GET /static/ckeditor/ckeditor/plugins/scayt/dialogs/dialog.css HTTP/1.1" 200 419
+INFO 2021-08-12 19:56:21,240 basehttp 161 "GET /static/ckeditor/ckeditor/plugins/wsc/skins/moono-lisa/wsc.css HTTP/1.1" 200 1306
+INFO 2021-08-12 19:56:21,279 basehttp 161 "GET /static/ckeditor/ckeditor/skins/moono-lisa/icons.png?t=95e5d83 HTTP/1.1" 200 12421
+INFO 2021-08-12 19:56:25,563 basehttp 161 "GET /center/ HTTP/1.1" 302 0
+INFO 2021-08-12 19:56:25,572 basehttp 161 "GET /login/?next=/center/ HTTP/1.1" 200 3180
+INFO 2021-08-12 19:56:29,401 basehttp 161 "GET /login/?next=/center/ HTTP/1.1" 200 3180
+INFO 2021-08-12 19:56:31,749 basehttp 161 "GET / HTTP/1.1" 200 11842
+INFO 2021-08-12 19:56:34,022 basehttp 161 "GET /center/ HTTP/1.1" 302 0
+INFO 2021-08-12 19:56:34,028 basehttp 161 "GET /login/?next=/center/ HTTP/1.1" 200 3180
+INFO 2021-08-12 19:56:38,621 basehttp 161 "GET / HTTP/1.1" 200 11842
+INFO 2021-08-12 19:56:39,459 basehttp 161 "GET / HTTP/1.1" 200 11842
+INFO 2021-08-12 19:56:40,024 basehttp 161 "GET / HTTP/1.1" 200 11842
+INFO 2021-08-12 19:56:41,990 basehttp 161 "GET /logout/ HTTP/1.1" 302 0
+INFO 2021-08-12 19:56:41,996 basehttp 161 "GET / HTTP/1.1" 200 11842
+INFO 2021-08-12 19:56:43,281 basehttp 161 "GET /login/ HTTP/1.1" 200 3180
+INFO 2021-08-12 19:56:48,649 basehttp 161 "GET / HTTP/1.1" 200 11842
+INFO 2021-08-12 19:56:49,508 basehttp 161 "GET /login/ HTTP/1.1" 200 3180
+INFO 2021-08-12 19:57:01,279 basehttp 161 "POST /login/ HTTP/1.1" 302 0
+INFO 2021-08-12 19:57:01,286 basehttp 161 "GET / HTTP/1.1" 200 11842
+INFO 2021-08-12 19:57:03,781 basehttp 161 "GET /center/ HTTP/1.1" 200 4292
+INFO 2021-08-12 19:57:03,809 basehttp 161 "GET /static/img/mei.png HTTP/1.1" 200 230847
+INFO 2021-08-12 19:58:10,378 basehttp 161 "GET /center/ HTTP/1.1" 200 4321
+INFO 2021-08-12 19:58:21,336 basehttp 161 "GET /admin HTTP/1.1" 301 0
+INFO 2021-08-12 19:58:21,436 basehttp 161 "GET /admin/ HTTP/1.1" 200 2884
+INFO 2021-08-12 19:58:21,469 basehttp 161 "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 200 2271
+INFO 2021-08-12 19:58:21,470 basehttp 161 "GET /static/admin/css/dashboard.css HTTP/1.1" 200 380
+INFO 2021-08-12 19:58:21,471 basehttp 161 "GET /static/admin/css/base.css HTTP/1.1" 200 19513
+INFO 2021-08-12 19:58:21,473 basehttp 161 "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 200 1360
+INFO 2021-08-12 19:58:21,473 basehttp 161 "GET /static/admin/css/responsive.css HTTP/1.1" 200 18545
+INFO 2021-08-12 19:58:21,486 basehttp 161 "GET /static/admin/css/fonts.css HTTP/1.1" 200 423
+INFO 2021-08-12 19:58:21,509 basehttp 161 "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 331
+INFO 2021-08-12 19:58:21,510 basehttp 161 "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 200 380
+INFO 2021-08-12 19:58:21,536 basehttp 161 "GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 200 85692
+INFO 2021-08-12 19:58:21,538 basehttp 161 "GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 200 86184
+INFO 2021-08-12 19:58:21,538 basehttp 161 "GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 200 85876
+INFO 2021-08-12 19:58:23,193 basehttp 161 "GET /admin/auth/group/ HTTP/1.1" 200 4423
+INFO 2021-08-12 19:58:23,224 basehttp 161 "GET /static/admin/css/changelists.css HTTP/1.1" 200 6874
+INFO 2021-08-12 19:58:23,226 basehttp 161 "GET /static/admin/js/jquery.init.js HTTP/1.1" 200 347
+INFO 2021-08-12 19:58:23,229 basehttp 161 "GET /static/admin/js/core.js HTTP/1.1" 200 5698
+INFO 2021-08-12 19:58:23,232 basehttp 161 "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 200 5984
+INFO 2021-08-12 19:58:23,234 basehttp 161 "GET /static/admin/js/actions.js HTTP/1.1" 200 7664
+INFO 2021-08-12 19:58:23,238 basehttp 161 "GET /static/admin/js/urlify.js HTTP/1.1" 200 7902
+INFO 2021-08-12 19:58:23,238 basehttp 161 "GET /static/admin/js/prepopulate.js HTTP/1.1" 200 1531
+INFO 2021-08-12 19:58:23,238 basehttp 161 "GET /admin/jsi18n/ HTTP/1.1" 200 8398
+INFO 2021-08-12 19:58:23,242 basehttp 161 "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 200 287630
+INFO 2021-08-12 19:58:23,245 basehttp 161 "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 200 232381
+INFO 2021-08-12 19:58:23,253 basehttp 161 "GET /static/admin/img/search.svg HTTP/1.1" 200 458
+INFO 2021-08-12 19:58:23,290 basehttp 161 "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 200 331
+INFO 2021-08-12 19:58:24,708 basehttp 161 "GET /admin/ HTTP/1.1" 200 2884
+INFO 2021-08-12 20:00:48,716 autoreload 251 C:\Users\suze\Desktop\kira\home\admin.py changed, reloading.
+INFO 2021-08-12 20:00:49,727 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-08-12 20:01:39,569 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-08-12 20:01:42,545 basehttp 161 "GET /admin/ HTTP/1.1" 200 3565
+INFO 2021-08-12 20:01:44,347 basehttp 161 "GET /admin/home/articlecategory/ HTTP/1.1" 200 4701
+INFO 2021-08-12 20:01:44,392 basehttp 161 "GET /admin/jsi18n/ HTTP/1.1" 200 8398
+INFO 2021-08-12 20:01:46,625 basehttp 161 "GET /admin/ HTTP/1.1" 200 3565
+INFO 2021-08-12 20:01:51,390 basehttp 161 "GET /admin/home/articlecategory/ HTTP/1.1" 200 4701
+INFO 2021-08-12 20:01:51,451 basehttp 161 "GET /admin/jsi18n/ HTTP/1.1" 200 8398
+INFO 2021-08-12 20:01:52,793 basehttp 161 "GET /admin/home/articlecategory/add/ HTTP/1.1" 200 6345
+INFO 2021-08-12 20:01:52,827 basehttp 161 "GET /static/admin/css/forms.css HTTP/1.1" 200 8804
+INFO 2021-08-12 20:01:52,833 basehttp 161 "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 200 492
+INFO 2021-08-12 20:01:52,836 basehttp 161 "GET /static/admin/js/calendar.js HTTP/1.1" 200 8466
+INFO 2021-08-12 20:01:52,838 basehttp 161 "GET /static/admin/js/admin/DateTimeShortcuts.js HTTP/1.1" 200 19634
+INFO 2021-08-12 20:01:52,838 basehttp 161 "GET /admin/jsi18n/ HTTP/1.1" 200 8398
+INFO 2021-08-12 20:01:52,847 basehttp 161 "GET /static/admin/css/widgets.css HTTP/1.1" 200 11097
+INFO 2021-08-12 20:01:52,848 basehttp 161 "GET /static/admin/js/change_form.js HTTP/1.1" 200 606
+INFO 2021-08-12 20:01:52,903 basehttp 161 "GET /static/admin/img/icon-clock.svg HTTP/1.1" 200 677
+INFO 2021-08-12 20:01:52,904 basehttp 161 "GET /static/admin/img/icon-calendar.svg HTTP/1.1" 200 1086
+INFO 2021-08-12 20:01:58,465 basehttp 161 "POST /admin/home/articlecategory/add/ HTTP/1.1" 302 0
+INFO 2021-08-12 20:01:58,517 basehttp 161 "GET /admin/home/articlecategory/add/ HTTP/1.1" 200 6595
+INFO 2021-08-12 20:01:58,546 basehttp 161 "GET /admin/jsi18n/ HTTP/1.1" 200 8398
+INFO 2021-08-12 20:01:58,593 basehttp 161 "GET /static/admin/img/icon-yes.svg HTTP/1.1" 200 436
+INFO 2021-08-12 20:02:12,444 basehttp 161 "POST /admin/home/articlecategory/add/ HTTP/1.1" 302 0
+INFO 2021-08-12 20:02:12,502 basehttp 161 "GET /admin/home/articlecategory/add/ HTTP/1.1" 200 6593
+INFO 2021-08-12 20:02:12,530 basehttp 161 "GET /admin/jsi18n/ HTTP/1.1" 200 8398
+INFO 2021-08-12 20:02:16,591 basehttp 161 "POST /admin/home/articlecategory/add/ HTTP/1.1" 302 0
+INFO 2021-08-12 20:02:16,629 basehttp 161 "GET /admin/home/articlecategory/add/ HTTP/1.1" 200 6593
+INFO 2021-08-12 20:02:16,660 basehttp 161 "GET /admin/jsi18n/ HTTP/1.1" 200 8398
+INFO 2021-08-12 20:02:23,883 basehttp 161 "POST /admin/home/articlecategory/add/ HTTP/1.1" 302 0
+INFO 2021-08-12 20:02:23,919 basehttp 161 "GET /admin/home/articlecategory/add/ HTTP/1.1" 200 6594
+INFO 2021-08-12 20:02:23,972 basehttp 161 "GET /admin/jsi18n/ HTTP/1.1" 200 8398
+INFO 2021-08-12 20:02:32,629 basehttp 161 "POST /admin/home/articlecategory/add/ HTTP/1.1" 302 0
+INFO 2021-08-12 20:02:32,676 basehttp 161 "GET /admin/home/articlecategory/add/ HTTP/1.1" 200 6592
+INFO 2021-08-12 20:02:32,707 basehttp 161 "GET /admin/jsi18n/ HTTP/1.1" 200 8398
+INFO 2021-08-12 20:02:42,091 basehttp 161 "POST /admin/home/articlecategory/add/ HTTP/1.1" 302 0
+INFO 2021-08-12 20:02:42,143 basehttp 161 "GET /admin/home/articlecategory/ HTTP/1.1" 200 7118
+INFO 2021-08-12 20:02:42,196 basehttp 161 "GET /admin/jsi18n/ HTTP/1.1" 200 8398
+INFO 2021-08-12 20:02:50,239 basehttp 161 "POST /admin/home/articlecategory/ HTTP/1.1" 200 4773
+INFO 2021-08-12 20:02:50,263 basehttp 161 "GET /static/admin/js/cancel.js HTTP/1.1" 200 884
+INFO 2021-08-12 20:02:51,473 basehttp 161 "POST /admin/home/articlecategory/ HTTP/1.1" 302 0
+INFO 2021-08-12 20:02:51,541 basehttp 161 "GET /admin/home/articlecategory/ HTTP/1.1" 200 6856
+INFO 2021-08-12 20:02:51,574 basehttp 161 "GET /admin/jsi18n/ HTTP/1.1" 200 8398
+INFO 2021-08-12 20:02:58,258 basehttp 161 "GET / HTTP/1.1" 200 11842
+INFO 2021-08-12 20:03:00,484 basehttp 161 "GET /write/ HTTP/1.1" 200 5670
+INFO 2021-08-12 20:03:20,014 basehttp 161 "GET /admin/ HTTP/1.1" 200 5610
+INFO 2021-08-12 20:03:20,935 basehttp 161 "GET /admin/ HTTP/1.1" 200 5610
+INFO 2021-08-12 20:03:21,004 basehttp 161 "GET /static/admin/img/icon-deletelink.svg HTTP/1.1" 200 392
+INFO 2021-08-12 20:03:22,361 basehttp 161 "GET /admin/home/articlecategory/ HTTP/1.1" 200 6716
+INFO 2021-08-12 20:03:22,400 basehttp 161 "GET /admin/jsi18n/ HTTP/1.1" 200 8398
+INFO 2021-08-12 20:03:24,424 basehttp 161 "GET /admin/home/articlecategory/1/change/ HTTP/1.1" 200 6584
+INFO 2021-08-12 20:03:24,453 basehttp 161 "GET /admin/jsi18n/ HTTP/1.1" 200 8398
+INFO 2021-08-12 20:03:29,409 basehttp 161 "POST /admin/home/articlecategory/1/change/ HTTP/1.1" 302 0
+INFO 2021-08-12 20:03:29,476 basehttp 161 "GET /admin/home/articlecategory/ HTTP/1.1" 200 6917
+INFO 2021-08-12 20:03:29,510 basehttp 161 "GET /admin/jsi18n/ HTTP/1.1" 200 8398
+INFO 2021-08-12 20:34:47,579 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-08-12 20:34:52,472 basehttp 161 "GET / HTTP/1.1" 200 11842
+INFO 2021-08-12 20:34:55,463 basehttp 161 "GET /write/ HTTP/1.1" 200 5337
+INFO 2021-08-12 20:34:58,163 basehttp 161 "GET /write/ HTTP/1.1" 200 5337
+INFO 2021-08-12 20:35:37,635 basehttp 161 "GET /write/ HTTP/1.1" 200 5337
+INFO 2021-08-12 20:35:40,549 basehttp 161 "GET /write/ HTTP/1.1" 200 5337
+INFO 2021-08-12 20:37:57,029 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-08-12 20:38:02,257 basehttp 161 "GET / HTTP/1.1" 200 11842
+INFO 2021-08-12 20:38:04,448 basehttp 161 "GET /center/ HTTP/1.1" 200 4321
+INFO 2021-08-12 20:38:04,473 basehttp 161 "GET /media/avatar/2021/08/12/1.png HTTP/1.1" 304 0
+WARNING 2021-08-12 20:38:06,401 log 224 Not Found: /center/write_blog.html
+WARNING 2021-08-12 20:38:06,401 basehttp 161 "GET /center/write_blog.html HTTP/1.1" 404 3788
+WARNING 2021-08-12 20:38:10,130 log 224 Not Found: /center/write_blog.html
+WARNING 2021-08-12 20:38:10,130 basehttp 161 "GET /center/write_blog.html HTTP/1.1" 404 3788
+INFO 2021-08-12 20:38:24,800 basehttp 161 "GET / HTTP/1.1" 200 11842
+INFO 2021-08-12 20:38:26,641 basehttp 161 "GET /center/ HTTP/1.1" 200 4321
+WARNING 2021-08-12 20:38:28,972 log 224 Not Found: /center/write_blog.html
+WARNING 2021-08-12 20:38:28,972 basehttp 161 "GET /center/write_blog.html HTTP/1.1" 404 3788
+WARNING 2021-08-12 20:38:47,006 log 224 Not Found: /center/write_blog.html
+WARNING 2021-08-12 20:38:47,007 basehttp 161 "GET /center/write_blog.html HTTP/1.1" 404 3788
+INFO 2021-08-12 20:38:48,799 basehttp 161 "GET /center/ HTTP/1.1" 200 4313
+INFO 2021-08-12 20:38:50,467 basehttp 161 "GET /write/ HTTP/1.1" 200 5337
+INFO 2021-08-12 20:41:14,918 autoreload 251 C:\Users\suze\Desktop\kira\users\views.py changed, reloading.
+INFO 2021-08-12 20:41:15,591 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-08-12 20:41:15,783 basehttp 161 "GET /write/ HTTP/1.1" 200 5764
+INFO 2021-08-12 21:17:59,383 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-08-12 21:18:03,356 basehttp 161 "GET / HTTP/1.1" 200 11842
+INFO 2021-08-12 21:18:05,210 basehttp 161 "GET /center/ HTTP/1.1" 200 4313
+INFO 2021-08-12 21:18:06,969 basehttp 161 "GET /write/ HTTP/1.1" 200 5902
+INFO 2021-08-12 21:19:20,266 basehttp 161 "GET /static/ckeditor/ckeditor/plugins/div/dialogs/div.js?t=I3I8 HTTP/1.1" 200 4606
+INFO 2021-08-12 21:19:20,268 basehttp 161 "GET /static/ckeditor/ckeditor/skins/moono-lisa/dialog.css?t=I3I8 HTTP/1.1" 200 13570
+INFO 2021-08-12 21:19:20,284 basehttp 161 "GET /static/ckeditor/ckeditor/skins/moono-lisa/images/close.png HTTP/1.1" 200 615
+INFO 2021-08-12 21:19:46,951 basehttp 161 "GET /static/ckeditor/ckeditor/plugins/showblocks/images/block_p.png?t=I3I8 HTTP/1.1" 200 115
+INFO 2021-08-12 21:19:59,058 basehttp 161 "GET /static/ckeditor/ckeditor/plugins/magicline/images/icon.png?t=I3I8 HTTP/1.1" 200 133
+INFO 2021-08-12 21:20:47,322 basehttp 161 "GET /static/ckeditor/ckeditor/plugins/link/dialogs/link.js?t=I3I8 HTTP/1.1" 200 12386
+WARNING 2021-08-12 21:21:44,985 log 224 Bad Request: /write/
+WARNING 2021-08-12 21:21:44,985 basehttp 161 "POST /write/ HTTP/1.1" 400 18
+INFO 2021-08-12 21:22:05,455 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-08-12 21:22:05,910 basehttp 161 "GET /write/ HTTP/1.1" 200 5902
+INFO 2021-08-12 21:23:08,487 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-08-12 21:23:11,963 basehttp 161 "GET /write/ HTTP/1.1" 200 5902
+INFO 2021-08-12 21:23:47,103 autoreload 251 C:\Users\suze\Desktop\kira\users\views.py changed, reloading.
+INFO 2021-08-12 21:23:50,917 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-08-12 21:23:57,962 basehttp 161 "GET / HTTP/1.1" 200 11842
+INFO 2021-08-12 21:24:01,683 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-08-12 21:24:02,724 basehttp 161 "GET / HTTP/1.1" 200 11842
+INFO 2021-08-12 21:24:04,322 basehttp 161 "GET /write/ HTTP/1.1" 200 5902
+INFO 2021-08-12 21:24:24,838 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-08-12 21:24:26,033 basehttp 161 "GET /write/ HTTP/1.1" 200 5902
+ERROR 2021-08-12 21:25:49,274 views 375 'Manager' object has no attribute 'creat'
+WARNING 2021-08-12 21:25:53,110 log 224 Bad Request: /write/
+WARNING 2021-08-12 21:25:53,112 basehttp 161 "POST /write/ HTTP/1.1" 400 30
+INFO 2021-08-12 21:31:39,183 autoreload 637 Watching for file changes with StatReloader
+ERROR 2021-08-12 21:31:59,309 views 375 Article() got an unexpected keyword argument 'auther'
+WARNING 2021-08-12 21:31:59,314 log 224 Bad Request: /write/
+WARNING 2021-08-12 21:31:59,315 basehttp 161 "POST /write/ HTTP/1.1" 400 30
+INFO 2021-08-12 21:32:06,470 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-08-12 21:32:06,897 basehttp 161 "GET /write/ HTTP/1.1" 200 5902
+INFO 2021-08-12 21:32:07,267 basehttp 161 "GET / HTTP/1.1" 200 11842
+INFO 2021-08-12 21:32:10,294 basehttp 161 "GET /write/ HTTP/1.1" 200 5902
+ERROR 2021-08-12 21:33:39,480 views 375 Article() got an unexpected keyword argument 'auther'
+WARNING 2021-08-12 21:33:39,481 log 224 Bad Request: /write/
+WARNING 2021-08-12 21:33:39,481 basehttp 161 "POST /write/ HTTP/1.1" 400 30
+INFO 2021-08-12 21:59:54,669 autoreload 251 C:\Users\suze\Desktop\kira\users\views.py changed, reloading.
+INFO 2021-08-12 21:59:58,751 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-08-12 22:00:11,275 basehttp 161 "POST /write/ HTTP/1.1" 302 0
+INFO 2021-08-12 22:00:11,309 basehttp 161 "GET / HTTP/1.1" 200 11842
+INFO 2021-08-12 22:00:11,380 basehttp 161 "GET /static/js/index.js HTTP/1.1" 304 0
+INFO 2021-08-12 22:00:14,791 basehttp 161 "GET / HTTP/1.1" 200 11842
