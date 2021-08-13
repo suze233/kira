@@ -30,10 +30,10 @@
 </nav>
 <!--content-->
 <div class="container" style="height: 600px;margin-top: 20px">
-    <img src="img/404.png" alt="">
+    <img src="{% static 'img/404.png' %}" alt="">
     <br>
     <div style="text-align: center;">
-        <a href="/" class="primaryAction btn btn-primary">返回首页</a>
+        <a href="{% url 'home:index' %}" class="primaryAction btn btn-primary">返回首页</a>
     </div>
 </div>
 

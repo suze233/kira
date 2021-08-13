@@ -2250,3 +2250,25 @@ INFO 2021-08-14 01:10:38,063 basehttp 161 "GET / HTTP/1.1" 200 19238
 INFO 2021-08-14 01:10:40,789 basehttp 161 "GET /logout/ HTTP/1.1" 302 0
 INFO 2021-08-14 01:10:40,843 basehttp 161 "GET / HTTP/1.1" 200 19238
 INFO 2021-08-14 01:10:41,854 basehttp 161 "GET /detail/?id=1 HTTP/1.1" 200 9521
+INFO 2021-08-14 01:13:12,303 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-08-14 01:13:14,368 basehttp 161 "GET /detail/?id=1 HTTP/1.1" 200 9521
+ERROR 2021-08-14 01:13:17,608 log 224 Internal Server Error: /detail/
+Traceback (most recent call last):
+  File "C:\Users\suze\Desktop\kira\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\suze\Desktop\kira\venv\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\suze\Desktop\kira\venv\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\suze\Desktop\kira\venv\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "C:\Users\suze\Desktop\kira\home\views.py", line 77, in get
+    'category': article.category,
+UnboundLocalError: local variable 'article' referenced before assignment
+ERROR 2021-08-14 01:13:17,609 basehttp 161 "GET /detail/?id=0 HTTP/1.1" 500 80307
+INFO 2021-08-14 01:13:58,375 autoreload 251 C:\Users\suze\Desktop\kira\home\views.py changed, reloading.
+INFO 2021-08-14 01:13:59,102 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-08-14 01:15:25,326 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-08-14 01:15:27,047 basehttp 161 "GET /detail/?id=0 HTTP/1.1" 200 1136
+INFO 2021-08-14 01:15:27,073 basehttp 161 "GET /static/img/404.png HTTP/1.1" 200 107422
+INFO 2021-08-14 01:15:34,438 basehttp 161 "GET / HTTP/1.1" 200 19238
