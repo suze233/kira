@@ -1522,3 +1522,731 @@ INFO 2021-08-12 22:00:11,275 basehttp 161 "POST /write/ HTTP/1.1" 302 0
 INFO 2021-08-12 22:00:11,309 basehttp 161 "GET / HTTP/1.1" 200 11842
 INFO 2021-08-12 22:00:11,380 basehttp 161 "GET /static/js/index.js HTTP/1.1" 304 0
 INFO 2021-08-12 22:00:14,791 basehttp 161 "GET / HTTP/1.1" 200 11842
+INFO 2021-08-13 22:47:39,329 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-08-13 22:47:41,389 basehttp 161 "GET / HTTP/1.1" 200 12568
+INFO 2021-08-13 22:47:41,542 basehttp 161 "GET /static/js/index.js HTTP/1.1" 304 0
+WARNING 2021-08-13 22:47:41,821 log 224 Not Found: /favicon.ico
+WARNING 2021-08-13 22:47:41,822 basehttp 161 "GET /favicon.ico HTTP/1.1" 404 3755
+INFO 2021-08-13 22:47:46,485 basehttp 161 "GET / HTTP/1.1" 200 12568
+WARNING 2021-08-13 22:47:49,143 log 224 Not Found: /category/cat.title
+WARNING 2021-08-13 22:47:49,143 basehttp 161 "GET /category/cat.title HTTP/1.1" 404 3776
+WARNING 2021-08-13 22:50:55,228 log 224 Not Found: /category/cat.title
+WARNING 2021-08-13 22:50:55,228 basehttp 161 "GET /category/cat.title HTTP/1.1" 404 3776
+WARNING 2021-08-13 22:50:56,617 log 224 Not Found: /category/cat.title
+WARNING 2021-08-13 22:50:56,617 basehttp 161 "GET /category/cat.title HTTP/1.1" 404 3776
+INFO 2021-08-13 22:51:00,324 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-08-13 22:51:02,829 basehttp 161 "GET / HTTP/1.1" 200 12573
+INFO 2021-08-13 22:51:06,731 basehttp 161 "GET /?category/cat.title HTTP/1.1" 200 12573
+INFO 2021-08-13 22:51:09,054 basehttp 161 "GET /?category/cat.title HTTP/1.1" 200 12573
+INFO 2021-08-13 22:51:10,181 basehttp 161 "GET /?category/cat.title HTTP/1.1" 200 12573
+INFO 2021-08-13 22:51:46,582 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-08-13 22:51:50,466 basehttp 161 "GET / HTTP/1.1" 200 12600
+INFO 2021-08-13 22:51:52,432 basehttp 161 "GET / HTTP/1.1" 200 12600
+INFO 2021-08-13 22:51:53,521 basehttp 161 "GET /?category/cat.title=Java HTTP/1.1" 200 12600
+INFO 2021-08-13 22:51:55,786 basehttp 161 "GET /?category/cat.title=Java HTTP/1.1" 200 12600
+INFO 2021-08-13 22:51:59,175 basehttp 161 "GET /?category/cat.title=HTML HTTP/1.1" 200 12600
+INFO 2021-08-13 22:52:31,513 basehttp 161 "GET /?category/cat.title=HTML HTTP/1.1" 200 12595
+INFO 2021-08-13 22:52:34,272 basehttp 161 "GET / HTTP/1.1" 200 12595
+WARNING 2021-08-13 22:52:35,846 log 224 Not Found: /category/cat.title=PHP
+WARNING 2021-08-13 22:52:35,847 basehttp 161 "GET /category/cat.title=PHP HTTP/1.1" 404 3790
+INFO 2021-08-13 22:52:52,123 basehttp 161 "GET / HTTP/1.1" 200 12545
+WARNING 2021-08-13 22:52:54,258 log 224 Not Found: /category/HTML
+WARNING 2021-08-13 22:52:54,259 basehttp 161 "GET /category/HTML HTTP/1.1" 404 3761
+WARNING 2021-08-13 22:53:01,850 log 224 Not Found: /category/Java
+WARNING 2021-08-13 22:53:01,851 basehttp 161 "GET /category/Java HTTP/1.1" 404 3761
+INFO 2021-08-13 23:48:56,529 autoreload 637 Watching for file changes with StatReloader
+ERROR 2021-08-13 23:48:57,799 log 224 Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\suze\Desktop\kira\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\suze\Desktop\kira\venv\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\suze\Desktop\kira\venv\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\suze\Desktop\kira\venv\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "C:\Users\suze\Desktop\kira\home\views.py", line 36, in get
+    paginator = Paginator(articles)
+TypeError: __init__() missing 1 required positional argument: 'per_page'
+ERROR 2021-08-13 23:48:57,802 basehttp 161 "GET / HTTP/1.1" 500 80821
+INFO 2021-08-13 23:49:37,219 autoreload 251 C:\Users\suze\Desktop\kira\home\views.py changed, reloading.
+INFO 2021-08-13 23:49:37,916 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-08-13 23:49:48,421 autoreload 251 C:\Users\suze\Desktop\kira\home\views.py changed, reloading.
+INFO 2021-08-13 23:49:49,273 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-08-13 23:50:30,696 autoreload 251 C:\Users\suze\Desktop\kira\home\views.py changed, reloading.
+INFO 2021-08-13 23:50:31,398 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-08-13 23:50:31,675 basehttp 161 "GET / HTTP/1.1" 200 6293
+INFO 2021-08-13 23:50:31,806 basehttp 161 "GET /media/article/2021/08/12/681616d64b03.jpg HTTP/1.1" 200 1814738
+WARNING 2021-08-13 23:50:37,472 log 224 Not Found: /category/Python
+WARNING 2021-08-13 23:50:37,473 basehttp 161 "GET /category/Python HTTP/1.1" 404 3767
+WARNING 2021-08-13 23:51:07,797 log 224 Not Found: /category/C/C++
+WARNING 2021-08-13 23:51:07,798 basehttp 161 "GET /category/C/C++ HTTP/1.1" 404 3764
+WARNING 2021-08-13 23:51:10,403 log 224 Not Found: /category/Java
+WARNING 2021-08-13 23:51:10,403 basehttp 161 "GET /category/Java HTTP/1.1" 404 3761
+WARNING 2021-08-13 23:51:12,430 log 224 Not Found: /category/Python
+WARNING 2021-08-13 23:51:12,430 basehttp 161 "GET /category/Python HTTP/1.1" 404 3767
+INFO 2021-08-13 23:51:55,070 basehttp 161 "GET / HTTP/1.1" 200 6287
+WARNING 2021-08-13 23:51:55,922 log 224 Not Found: /category/Java
+WARNING 2021-08-13 23:51:55,923 basehttp 161 "GET /category/Java HTTP/1.1" 404 3761
+INFO 2021-08-13 23:51:59,048 basehttp 161 "GET /?cat_id=1 HTTP/1.1" 200 6287
+WARNING 2021-08-13 23:52:01,254 log 224 Not Found: /category/Java
+WARNING 2021-08-13 23:52:01,255 basehttp 161 "GET /category/Java HTTP/1.1" 404 3761
+INFO 2021-08-13 23:52:14,052 basehttp 161 "GET /?cat_id=1 HTTP/1.1" 200 6283
+ERROR 2021-08-13 23:52:14,829 log 224 Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\suze\Desktop\kira\venv\lib\site-packages\django\db\models\fields\__init__.py", line 1823, in get_prep_value
+    return int(value)
+ValueError: invalid literal for int() with base 10: 'Java'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\suze\Desktop\kira\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\suze\Desktop\kira\venv\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\suze\Desktop\kira\venv\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\suze\Desktop\kira\venv\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "C:\Users\suze\Desktop\kira\home\views.py", line 28, in get
+    category = ArticleCategory.objects.get(id=cat_id)
+  File "C:\Users\suze\Desktop\kira\venv\lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Users\suze\Desktop\kira\venv\lib\site-packages\django\db\models\query.py", line 424, in get
+    clone = self._chain() if self.query.combinator else self.filter(*args, **kwargs)
+  File "C:\Users\suze\Desktop\kira\venv\lib\site-packages\django\db\models\query.py", line 941, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+  File "C:\Users\suze\Desktop\kira\venv\lib\site-packages\django\db\models\query.py", line 961, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "C:\Users\suze\Desktop\kira\venv\lib\site-packages\django\db\models\query.py", line 968, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "C:\Users\suze\Desktop\kira\venv\lib\site-packages\django\db\models\sql\query.py", line 1393, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "C:\Users\suze\Desktop\kira\venv\lib\site-packages\django\db\models\sql\query.py", line 1412, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "C:\Users\suze\Desktop\kira\venv\lib\site-packages\django\db\models\sql\query.py", line 1347, in build_filter
+    condition = self.build_lookup(lookups, col, value)
+  File "C:\Users\suze\Desktop\kira\venv\lib\site-packages\django\db\models\sql\query.py", line 1193, in build_lookup
+    lookup = lookup_class(lhs, rhs)
+  File "C:\Users\suze\Desktop\kira\venv\lib\site-packages\django\db\models\lookups.py", line 25, in __init__
+    self.rhs = self.get_prep_lookup()
+  File "C:\Users\suze\Desktop\kira\venv\lib\site-packages\django\db\models\lookups.py", line 77, in get_prep_lookup
+    return self.lhs.output_field.get_prep_value(self.rhs)
+  File "C:\Users\suze\Desktop\kira\venv\lib\site-packages\django\db\models\fields\__init__.py", line 1825, in get_prep_value
+    raise e.__class__(
+ValueError: Field 'id' expected a number but got 'Java'.
+ERROR 2021-08-13 23:52:14,834 basehttp 161 "GET /?cat_id=Java HTTP/1.1" 500 142330
+ERROR 2021-08-13 23:52:24,258 log 224 Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\suze\Desktop\kira\venv\lib\site-packages\django\db\models\fields\__init__.py", line 1823, in get_prep_value
+    return int(value)
+ValueError: invalid literal for int() with base 10: 'Java'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\suze\Desktop\kira\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\suze\Desktop\kira\venv\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\suze\Desktop\kira\venv\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\suze\Desktop\kira\venv\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "C:\Users\suze\Desktop\kira\home\views.py", line 28, in get
+    category = ArticleCategory.objects.get(id=cat_id)
+  File "C:\Users\suze\Desktop\kira\venv\lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Users\suze\Desktop\kira\venv\lib\site-packages\django\db\models\query.py", line 424, in get
+    clone = self._chain() if self.query.combinator else self.filter(*args, **kwargs)
+  File "C:\Users\suze\Desktop\kira\venv\lib\site-packages\django\db\models\query.py", line 941, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+  File "C:\Users\suze\Desktop\kira\venv\lib\site-packages\django\db\models\query.py", line 961, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "C:\Users\suze\Desktop\kira\venv\lib\site-packages\django\db\models\query.py", line 968, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "C:\Users\suze\Desktop\kira\venv\lib\site-packages\django\db\models\sql\query.py", line 1393, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "C:\Users\suze\Desktop\kira\venv\lib\site-packages\django\db\models\sql\query.py", line 1412, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "C:\Users\suze\Desktop\kira\venv\lib\site-packages\django\db\models\sql\query.py", line 1347, in build_filter
+    condition = self.build_lookup(lookups, col, value)
+  File "C:\Users\suze\Desktop\kira\venv\lib\site-packages\django\db\models\sql\query.py", line 1193, in build_lookup
+    lookup = lookup_class(lhs, rhs)
+  File "C:\Users\suze\Desktop\kira\venv\lib\site-packages\django\db\models\lookups.py", line 25, in __init__
+    self.rhs = self.get_prep_lookup()
+  File "C:\Users\suze\Desktop\kira\venv\lib\site-packages\django\db\models\lookups.py", line 77, in get_prep_lookup
+    return self.lhs.output_field.get_prep_value(self.rhs)
+  File "C:\Users\suze\Desktop\kira\venv\lib\site-packages\django\db\models\fields\__init__.py", line 1825, in get_prep_value
+    raise e.__class__(
+ValueError: Field 'id' expected a number but got 'Java'.
+ERROR 2021-08-13 23:52:24,261 basehttp 161 "GET /?cat_id=Java HTTP/1.1" 500 142467
+INFO 2021-08-13 23:52:35,935 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-08-13 23:52:44,861 basehttp 161 "GET / HTTP/1.1" 200 6271
+INFO 2021-08-13 23:52:46,186 basehttp 161 "GET /?cat_id=3 HTTP/1.1" 200 4844
+INFO 2021-08-13 23:52:47,440 basehttp 161 "GET /?cat_id=2 HTTP/1.1" 200 4844
+INFO 2021-08-13 23:52:48,331 basehttp 161 "GET /?cat_id=4 HTTP/1.1" 200 4844
+INFO 2021-08-13 23:52:49,018 basehttp 161 "GET /?cat_id=5 HTTP/1.1" 200 4844
+INFO 2021-08-13 23:52:50,043 basehttp 161 "GET /?cat_id=1 HTTP/1.1" 200 6271
+INFO 2021-08-13 23:53:28,227 basehttp 161 "GET /?cat_id=1 HTTP/1.1" 200 6270
+INFO 2021-08-13 23:53:30,181 basehttp 161 "GET /?cat_id=1 HTTP/1.1" 200 6270
+INFO 2021-08-13 23:53:31,902 basehttp 161 "GET / HTTP/1.1" 200 6270
+WARNING 2021-08-13 23:53:33,021 log 224 Not Found: /cat_id=1
+WARNING 2021-08-13 23:53:33,022 basehttp 161 "GET /cat_id=1 HTTP/1.1" 404 3748
+INFO 2021-08-13 23:54:23,182 basehttp 161 "GET / HTTP/1.1" 200 6278
+INFO 2021-08-13 23:54:24,130 basehttp 161 "GET /?cat_titlePython HTTP/1.1" 200 6278
+INFO 2021-08-13 23:54:26,229 basehttp 161 "GET /?cat_id=2 HTTP/1.1" 200 4849
+INFO 2021-08-13 23:54:27,107 basehttp 161 "GET /?cat_id=1 HTTP/1.1" 200 6278
+INFO 2021-08-13 23:54:28,194 basehttp 161 "GET /?cat_titlePython HTTP/1.1" 200 6278
+INFO 2021-08-13 23:54:29,703 basehttp 161 "GET /?cat_titlePython HTTP/1.1" 200 6278
+INFO 2021-08-13 23:54:35,142 basehttp 161 "GET /?cat_titlePython HTTP/1.1" 200 6279
+INFO 2021-08-13 23:54:38,356 basehttp 161 "GET / HTTP/1.1" 200 6279
+INFO 2021-08-13 23:54:40,107 basehttp 161 "GET /?cat_title=Python HTTP/1.1" 200 6279
+INFO 2021-08-13 23:54:41,595 basehttp 161 "GET /?cat_id=2 HTTP/1.1" 200 4850
+INFO 2021-08-13 23:54:44,176 basehttp 161 "GET /?cat_id=3 HTTP/1.1" 200 4850
+INFO 2021-08-13 23:54:44,922 basehttp 161 "GET /?cat_id=4 HTTP/1.1" 200 4851
+INFO 2021-08-13 23:54:45,783 basehttp 161 "GET /?cat_id=2 HTTP/1.1" 200 4850
+INFO 2021-08-13 23:54:46,379 basehttp 161 "GET /?cat_id=3 HTTP/1.1" 200 4850
+INFO 2021-08-13 23:54:46,995 basehttp 161 "GET /?cat_id=5 HTTP/1.1" 200 4849
+INFO 2021-08-13 23:54:59,869 basehttp 161 "GET /?cat_id=5 HTTP/1.1" 200 4826
+INFO 2021-08-13 23:55:02,039 basehttp 161 "GET / HTTP/1.1" 200 6253
+INFO 2021-08-13 23:55:03,184 basehttp 161 "GET /?Java HTTP/1.1" 200 6253
+INFO 2021-08-13 23:55:04,247 basehttp 161 "GET /?HTML HTTP/1.1" 200 6253
+INFO 2021-08-13 23:55:04,939 basehttp 161 "GET /?C/C++ HTTP/1.1" 200 6253
+INFO 2021-08-13 23:55:05,623 basehttp 161 "GET /?PHP HTTP/1.1" 200 6253
+INFO 2021-08-13 23:55:06,441 basehttp 161 "GET /?Java HTTP/1.1" 200 6253
+INFO 2021-08-13 23:55:07,160 basehttp 161 "GET /?Python HTTP/1.1" 200 6253
+INFO 2021-08-13 23:55:08,024 basehttp 161 "GET /?Java HTTP/1.1" 200 6253
+INFO 2021-08-13 23:55:09,067 basehttp 161 "GET /?Java HTTP/1.1" 200 6253
+INFO 2021-08-13 23:55:09,794 basehttp 161 "GET /?Java HTTP/1.1" 200 6253
+INFO 2021-08-13 23:55:10,509 basehttp 161 "GET /?HTML HTTP/1.1" 200 6253
+INFO 2021-08-13 23:55:11,210 basehttp 161 "GET /?C/C++ HTTP/1.1" 200 6253
+INFO 2021-08-13 23:55:11,772 basehttp 161 "GET /?PHP HTTP/1.1" 200 6253
+INFO 2021-08-13 23:55:17,400 basehttp 161 "GET /?Java HTTP/1.1" 200 6253
+INFO 2021-08-13 23:55:18,436 basehttp 161 "GET /?HTML HTTP/1.1" 200 6253
+INFO 2021-08-13 23:55:19,761 basehttp 161 "GET /?C/C++ HTTP/1.1" 200 6253
+INFO 2021-08-13 23:55:25,375 basehttp 161 "GET / HTTP/1.1" 200 6253
+INFO 2021-08-13 23:55:26,850 basehttp 161 "GET / HTTP/1.1" 200 6253
+INFO 2021-08-13 23:55:29,499 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-08-13 23:55:30,497 basehttp 161 "GET / HTTP/1.1" 200 6253
+INFO 2021-08-13 23:55:31,595 basehttp 161 "GET /?Java HTTP/1.1" 200 6253
+INFO 2021-08-13 23:55:32,630 basehttp 161 "GET /?HTML HTTP/1.1" 200 6253
+INFO 2021-08-13 23:55:33,467 basehttp 161 "GET /?C/C++ HTTP/1.1" 200 6253
+INFO 2021-08-13 23:55:34,136 basehttp 161 "GET /?PHP HTTP/1.1" 200 6253
+INFO 2021-08-13 23:55:35,707 basehttp 161 "GET /?Python HTTP/1.1" 200 6253
+INFO 2021-08-13 23:55:46,274 basehttp 161 "GET /?Python HTTP/1.1" 200 6279
+INFO 2021-08-13 23:55:48,392 basehttp 161 "GET / HTTP/1.1" 200 6279
+INFO 2021-08-13 23:55:49,283 basehttp 161 "GET /?cat_title=Python HTTP/1.1" 200 6279
+INFO 2021-08-13 23:55:50,705 basehttp 161 "GET /?cat_id=2 HTTP/1.1" 200 4850
+INFO 2021-08-13 23:55:53,446 basehttp 161 "GET /?cat_id=3 HTTP/1.1" 200 4850
+INFO 2021-08-13 23:56:01,762 basehttp 161 "GET / HTTP/1.1" 200 6271
+INFO 2021-08-13 23:56:02,799 basehttp 161 "GET /?cat_id=2 HTTP/1.1" 200 4844
+INFO 2021-08-13 23:56:03,515 basehttp 161 "GET /?cat_id=3 HTTP/1.1" 200 4844
+INFO 2021-08-13 23:56:04,127 basehttp 161 "GET /?cat_id=4 HTTP/1.1" 200 4844
+INFO 2021-08-13 23:56:04,885 basehttp 161 "GET /?cat_id=5 HTTP/1.1" 200 4844
+INFO 2021-08-13 23:56:05,763 basehttp 161 "GET /?cat_id=1 HTTP/1.1" 200 6271
+INFO 2021-08-13 23:56:15,227 basehttp 161 "GET /?cat_id=2 HTTP/1.1" 200 4844
+INFO 2021-08-13 23:56:16,625 basehttp 161 "GET /?cat_id=1 HTTP/1.1" 200 6271
+INFO 2021-08-13 23:56:54,815 basehttp 161 "GET /?cat_id=1 HTTP/1.1" 200 6236
+INFO 2021-08-13 23:56:56,844 basehttp 161 "GET / HTTP/1.1" 200 6236
+INFO 2021-08-13 23:56:59,250 basehttp 161 "GET /?2 HTTP/1.1" 200 6236
+INFO 2021-08-13 23:57:00,047 basehttp 161 "GET /?3 HTTP/1.1" 200 6236
+INFO 2021-08-13 23:57:00,664 basehttp 161 "GET /?4 HTTP/1.1" 200 6236
+INFO 2021-08-13 23:57:01,101 basehttp 161 "GET /?5 HTTP/1.1" 200 6236
+INFO 2021-08-13 23:57:01,753 basehttp 161 "GET /?2 HTTP/1.1" 200 6236
+INFO 2021-08-13 23:57:02,206 basehttp 161 "GET /?1 HTTP/1.1" 200 6236
+INFO 2021-08-13 23:57:04,696 basehttp 161 "GET /?2 HTTP/1.1" 200 6236
+INFO 2021-08-13 23:57:06,968 basehttp 161 "GET / HTTP/1.1" 200 6236
+INFO 2021-08-13 23:57:07,706 basehttp 161 "GET /?1 HTTP/1.1" 200 6236
+INFO 2021-08-13 23:57:19,989 basehttp 161 "GET / HTTP/1.1" 200 6219
+INFO 2021-08-13 23:57:21,126 basehttp 161 "GET /?2 HTTP/1.1" 200 6219
+INFO 2021-08-13 23:57:21,740 basehttp 161 "GET /?3 HTTP/1.1" 200 6219
+INFO 2021-08-13 23:57:30,961 basehttp 161 "GET / HTTP/1.1" 200 6271
+INFO 2021-08-13 23:57:31,765 basehttp 161 "GET / HTTP/1.1" 200 6271
+INFO 2021-08-13 23:57:32,539 basehttp 161 "GET /?cat_id=2 HTTP/1.1" 200 4844
+INFO 2021-08-13 23:57:33,435 basehttp 161 "GET /?cat_id=1 HTTP/1.1" 200 6271
+INFO 2021-08-13 23:58:18,742 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-08-13 23:58:21,003 basehttp 161 "GET / HTTP/1.1" 200 6271
+INFO 2021-08-13 23:58:22,807 basehttp 161 "GET /?cat_id=2 HTTP/1.1" 200 4844
+INFO 2021-08-13 23:58:23,416 basehttp 161 "GET /?cat_id=3 HTTP/1.1" 200 4844
+INFO 2021-08-13 23:58:23,893 basehttp 161 "GET /?cat_id=4 HTTP/1.1" 200 4844
+INFO 2021-08-13 23:58:24,443 basehttp 161 "GET /?cat_id=5 HTTP/1.1" 200 4844
+INFO 2021-08-13 23:58:26,122 basehttp 161 "GET /?cat_id=1 HTTP/1.1" 200 6271
+INFO 2021-08-13 23:58:26,957 basehttp 161 "GET / HTTP/1.1" 200 6271
+INFO 2021-08-14 00:02:25,090 basehttp 161 "GET / HTTP/1.1" 200 6271
+INFO 2021-08-14 00:02:26,684 basehttp 161 "GET / HTTP/1.1" 200 6271
+INFO 2021-08-14 00:02:34,315 basehttp 161 "GET / HTTP/1.1" 200 6271
+INFO 2021-08-14 00:06:53,514 basehttp 161 "GET / HTTP/1.1" 200 13406
+INFO 2021-08-14 00:07:19,305 basehttp 161 "GET / HTTP/1.1" 200 19114
+INFO 2021-08-14 00:07:21,973 basehttp 161 "GET /?cat_id=1&page_num=2 HTTP/1.1" 200 7698
+INFO 2021-08-14 00:07:26,476 basehttp 161 "GET / HTTP/1.1" 200 19114
+INFO 2021-08-14 00:07:29,308 basehttp 161 "GET /?cat_id=1&page_num=2 HTTP/1.1" 200 7698
+INFO 2021-08-14 00:07:33,538 basehttp 161 "GET /?cat_id=2 HTTP/1.1" 200 4844
+INFO 2021-08-14 00:07:34,644 basehttp 161 "GET /?cat_id=1 HTTP/1.1" 200 19114
+INFO 2021-08-14 00:07:36,930 basehttp 161 "GET /?cat_id=1&page_num=2 HTTP/1.1" 200 7698
+INFO 2021-08-14 00:08:25,036 basehttp 161 "GET /?cat_id=1&page_num=1 HTTP/1.1" 200 19114
+INFO 2021-08-14 00:10:02,195 autoreload 251 C:\Users\suze\Desktop\kira\home\views.py changed, reloading.
+INFO 2021-08-14 00:10:02,886 autoreload 637 Watching for file changes with StatReloader
+ERROR 2021-08-14 00:10:04,502 log 224 Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\suze\Desktop\kira\venv\lib\site-packages\django\core\paginator.py", line 49, in validate_number
+    number = int(number)
+TypeError: int() argument must be a string, a bytes-like object or a number, not 'NoneType'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\suze\Desktop\kira\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\suze\Desktop\kira\venv\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\suze\Desktop\kira\venv\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\suze\Desktop\kira\venv\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "C:\Users\suze\Desktop\kira\home\views.py", line 40, in get
+    page_article = paginator.page(page_num)
+  File "C:\Users\suze\Desktop\kira\venv\lib\site-packages\django\core\paginator.py", line 76, in page
+    number = self.validate_number(number)
+  File "C:\Users\suze\Desktop\kira\venv\lib\site-packages\django\core\paginator.py", line 51, in validate_number
+    raise PageNotAnInteger(_('That page number is not an integer'))
+django.core.paginator.PageNotAnInteger: 页码不是整数
+ERROR 2021-08-14 00:10:04,507 basehttp 161 "GET / HTTP/1.1" 500 93600
+ERROR 2021-08-14 00:10:43,504 log 224 Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\suze\Desktop\kira\venv\lib\site-packages\django\core\paginator.py", line 49, in validate_number
+    number = int(number)
+TypeError: int() argument must be a string, a bytes-like object or a number, not 'NoneType'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\suze\Desktop\kira\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\suze\Desktop\kira\venv\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\suze\Desktop\kira\venv\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\suze\Desktop\kira\venv\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "C:\Users\suze\Desktop\kira\home\views.py", line 40, in get
+    page_article = paginator.page(page_num)
+  File "C:\Users\suze\Desktop\kira\venv\lib\site-packages\django\core\paginator.py", line 76, in page
+    number = self.validate_number(number)
+  File "C:\Users\suze\Desktop\kira\venv\lib\site-packages\django\core\paginator.py", line 51, in validate_number
+    raise PageNotAnInteger(_('That page number is not an integer'))
+django.core.paginator.PageNotAnInteger: 页码不是整数
+ERROR 2021-08-14 00:10:43,506 basehttp 161 "GET / HTTP/1.1" 500 93607
+ERROR 2021-08-14 00:10:51,415 log 224 Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\suze\Desktop\kira\venv\lib\site-packages\django\core\paginator.py", line 49, in validate_number
+    number = int(number)
+TypeError: int() argument must be a string, a bytes-like object or a number, not 'NoneType'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\suze\Desktop\kira\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\suze\Desktop\kira\venv\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\suze\Desktop\kira\venv\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\suze\Desktop\kira\venv\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "C:\Users\suze\Desktop\kira\home\views.py", line 40, in get
+    page_article = paginator.page(page_num)
+  File "C:\Users\suze\Desktop\kira\venv\lib\site-packages\django\core\paginator.py", line 76, in page
+    number = self.validate_number(number)
+  File "C:\Users\suze\Desktop\kira\venv\lib\site-packages\django\core\paginator.py", line 51, in validate_number
+    raise PageNotAnInteger(_('That page number is not an integer'))
+django.core.paginator.PageNotAnInteger: 页码不是整数
+ERROR 2021-08-14 00:10:51,417 basehttp 161 "GET / HTTP/1.1" 500 93607
+INFO 2021-08-14 00:10:51,840 autoreload 251 C:\Users\suze\Desktop\kira\home\views.py changed, reloading.
+INFO 2021-08-14 00:10:52,472 autoreload 637 Watching for file changes with StatReloader
+WARNING 2021-08-14 00:10:53,550 log 224 Bad Request: /
+WARNING 2021-08-14 00:10:53,551 basehttp 161 "GET / HTTP/1.1" 400 10
+WARNING 2021-08-14 00:10:56,353 log 224 Bad Request: /
+WARNING 2021-08-14 00:10:56,354 basehttp 161 "GET / HTTP/1.1" 400 10
+WARNING 2021-08-14 00:11:03,223 log 224 Not Found: /1
+WARNING 2021-08-14 00:11:03,223 basehttp 161 "GET /1 HTTP/1.1" 404 3725
+INFO 2021-08-14 00:11:10,300 autoreload 251 C:\Users\suze\Desktop\kira\home\views.py changed, reloading.
+INFO 2021-08-14 00:11:10,942 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-08-14 00:11:11,187 basehttp 161 "GET / HTTP/1.1" 200 19114
+INFO 2021-08-14 00:11:22,498 basehttp 161 "GET /login/ HTTP/1.1" 200 3180
+INFO 2021-08-14 00:11:28,540 basehttp 161 "GET /admin HTTP/1.1" 301 0
+INFO 2021-08-14 00:11:28,550 basehttp 161 "GET /admin/ HTTP/1.1" 302 0
+INFO 2021-08-14 00:11:28,636 basehttp 161 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 2212
+INFO 2021-08-14 00:11:28,655 basehttp 161 "GET /static/admin/css/base.css HTTP/1.1" 304 0
+INFO 2021-08-14 00:11:28,656 basehttp 161 "GET /static/admin/css/login.css HTTP/1.1" 200 939
+INFO 2021-08-14 00:11:28,656 basehttp 161 "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 200 1360
+INFO 2021-08-14 00:11:28,656 basehttp 161 "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 200 2271
+INFO 2021-08-14 00:11:28,657 basehttp 161 "GET /static/admin/css/responsive.css HTTP/1.1" 200 18545
+INFO 2021-08-14 00:11:29,337 basehttp 161 "GET /admin/ HTTP/1.1" 302 0
+INFO 2021-08-14 00:11:29,351 basehttp 161 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 2212
+INFO 2021-08-14 00:11:29,396 basehttp 161 "GET /static/admin/css/fonts.css HTTP/1.1" 200 423
+INFO 2021-08-14 00:11:29,442 basehttp 161 "GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 200 85876
+INFO 2021-08-14 00:11:29,442 basehttp 161 "GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 200 85692
+INFO 2021-08-14 00:11:38,422 basehttp 161 "POST /admin/login/?next=/admin/ HTTP/1.1" 200 2340
+INFO 2021-08-14 00:11:38,497 basehttp 161 "GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 200 86184
+INFO 2021-08-14 00:11:55,975 basehttp 161 "POST /admin/login/?next=/admin/ HTTP/1.1" 200 2340
+INFO 2021-08-14 00:12:01,857 basehttp 161 "POST /admin/login/?next=/admin/ HTTP/1.1" 200 2340
+INFO 2021-08-14 00:12:09,294 basehttp 161 "POST /admin/login/?next=/admin/ HTTP/1.1" 200 2340
+INFO 2021-08-14 00:12:23,612 basehttp 161 "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+INFO 2021-08-14 00:12:23,685 basehttp 161 "GET /admin/ HTTP/1.1" 200 5910
+INFO 2021-08-14 00:12:23,713 basehttp 161 "GET /static/admin/css/dashboard.css HTTP/1.1" 200 380
+INFO 2021-08-14 00:12:23,750 basehttp 161 "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 200 380
+INFO 2021-08-14 00:12:23,750 basehttp 161 "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 331
+INFO 2021-08-14 00:12:23,751 basehttp 161 "GET /static/admin/img/icon-deletelink.svg HTTP/1.1" 200 392
+INFO 2021-08-14 00:12:26,145 basehttp 161 "GET /admin/home/articlecategory/ HTTP/1.1" 200 6716
+INFO 2021-08-14 00:12:26,178 basehttp 161 "GET /static/admin/js/jquery.init.js HTTP/1.1" 200 347
+INFO 2021-08-14 00:12:26,178 basehttp 161 "GET /static/admin/js/core.js HTTP/1.1" 200 5698
+INFO 2021-08-14 00:12:26,179 basehttp 161 "GET /static/admin/css/changelists.css HTTP/1.1" 200 6874
+INFO 2021-08-14 00:12:26,179 basehttp 161 "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 200 5984
+INFO 2021-08-14 00:12:26,186 basehttp 161 "GET /static/admin/js/urlify.js HTTP/1.1" 200 7902
+INFO 2021-08-14 00:12:26,188 basehttp 161 "GET /static/admin/js/actions.js HTTP/1.1" 200 7664
+INFO 2021-08-14 00:12:26,192 basehttp 161 "GET /static/admin/js/prepopulate.js HTTP/1.1" 200 1531
+INFO 2021-08-14 00:12:26,192 basehttp 161 "GET /admin/jsi18n/ HTTP/1.1" 200 8398
+INFO 2021-08-14 00:12:26,196 basehttp 161 "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 200 287630
+INFO 2021-08-14 00:12:26,199 basehttp 161 "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 200 232381
+INFO 2021-08-14 00:12:26,244 basehttp 161 "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 200 331
+INFO 2021-08-14 00:12:28,127 basehttp 161 "GET /admin/ HTTP/1.1" 200 5910
+INFO 2021-08-14 00:12:33,688 basehttp 161 "GET /admin/auth/group/ HTTP/1.1" 200 4967
+INFO 2021-08-14 00:12:33,720 basehttp 161 "GET /admin/jsi18n/ HTTP/1.1" 200 8398
+INFO 2021-08-14 00:12:33,736 basehttp 161 "GET /static/admin/img/search.svg HTTP/1.1" 200 458
+INFO 2021-08-14 00:12:34,999 basehttp 161 "GET /admin/ HTTP/1.1" 200 5910
+INFO 2021-08-14 00:13:24,083 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-08-14 00:13:47,104 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-08-14 00:13:49,532 basehttp 161 "GET /admin/ HTTP/1.1" 200 6336
+INFO 2021-08-14 00:13:51,512 basehttp 161 "GET /admin/home/article/ HTTP/1.1" 200 8345
+INFO 2021-08-14 00:13:51,547 basehttp 161 "GET /admin/jsi18n/ HTTP/1.1" 200 8398
+INFO 2021-08-14 00:13:57,535 basehttp 161 "GET /admin/home/article/add/ HTTP/1.1" 200 11431
+INFO 2021-08-14 00:13:57,567 basehttp 161 "GET /static/admin/css/forms.css HTTP/1.1" 200 8804
+INFO 2021-08-14 00:13:57,569 basehttp 161 "GET /static/admin/js/calendar.js HTTP/1.1" 200 8466
+INFO 2021-08-14 00:13:57,570 basehttp 161 "GET /static/admin/js/admin/DateTimeShortcuts.js HTTP/1.1" 200 19634
+INFO 2021-08-14 00:13:57,575 basehttp 161 "GET /admin/jsi18n/ HTTP/1.1" 200 8398
+INFO 2021-08-14 00:13:57,583 basehttp 161 "GET /static/admin/css/widgets.css HTTP/1.1" 200 11097
+INFO 2021-08-14 00:13:57,584 basehttp 161 "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 200 492
+INFO 2021-08-14 00:13:57,587 basehttp 161 "GET /static/admin/js/change_form.js HTTP/1.1" 200 606
+INFO 2021-08-14 00:13:57,634 basehttp 161 "GET /static/admin/img/icon-clock.svg HTTP/1.1" 200 677
+INFO 2021-08-14 00:13:57,635 basehttp 161 "GET /static/admin/img/icon-calendar.svg HTTP/1.1" 200 1086
+INFO 2021-08-14 00:14:02,824 basehttp 161 "GET /admin/home/article/ HTTP/1.1" 200 8345
+INFO 2021-08-14 00:14:19,613 basehttp 161 "GET /admin/home/articlecategory/ HTTP/1.1" 200 7013
+INFO 2021-08-14 00:14:19,649 basehttp 161 "GET /admin/jsi18n/ HTTP/1.1" 200 8398
+INFO 2021-08-14 00:14:26,580 basehttp 161 "GET /admin/home/article/ HTTP/1.1" 200 8345
+INFO 2021-08-14 00:14:26,607 basehttp 161 "GET /admin/jsi18n/ HTTP/1.1" 200 8398
+INFO 2021-08-14 00:14:30,889 basehttp 161 "GET /admin/home/article/add/ HTTP/1.1" 200 11431
+INFO 2021-08-14 00:14:30,918 basehttp 161 "GET /admin/jsi18n/ HTTP/1.1" 200 8398
+INFO 2021-08-14 00:19:04,318 autoreload 251 C:\Users\suze\Desktop\kira\home\views.py changed, reloading.
+INFO 2021-08-14 00:19:05,179 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-08-14 00:21:18,768 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-08-14 00:21:22,444 basehttp 161 "GET / HTTP/1.1" 200 19114
+INFO 2021-08-14 00:21:42,436 basehttp 161 "GET / HTTP/1.1" 200 19114
+INFO 2021-08-14 00:21:47,682 basehttp 161 "GET /detail HTTP/1.1" 200 8612
+WARNING 2021-08-14 00:21:47,741 log 224 Not Found: /common/common.css
+WARNING 2021-08-14 00:21:47,743 log 224 Not Found: /prism/prism.css
+WARNING 2021-08-14 00:21:47,744 log 224 Not Found: /ckeditor/ckeditor/plugins/prism/lib/prism/prism_patched.min.js
+WARNING 2021-08-14 00:21:47,745 log 224 Not Found: /js/vue-2.5.16.js
+WARNING 2021-08-14 00:21:47,747 log 224 Not Found: /bootstrap/css/bootstrap.min.css
+WARNING 2021-08-14 00:21:47,748 log 224 Not Found: /common/jquery.pagination.css
+WARNING 2021-08-14 00:21:47,748 basehttp 161 "GET /common/common.css HTTP/1.1" 404 3941
+WARNING 2021-08-14 00:21:47,749 basehttp 161 "GET /prism/prism.css HTTP/1.1" 404 3935
+WARNING 2021-08-14 00:21:47,749 basehttp 161 "GET /js/vue-2.5.16.js HTTP/1.1" 404 3938
+WARNING 2021-08-14 00:21:47,749 basehttp 161 "GET /ckeditor/ckeditor/plugins/prism/lib/prism/prism_patched.min.js HTTP/1.1" 404 4076
+WARNING 2021-08-14 00:21:47,751 basehttp 161 "GET /common/jquery.pagination.css HTTP/1.1" 404 3974
+WARNING 2021-08-14 00:21:47,753 basehttp 161 "GET /bootstrap/css/bootstrap.min.css HTTP/1.1" 404 3983
+WARNING 2021-08-14 00:21:47,769 log 224 Not Found: /js/axios-0.18.0.min.js
+WARNING 2021-08-14 00:21:47,772 basehttp 161 "GET /js/axios-0.18.0.min.js HTTP/1.1" 404 3956
+WARNING 2021-08-14 00:21:47,775 log 224 Not Found: /ckeditor/ckeditor/ckeditor.js
+WARNING 2021-08-14 00:21:47,776 log 224 Not Found: /js/host.js
+WARNING 2021-08-14 00:21:47,778 log 224 Not Found: /js/jquery-1.12.4.min.js
+WARNING 2021-08-14 00:21:47,779 log 224 Not Found: /ckeditor/ckeditor-init.js
+WARNING 2021-08-14 00:21:47,782 log 224 Not Found: /js/common.js
+WARNING 2021-08-14 00:21:47,782 basehttp 161 "GET /ckeditor/ckeditor/ckeditor.js HTTP/1.1" 404 3977
+WARNING 2021-08-14 00:21:47,782 basehttp 161 "GET /js/jquery-1.12.4.min.js HTTP/1.1" 404 3959
+WARNING 2021-08-14 00:21:47,783 basehttp 161 "GET /js/host.js HTTP/1.1" 404 3920
+WARNING 2021-08-14 00:21:47,785 basehttp 161 "GET /ckeditor/ckeditor-init.js HTTP/1.1" 404 3965
+WARNING 2021-08-14 00:21:47,787 basehttp 161 "GET /js/common.js HTTP/1.1" 404 3926
+INFO 2021-08-14 00:21:47,790 basehttp 75 - Broken pipe from ('127.0.0.1', 61799)
+
+INFO 2021-08-14 00:21:47,792 basehttp 75 - Broken pipe from ('127.0.0.1', 56068)
+
+WARNING 2021-08-14 00:21:47,795 log 224 Not Found: /prism/prism.css
+WARNING 2021-08-14 00:21:47,804 basehttp 161 "GET /prism/prism.css HTTP/1.1" 404 3935
+WARNING 2021-08-14 00:21:47,806 log 224 Not Found: /common/common.css
+WARNING 2021-08-14 00:21:47,808 log 224 Not Found: /js/detail.js
+WARNING 2021-08-14 00:21:47,810 log 224 Not Found: /js/jquery.pagination.min.js
+WARNING 2021-08-14 00:21:47,811 log 224 Not Found: /common/jquery.pagination.css
+WARNING 2021-08-14 00:21:47,812 basehttp 161 "GET /js/detail.js HTTP/1.1" 404 3926
+WARNING 2021-08-14 00:21:47,812 basehttp 161 "GET /common/common.css HTTP/1.1" 404 3941
+WARNING 2021-08-14 00:21:47,813 log 224 Not Found: /js/vue-2.5.16.js
+WARNING 2021-08-14 00:21:47,814 basehttp 161 "GET /js/jquery.pagination.min.js HTTP/1.1" 404 3971
+WARNING 2021-08-14 00:21:47,814 basehttp 161 "GET /common/jquery.pagination.css HTTP/1.1" 404 3974
+INFO 2021-08-14 00:21:47,814 basehttp 75 - Broken pipe from ('127.0.0.1', 61983)
+
+WARNING 2021-08-14 00:21:47,816 basehttp 161 "GET /js/vue-2.5.16.js HTTP/1.1" 404 3938
+WARNING 2021-08-14 00:21:47,823 log 224 Not Found: /js/axios-0.18.0.min.js
+WARNING 2021-08-14 00:21:47,823 basehttp 161 "GET /js/axios-0.18.0.min.js HTTP/1.1" 404 3956
+WARNING 2021-08-14 00:21:47,830 log 224 Not Found: /js/jquery-1.12.4.min.js
+WARNING 2021-08-14 00:21:47,830 basehttp 161 "GET /js/jquery-1.12.4.min.js HTTP/1.1" 404 3959
+WARNING 2021-08-14 00:21:47,881 log 224 Not Found: /ckeditor/ckeditor-init.js
+WARNING 2021-08-14 00:21:47,882 basehttp 161 "GET /ckeditor/ckeditor-init.js HTTP/1.1" 404 3965
+WARNING 2021-08-14 00:21:47,890 log 224 Not Found: /ckeditor/ckeditor/ckeditor.js
+WARNING 2021-08-14 00:21:47,891 basehttp 161 "GET /ckeditor/ckeditor/ckeditor.js HTTP/1.1" 404 3977
+WARNING 2021-08-14 00:21:47,899 log 224 Not Found: /js/host.js
+WARNING 2021-08-14 00:21:47,899 basehttp 161 "GET /js/host.js HTTP/1.1" 404 3920
+WARNING 2021-08-14 00:21:47,907 log 224 Not Found: /js/common.js
+WARNING 2021-08-14 00:21:47,907 basehttp 161 "GET /js/common.js HTTP/1.1" 404 3926
+WARNING 2021-08-14 00:21:47,916 log 224 Not Found: /js/detail.js
+WARNING 2021-08-14 00:21:47,916 basehttp 161 "GET /js/detail.js HTTP/1.1" 404 3926
+WARNING 2021-08-14 00:21:47,925 log 224 Not Found: /js/jquery.pagination.min.js
+WARNING 2021-08-14 00:21:47,925 basehttp 161 "GET /js/jquery.pagination.min.js HTTP/1.1" 404 3971
+INFO 2021-08-14 00:26:59,839 autoreload 637 Watching for file changes with StatReloader
+ERROR 2021-08-14 00:27:01,726 log 224 Internal Server Error: /detail
+Traceback (most recent call last):
+  File "C:\Users\suze\Desktop\kira\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\suze\Desktop\kira\venv\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\suze\Desktop\kira\venv\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\suze\Desktop\kira\venv\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "C:\Users\suze\Desktop\kira\home\views.py", line 57, in get
+    return render(request, 'detail.html')
+  File "C:\Users\suze\Desktop\kira\venv\lib\site-packages\django\shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\suze\Desktop\kira\venv\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\Users\suze\Desktop\kira\venv\lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "C:\Users\suze\Desktop\kira\venv\lib\site-packages\django\template\backends\django.py", line 34, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "C:\Users\suze\Desktop\kira\venv\lib\site-packages\django\template\engine.py", line 143, in get_template
+    template, origin = self.find_template(template_name)
+  File "C:\Users\suze\Desktop\kira\venv\lib\site-packages\django\template\engine.py", line 125, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "C:\Users\suze\Desktop\kira\venv\lib\site-packages\django\template\loaders\base.py", line 29, in get_template
+    return Template(
+  File "C:\Users\suze\Desktop\kira\venv\lib\site-packages\django\template\base.py", line 155, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "C:\Users\suze\Desktop\kira\venv\lib\site-packages\django\template\base.py", line 193, in compile_nodelist
+    return parser.parse()
+  File "C:\Users\suze\Desktop\kira\venv\lib\site-packages\django\template\base.py", line 478, in parse
+    raise self.error(token, e)
+  File "C:\Users\suze\Desktop\kira\venv\lib\site-packages\django\template\base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\suze\Desktop\kira\venv\lib\site-packages\django\template\defaulttags.py", line 1372, in url
+    viewname = parser.compile_filter(bits[1])
+  File "C:\Users\suze\Desktop\kira\venv\lib\site-packages\django\template\base.py", line 563, in compile_filter
+    return FilterExpression(token, self)
+  File "C:\Users\suze\Desktop\kira\venv\lib\site-packages\django\template\base.py", line 662, in __init__
+    raise TemplateSyntaxError("Could not parse the remainder: '%s' "
+django.template.exceptions.TemplateSyntaxError: Could not parse the remainder: ':index' from 'home:index'
+ERROR 2021-08-14 00:27:01,731 basehttp 161 "GET /detail HTTP/1.1" 500 165347
+INFO 2021-08-14 00:28:26,601 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-08-14 00:28:28,830 basehttp 161 "GET /detail HTTP/1.1" 200 8723
+INFO 2021-08-14 00:28:28,855 basehttp 161 "GET /static/prism/prism.css HTTP/1.1" 200 4033
+INFO 2021-08-14 00:28:28,857 basehttp 161 "GET /static/ckeditor/ckeditor/plugins/prism/lib/prism/prism_patched.min.js HTTP/1.1" 200 99487
+INFO 2021-08-14 00:28:28,862 basehttp 161 "GET /static/js/detail.js HTTP/1.1" 200 1294
+INFO 2021-08-14 00:28:29,043 basehttp 161 "GET /static/ckeditor/ckeditor/lang/en.js?t=I3I8 HTTP/1.1" 200 19035
+INFO 2021-08-14 00:28:29,062 basehttp 161 "GET /static/ckeditor/ckeditor/plugins/codesnippet/plugin.js?t=I3I8 HTTP/1.1" 200 3824
+INFO 2021-08-14 00:28:29,062 basehttp 161 "GET /static/ckeditor/ckeditor/plugins/prism/plugin.js?t=I3I8 HTTP/1.1" 200 4333
+INFO 2021-08-14 00:28:29,075 basehttp 161 "GET /static/ckeditor/ckeditor/plugins/codesnippet/lang/en.js?t=I3I8 HTTP/1.1" 200 369
+INFO 2021-08-14 00:28:29,117 basehttp 161 "GET /static/ckeditor/ckeditor/plugins/codesnippet/icons/codesnippet.png?t=I3I8 HTTP/1.1" 200 597
+INFO 2021-08-14 00:28:29,145 basehttp 161 "GET /static/ckeditor/ckeditor/plugins/prism/lib/prism/prism_patched.min.css HTTP/1.1" 200 2063
+WARNING 2021-08-14 00:28:38,093 log 224 Forbidden (CSRF token missing or incorrect.): /detail
+WARNING 2021-08-14 00:28:38,094 basehttp 161 "POST /detail HTTP/1.1" 403 2514
+INFO 2021-08-14 00:30:55,072 autoreload 251 C:\Users\suze\Desktop\kira\home\admin.py changed, reloading.
+INFO 2021-08-14 00:30:55,787 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-08-14 00:42:09,233 autoreload 637 Watching for file changes with StatReloader
+ERROR 2021-08-14 00:42:23,423 log 224 Internal Server Error: /detail
+Traceback (most recent call last):
+  File "C:\Users\suze\Desktop\kira\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\suze\Desktop\kira\venv\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\suze\Desktop\kira\venv\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\suze\Desktop\kira\venv\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "C:\Users\suze\Desktop\kira\home\views.py", line 77, in get
+    'category': article.category,
+UnboundLocalError: local variable 'article' referenced before assignment
+ERROR 2021-08-14 00:42:23,425 basehttp 161 "GET /detail HTTP/1.1" 500 80317
+INFO 2021-08-14 00:42:49,637 basehttp 161 "GET / HTTP/1.1" 200 19109
+INFO 2021-08-14 00:44:33,232 basehttp 161 "GET / HTTP/1.1" 200 19109
+INFO 2021-08-14 00:44:38,799 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-08-14 00:44:40,107 basehttp 161 "GET / HTTP/1.1" 200 19109
+INFO 2021-08-14 00:45:03,517 basehttp 161 "GET / HTTP/1.1" 200 19109
+INFO 2021-08-14 00:45:04,063 autoreload 251 C:\Users\suze\Desktop\kira\home\urls.py changed, reloading.
+INFO 2021-08-14 00:45:04,698 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-08-14 00:45:06,613 basehttp 161 "GET / HTTP/1.1" 200 19139
+INFO 2021-08-14 00:45:22,239 basehttp 161 "GET / HTTP/1.1" 200 19139
+INFO 2021-08-14 00:45:22,664 autoreload 251 C:\Users\suze\Desktop\kira\home\urls.py changed, reloading.
+INFO 2021-08-14 00:45:23,313 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-08-14 00:45:46,098 basehttp 161 "GET / HTTP/1.1" 200 19119
+INFO 2021-08-14 00:47:41,232 autoreload 251 C:\Users\suze\Desktop\kira\kira\settings.py changed, reloading.
+INFO 2021-08-14 00:47:41,976 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-08-14 00:47:42,229 basehttp 161 "GET / HTTP/1.1" 200 19119
+INFO 2021-08-14 00:47:46,588 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-08-14 00:47:50,517 basehttp 161 "GET / HTTP/1.1" 200 19119
+INFO 2021-08-14 00:47:55,480 basehttp 161 "GET /?cat_id=2 HTTP/1.1" 200 4844
+INFO 2021-08-14 00:47:56,515 basehttp 161 "GET /?cat_id=1 HTTP/1.1" 200 19119
+INFO 2021-08-14 00:52:38,167 basehttp 161 "GET /detail/?id=1 HTTP/1.1" 200 9509
+INFO 2021-08-14 00:52:38,190 basehttp 161 "GET /static/ckeditor/ckeditor/plugins/prism/lib/prism/prism_patched.min.js HTTP/1.1" 200 99487
+INFO 2021-08-14 00:52:38,195 basehttp 161 "GET /static/js/detail.js HTTP/1.1" 200 1294
+INFO 2021-08-14 00:52:38,504 basehttp 161 "GET /static/ckeditor/ckeditor/plugins/codesnippet/icons/codesnippet.png?t=I3I8 HTTP/1.1" 200 597
+INFO 2021-08-14 00:53:11,760 basehttp 161 "GET /?cat_id=1 HTTP/1.1" 200 19118
+INFO 2021-08-14 00:55:43,781 basehttp 161 "GET / HTTP/1.1" 200 19118
+INFO 2021-08-14 00:55:45,304 basehttp 161 "GET / HTTP/1.1" 200 19118
+INFO 2021-08-14 00:55:46,058 basehttp 161 "GET / HTTP/1.1" 200 19118
+INFO 2021-08-14 00:57:08,330 basehttp 161 "GET / HTTP/1.1" 200 19118
+INFO 2021-08-14 00:57:10,632 basehttp 161 "GET / HTTP/1.1" 200 19118
+INFO 2021-08-14 00:57:14,565 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-08-14 00:57:17,017 basehttp 161 "GET / HTTP/1.1" 200 19118
+INFO 2021-08-14 00:58:28,734 basehttp 161 "GET /login/ HTTP/1.1" 200 3180
+INFO 2021-08-14 00:58:37,759 basehttp 161 "POST /login/ HTTP/1.1" 302 0
+INFO 2021-08-14 00:58:37,810 basehttp 161 "GET / HTTP/1.1" 200 19118
+INFO 2021-08-14 00:58:39,581 basehttp 161 "GET /write/ HTTP/1.1" 200 5902
+INFO 2021-08-14 00:58:56,720 basehttp 161 "POST /write/ HTTP/1.1" 302 0
+INFO 2021-08-14 00:58:56,759 basehttp 161 "GET / HTTP/1.1" 200 19118
+INFO 2021-08-14 00:58:58,615 basehttp 161 "GET /?cat_id=2 HTTP/1.1" 200 6265
+INFO 2021-08-14 00:58:58,670 basehttp 161 "GET /media/article/2021/08/14/5FEB83AB8486A08D1A957E589EC35F67.jpg HTTP/1.1" 200 910129
+INFO 2021-08-14 01:00:23,788 basehttp 161 "GET /write/ HTTP/1.1" 200 5902
+INFO 2021-08-14 01:00:44,995 basehttp 161 "POST /write/ HTTP/1.1" 302 0
+INFO 2021-08-14 01:00:45,049 basehttp 161 "GET / HTTP/1.1" 200 19118
+INFO 2021-08-14 01:00:46,528 basehttp 161 "GET /?cat_id=4 HTTP/1.1" 200 6252
+INFO 2021-08-14 01:00:46,580 basehttp 161 "GET /media/article/2021/08/14/3c4716995350.png HTTP/1.1" 200 703693
+INFO 2021-08-14 01:02:54,975 autoreload 251 C:\Users\suze\Desktop\kira\users\views.py changed, reloading.
+INFO 2021-08-14 01:02:55,661 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-08-14 01:03:43,749 basehttp 161 "GET / HTTP/1.1" 200 19238
+INFO 2021-08-14 01:03:45,450 basehttp 161 "GET /detail/?id=1 HTTP/1.1" 200 9521
+INFO 2021-08-14 01:03:51,222 basehttp 161 "GET /detail/?id=1 HTTP/1.1" 200 9521
+INFO 2021-08-14 01:04:00,045 basehttp 161 "GET /write/ HTTP/1.1" 200 5902
+INFO 2021-08-14 01:04:20,012 basehttp 161 "GET /write/ HTTP/1.1" 200 5902
+INFO 2021-08-14 01:04:31,190 basehttp 161 "GET / HTTP/1.1" 200 19238
+INFO 2021-08-14 01:05:02,190 basehttp 161 "GET /detail/?id=1 HTTP/1.1" 200 9521
+INFO 2021-08-14 01:05:04,458 basehttp 161 "GET /detail/?id=6 HTTP/1.1" 200 9521
+INFO 2021-08-14 01:05:07,047 basehttp 161 "GET /detail/?id=7 HTTP/1.1" 200 9521
+INFO 2021-08-14 01:05:10,152 basehttp 161 "GET /?cat_id=4 HTTP/1.1" 200 6258
+INFO 2021-08-14 01:05:10,198 basehttp 161 "GET /media/article/2021/08/14/3c4716995350.png HTTP/1.1" 304 0
+INFO 2021-08-14 01:05:12,166 basehttp 161 "GET /?cat_id=3 HTTP/1.1" 200 4843
+INFO 2021-08-14 01:05:12,778 basehttp 161 "GET /?cat_id=2 HTTP/1.1" 200 6268
+INFO 2021-08-14 01:05:12,820 basehttp 161 "GET /media/article/2021/08/14/5FEB83AB8486A08D1A957E589EC35F67.jpg HTTP/1.1" 304 0
+INFO 2021-08-14 01:05:13,844 basehttp 161 "GET /?cat_id=1 HTTP/1.1" 200 19238
+INFO 2021-08-14 01:05:16,717 basehttp 161 "GET / HTTP/1.1" 200 19238
+INFO 2021-08-14 01:06:10,384 autoreload 251 C:\Users\suze\Desktop\kira\home\views.py changed, reloading.
+INFO 2021-08-14 01:06:11,036 autoreload 637 Watching for file changes with StatReloader
+WARNING 2021-08-14 01:06:11,397 log 224 Bad Request: /
+WARNING 2021-08-14 01:06:11,397 basehttp 161 "GET / HTTP/1.1" 400 27
+INFO 2021-08-14 01:09:04,870 autoreload 251 C:\Users\suze\Desktop\kira\home\views.py changed, reloading.
+INFO 2021-08-14 01:09:05,557 autoreload 637 Watching for file changes with StatReloader
+ERROR 2021-08-14 01:09:08,569 log 224 Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\suze\Desktop\kira\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\suze\Desktop\kira\venv\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\suze\Desktop\kira\venv\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\suze\Desktop\kira\venv\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "C:\Users\suze\Desktop\kira\home\views.py", line 29, in get
+    cat_id = Article.category.id
+AttributeError: 'ForwardManyToOneDescriptor' object has no attribute 'id'
+ERROR 2021-08-14 01:09:08,571 basehttp 161 "GET / HTTP/1.1" 500 80883
+INFO 2021-08-14 01:09:35,928 autoreload 251 C:\Users\suze\Desktop\kira\home\views.py changed, reloading.
+INFO 2021-08-14 01:09:36,587 autoreload 637 Watching for file changes with StatReloader
+ERROR 2021-08-14 01:09:36,921 log 224 Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\suze\Desktop\kira\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\suze\Desktop\kira\venv\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\suze\Desktop\kira\venv\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\suze\Desktop\kira\venv\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "C:\Users\suze\Desktop\kira\home\views.py", line 30, in get
+    category = ArticleCategory.objects.get(id=cat_id)
+  File "C:\Users\suze\Desktop\kira\venv\lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Users\suze\Desktop\kira\venv\lib\site-packages\django\db\models\query.py", line 431, in get
+    num = len(clone)
+  File "C:\Users\suze\Desktop\kira\venv\lib\site-packages\django\db\models\query.py", line 262, in __len__
+    self._fetch_all()
+  File "C:\Users\suze\Desktop\kira\venv\lib\site-packages\django\db\models\query.py", line 1324, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+  File "C:\Users\suze\Desktop\kira\venv\lib\site-packages\django\db\models\query.py", line 51, in __iter__
+    results = compiler.execute_sql(chunked_fetch=self.chunked_fetch, chunk_size=self.chunk_size)
+  File "C:\Users\suze\Desktop\kira\venv\lib\site-packages\django\db\models\sql\compiler.py", line 1162, in execute_sql
+    sql, params = self.as_sql()
+  File "C:\Users\suze\Desktop\kira\venv\lib\site-packages\django\db\models\sql\compiler.py", line 528, in as_sql
+    where, w_params = self.compile(self.where) if self.where is not None else ("", [])
+  File "C:\Users\suze\Desktop\kira\venv\lib\site-packages\django\db\models\sql\compiler.py", line 445, in compile
+    sql, params = node.as_sql(self, self.connection)
+  File "C:\Users\suze\Desktop\kira\venv\lib\site-packages\django\db\models\sql\where.py", line 81, in as_sql
+    sql, params = compiler.compile(child)
+  File "C:\Users\suze\Desktop\kira\venv\lib\site-packages\django\db\models\sql\compiler.py", line 445, in compile
+    sql, params = node.as_sql(self, self.connection)
+  File "C:\Users\suze\Desktop\kira\venv\lib\site-packages\django\db\models\lookups.py", line 315, in as_sql
+    return super().as_sql(compiler, connection)
+  File "C:\Users\suze\Desktop\kira\venv\lib\site-packages\django\db\models\lookups.py", line 194, in as_sql
+    rhs_sql, rhs_params = self.process_rhs(compiler, connection)
+  File "C:\Users\suze\Desktop\kira\venv\lib\site-packages\django\db\models\lookups.py", line 297, in process_rhs
+    raise ValueError(
+ValueError: The QuerySet value for an exact lookup must be limited to one result using slicing.
+ERROR 2021-08-14 01:09:36,928 basehttp 161 "GET / HTTP/1.1" 500 141220
+ERROR 2021-08-14 01:09:47,868 log 224 Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\suze\Desktop\kira\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\suze\Desktop\kira\venv\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\suze\Desktop\kira\venv\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\suze\Desktop\kira\venv\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "C:\Users\suze\Desktop\kira\home\views.py", line 30, in get
+    category = ArticleCategory.objects.get(id=cat_id)
+  File "C:\Users\suze\Desktop\kira\venv\lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Users\suze\Desktop\kira\venv\lib\site-packages\django\db\models\query.py", line 431, in get
+    num = len(clone)
+  File "C:\Users\suze\Desktop\kira\venv\lib\site-packages\django\db\models\query.py", line 262, in __len__
+    self._fetch_all()
+  File "C:\Users\suze\Desktop\kira\venv\lib\site-packages\django\db\models\query.py", line 1324, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+  File "C:\Users\suze\Desktop\kira\venv\lib\site-packages\django\db\models\query.py", line 51, in __iter__
+    results = compiler.execute_sql(chunked_fetch=self.chunked_fetch, chunk_size=self.chunk_size)
+  File "C:\Users\suze\Desktop\kira\venv\lib\site-packages\django\db\models\sql\compiler.py", line 1162, in execute_sql
+    sql, params = self.as_sql()
+  File "C:\Users\suze\Desktop\kira\venv\lib\site-packages\django\db\models\sql\compiler.py", line 528, in as_sql
+    where, w_params = self.compile(self.where) if self.where is not None else ("", [])
+  File "C:\Users\suze\Desktop\kira\venv\lib\site-packages\django\db\models\sql\compiler.py", line 445, in compile
+    sql, params = node.as_sql(self, self.connection)
+  File "C:\Users\suze\Desktop\kira\venv\lib\site-packages\django\db\models\sql\where.py", line 81, in as_sql
+    sql, params = compiler.compile(child)
+  File "C:\Users\suze\Desktop\kira\venv\lib\site-packages\django\db\models\sql\compiler.py", line 445, in compile
+    sql, params = node.as_sql(self, self.connection)
+  File "C:\Users\suze\Desktop\kira\venv\lib\site-packages\django\db\models\lookups.py", line 315, in as_sql
+    return super().as_sql(compiler, connection)
+  File "C:\Users\suze\Desktop\kira\venv\lib\site-packages\django\db\models\lookups.py", line 194, in as_sql
+    rhs_sql, rhs_params = self.process_rhs(compiler, connection)
+  File "C:\Users\suze\Desktop\kira\venv\lib\site-packages\django\db\models\lookups.py", line 297, in process_rhs
+    raise ValueError(
+ValueError: The QuerySet value for an exact lookup must be limited to one result using slicing.
+ERROR 2021-08-14 01:09:47,872 basehttp 161 "GET / HTTP/1.1" 500 141224
+INFO 2021-08-14 01:09:48,268 autoreload 251 C:\Users\suze\Desktop\kira\home\views.py changed, reloading.
+INFO 2021-08-14 01:09:48,927 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-08-14 01:09:49,283 basehttp 161 "GET / HTTP/1.1" 200 19238
+INFO 2021-08-14 01:09:50,951 basehttp 161 "GET /detail/?id=1 HTTP/1.1" 200 9521
+INFO 2021-08-14 01:10:00,551 basehttp 161 "GET /detail/?id=1 HTTP/1.1" 200 9521
+INFO 2021-08-14 01:10:36,865 autoreload 251 C:\Users\suze\Desktop\kira\home\views.py changed, reloading.
+INFO 2021-08-14 01:10:37,575 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-08-14 01:10:38,063 basehttp 161 "GET / HTTP/1.1" 200 19238
+INFO 2021-08-14 01:10:40,789 basehttp 161 "GET /logout/ HTTP/1.1" 302 0
+INFO 2021-08-14 01:10:40,843 basehttp 161 "GET / HTTP/1.1" 200 19238
+INFO 2021-08-14 01:10:41,854 basehttp 161 "GET /detail/?id=1 HTTP/1.1" 200 9521

@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <!-- 网站主语言 -->
+{% load static %}
 <html lang="zh-cn">
 
 <head>
@@ -8,7 +9,7 @@
     <!-- 网站标题 -->
     <title>404</title>
     <!-- 引入bootstrap的css文件 -->
-    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="{% static 'bootstrap/css/bootstrap.min.css' %}">
 
 </head>
 
@@ -20,7 +21,7 @@
     <div class="container">
         <!-- 导航栏商标 -->
         <div>
-            <a class="navbar-brand" href="index.html">个人博客</a>
+            <a class="navbar-brand" href="{% url 'home:index' %}">个人博客</a>
         </div>
     </div>
     <!--登录/个人中心-->

@@ -196,3 +196,5 @@ MEDIA_ROOT = os.path.join(BASE_DIR, 'media/')
 
 # 设置图片访问的统一路由
 MEDIA_URL = '/media/'
+
+DEFAULT_AUTO_FIELD = 'django.db.models.AutoField'
