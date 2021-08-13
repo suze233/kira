@@ -1,6 +1,8 @@
 from django.db import models
 from django.utils import timezone
 from users.models import User
+
+
 # Create your models here.
 
 
@@ -56,3 +58,22 @@ class Article(models.Model):
 
     def __str__(self):
         return self.title
+
+
+class Comment(models.Model):
+    # 评论内容
+    content = models.TextField()
+    # 评论的文章
+    article = models.ForeignKey(Article, on_delete=models.SET_NULL, null=True)
+    # 评论的用户名
+    user = models.ForeignKey('users.User', on_delete=models.SET_NULL, null=True)
+    # 评论时间
+    created = models.DateTimeField(auto_now_add=True)
+
+    def __str__(self):
+        return self.article.title
+
+    class Meta:
+        db_table = 'tb_comment'
+        verbose_name = '评论管理'
+        verbose_name_plural = verbose_name
