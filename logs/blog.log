@@ -2768,3 +2768,599 @@ INFO 2021-08-14 02:19:15,987 basehttp 161 "POST /detail/?id=18&page_num=1 HTTP/1
 INFO 2021-08-14 02:19:16,038 basehttp 161 "GET /detail/?id=18 HTTP/1.1" 200 10786
 INFO 2021-08-14 02:19:20,498 basehttp 161 "GET /detail/?id=18&page_num=2 HTTP/1.1" 200 8401
 INFO 2021-08-14 02:19:22,447 basehttp 161 "GET /detail/?id=18&page_num=1 HTTP/1.1" 200 10786
+INFO 2021-08-17 00:43:57,118 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-08-17 00:43:59,042 basehttp 161 "GET / HTTP/1.1" 200 19238
+INFO 2021-08-17 00:43:59,096 basehttp 161 "GET /static/md_css/monokai.css HTTP/1.1" 200 4118
+INFO 2021-08-17 00:43:59,196 basehttp 161 "GET /static/js/index.js HTTP/1.1" 200 530
+INFO 2021-08-17 00:43:59,280 basehttp 161 "GET /media/article/2021/08/12/681616d64b03.jpg HTTP/1.1" 200 1814738
+WARNING 2021-08-17 00:44:23,976 log 224 Not Found: /favicon.ico
+WARNING 2021-08-17 00:44:23,976 basehttp 161 "GET /favicon.ico HTTP/1.1" 404 3924
+INFO 2021-08-17 00:45:39,760 basehttp 161 "GET /admin HTTP/1.1" 301 0
+INFO 2021-08-17 00:45:39,772 basehttp 161 "GET /admin/ HTTP/1.1" 302 0
+INFO 2021-08-17 00:45:39,855 basehttp 161 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 2212
+INFO 2021-08-17 00:45:39,873 basehttp 161 "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 200 2271
+INFO 2021-08-17 00:45:39,875 basehttp 161 "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 200 1360
+INFO 2021-08-17 00:45:39,875 basehttp 161 "GET /static/admin/css/base.css HTTP/1.1" 200 19513
+INFO 2021-08-17 00:45:39,876 basehttp 161 "GET /static/admin/css/login.css HTTP/1.1" 200 939
+INFO 2021-08-17 00:45:39,877 basehttp 161 "GET /static/admin/css/responsive.css HTTP/1.1" 200 18545
+INFO 2021-08-17 00:45:40,749 basehttp 161 "GET /admin/ HTTP/1.1" 302 0
+INFO 2021-08-17 00:45:40,764 basehttp 161 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 2212
+INFO 2021-08-17 00:45:40,831 basehttp 161 "GET /static/admin/css/fonts.css HTTP/1.1" 200 423
+INFO 2021-08-17 00:45:40,889 basehttp 161 "GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 200 85876
+INFO 2021-08-17 00:45:40,890 basehttp 161 "GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 200 85692
+INFO 2021-08-17 00:45:53,898 basehttp 161 "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+INFO 2021-08-17 00:45:53,956 basehttp 161 "GET /admin/ HTTP/1.1" 200 5910
+INFO 2021-08-17 00:45:53,982 basehttp 161 "GET /static/admin/css/dashboard.css HTTP/1.1" 200 380
+INFO 2021-08-17 00:45:54,030 basehttp 161 "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 331
+INFO 2021-08-17 00:45:54,030 basehttp 161 "GET /static/admin/img/icon-deletelink.svg HTTP/1.1" 200 392
+INFO 2021-08-17 00:45:54,031 basehttp 161 "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 200 380
+INFO 2021-08-17 00:45:54,063 basehttp 161 "GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 200 86184
+INFO 2021-08-17 00:46:48,783 autoreload 251 C:\Users\suze\Desktop\kira\users\models.py changed, reloading.
+INFO 2021-08-17 00:46:49,508 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-08-17 00:47:39,353 autoreload 251 C:\Users\suze\Desktop\kira\users\models.py changed, reloading.
+INFO 2021-08-17 00:47:40,065 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-08-17 00:47:40,307 basehttp 161 "GET /login/ HTTP/1.1" 200 3180
+INFO 2021-08-17 00:47:40,349 basehttp 161 "GET /static/js/login.js HTTP/1.1" 200 677
+INFO 2021-08-17 00:47:44,243 basehttp 161 "GET / HTTP/1.1" 200 19238
+INFO 2021-08-17 00:47:47,093 basehttp 161 "GET /admin/ HTTP/1.1" 200 5903
+INFO 2021-08-17 00:47:50,169 basehttp 161 "GET /admin/logout/ HTTP/1.1" 200 1518
+INFO 2021-08-17 00:47:51,722 basehttp 161 "GET /admin/ HTTP/1.1" 302 0
+INFO 2021-08-17 00:47:51,741 basehttp 161 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 2216
+INFO 2021-08-17 00:48:03,135 basehttp 161 "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+INFO 2021-08-17 00:48:03,180 basehttp 161 "GET /admin/ HTTP/1.1" 200 5903
+INFO 2021-08-17 00:48:44,658 autoreload 251 C:\Users\suze\Desktop\kira\users\models.py changed, reloading.
+INFO 2021-08-17 00:48:47,277 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-08-17 00:49:08,553 basehttp 161 "GET / HTTP/1.1" 200 19238
+INFO 2021-08-17 00:49:09,834 basehttp 161 "GET /login/ HTTP/1.1" 200 3180
+INFO 2021-08-17 00:49:12,036 basehttp 161 "GET /register/ HTTP/1.1" 200 5303
+INFO 2021-08-17 00:49:12,064 basehttp 161 "GET /static/js/register.js HTTP/1.1" 200 6407
+INFO 2021-08-17 00:49:12,128 basehttp 161 "GET /imagecode/?uuid=ad4a1828-9f5a-4ba8-ac78-4a8a36c783c3 HTTP/1.1" 200 3192
+INFO 2021-08-17 00:51:45,193 basehttp 161 "GET /login/ HTTP/1.1" 200 3180
+INFO 2021-08-17 00:51:45,603 autoreload 251 C:\Users\suze\Desktop\kira\users\views.py changed, reloading.
+INFO 2021-08-17 00:51:46,384 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-08-17 00:55:11,431 basehttp 161 "GET /register/ HTTP/1.1" 200 5303
+INFO 2021-08-17 00:55:11,530 basehttp 161 "GET /imagecode/?uuid=ec862267-4263-465e-a346-39c17a19e479 HTTP/1.1" 200 3136
+INFO 2021-08-17 00:55:12,287 autoreload 251 C:\Users\suze\Desktop\kira\users\views.py changed, reloading.
+INFO 2021-08-17 00:55:13,005 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-08-17 01:01:45,535 autoreload 251 C:\Users\suze\Desktop\kira\users\views.py changed, reloading.
+INFO 2021-08-17 01:01:46,465 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-08-17 01:06:53,179 basehttp 161 "GET /register/ HTTP/1.1" 200 5373
+INFO 2021-08-17 01:06:53,293 basehttp 161 "GET /imagecode/?uuid=0cc6e26b-3baa-4d23-bdab-5387b86dc1e5 HTTP/1.1" 200 54
+INFO 2021-08-17 01:07:04,544 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-08-17 01:07:06,381 basehttp 161 "GET /register/ HTTP/1.1" 200 5373
+INFO 2021-08-17 01:07:06,456 basehttp 161 "GET /imagecode/?uuid=6297c2f3-a0ca-4ca0-8dd1-8a4db72a95be HTTP/1.1" 200 54
+INFO 2021-08-17 01:07:07,300 basehttp 161 "GET /register/ HTTP/1.1" 200 5373
+INFO 2021-08-17 01:07:07,388 basehttp 161 "GET /imagecode/?uuid=7f8520a2-d5d6-4e87-94b9-9415f2faf1ee HTTP/1.1" 200 54
+INFO 2021-08-17 01:07:18,406 basehttp 161 "GET /register/ HTTP/1.1" 200 5373
+INFO 2021-08-17 01:07:18,502 basehttp 161 "GET /imagecode/?uuid=6eec9826-e1db-4274-981e-edb571bc0408 HTTP/1.1" 200 54
+INFO 2021-08-17 01:07:21,050 basehttp 161 "GET /imagecode/?uuid=0e31e81c-1d02-4d06-9410-b1d32ac63612 HTTP/1.1" 200 54
+INFO 2021-08-17 01:07:21,629 basehttp 161 "GET /imagecode/?uuid=04728062-1b7f-4c99-90f1-4c9217697d0d HTTP/1.1" 200 54
+INFO 2021-08-17 01:07:22,275 basehttp 161 "GET /imagecode/?uuid=61eaeb93-32ff-4bc9-9259-772e51202b82 HTTP/1.1" 200 54
+INFO 2021-08-17 01:07:23,041 basehttp 161 "GET /imagecode/?uuid=c6018fb7-416d-455b-8d44-b809d21daf00 HTTP/1.1" 200 54
+INFO 2021-08-17 01:13:54,496 basehttp 161 "GET /register/ HTTP/1.1" 200 5380
+INFO 2021-08-17 01:13:54,606 basehttp 161 "GET /imagecode/?uuid=ca2ebdaf-0fea-4b5d-9a49-04d1d3d96297 HTTP/1.1" 200 54
+WARNING 2021-08-17 01:13:56,336 basehttp 161 "GET /static/js/axios.min.map HTTP/1.1" 404 1807
+INFO 2021-08-17 01:13:56,346 basehttp 161 "GET /static/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 200 562427
+INFO 2021-08-17 01:13:59,305 basehttp 161 "GET /register/ HTTP/1.1" 200 5380
+INFO 2021-08-17 01:13:59,356 basehttp 161 "GET /static/js/host.js HTTP/1.1" 200 35
+INFO 2021-08-17 01:13:59,357 basehttp 161 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12941
+INFO 2021-08-17 01:13:59,358 basehttp 161 "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 140942
+INFO 2021-08-17 01:13:59,360 basehttp 161 "GET /static/js/common.js HTTP/1.1" 200 891
+INFO 2021-08-17 01:13:59,360 basehttp 161 "GET /static/js/register.js HTTP/1.1" 200 6486
+INFO 2021-08-17 01:13:59,366 basehttp 161 "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 289307
+WARNING 2021-08-17 01:13:59,417 basehttp 161 "GET /static/js/axios.min.map HTTP/1.1" 404 1807
+INFO 2021-08-17 01:13:59,462 basehttp 161 "GET /static/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 200 562427
+INFO 2021-08-17 01:13:59,488 basehttp 161 "GET /imagecode/?uuid=ef8835a0-b50e-495b-a3e4-c57fac1c56d2 HTTP/1.1" 200 54
+WARNING 2021-08-17 01:13:59,529 log 224 Not Found: /favicon.ico
+WARNING 2021-08-17 01:13:59,530 basehttp 161 "GET /favicon.ico HTTP/1.1" 404 3753
+INFO 2021-08-17 01:14:05,614 basehttp 161 "GET /imagecode/?uuid=ef8835a0-b50e-495b-a3e4-c57fac1c56d2 HTTP/1.1" 200 54
+INFO 2021-08-17 01:14:57,909 basehttp 161 "GET /register/ HTTP/1.1" 200 5380
+INFO 2021-08-17 01:14:57,949 autoreload 251 C:\Users\suze\Desktop\kira\users\views.py changed, reloading.
+INFO 2021-08-17 01:14:58,697 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-08-17 01:14:59,084 basehttp 161 "GET /static/js/register.js HTTP/1.1" 304 0
+WARNING 2021-08-17 01:14:59,092 basehttp 161 "GET /static/js/axios.min.map HTTP/1.1" 404 1807
+INFO 2021-08-17 01:14:59,100 basehttp 161 "GET /static/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 200 562427
+INFO 2021-08-17 01:14:59,161 basehttp 161 "GET /imagecode/?uuid=18c408f5-eaba-4c89-b500-a7268509a3d8 HTTP/1.1" 200 54
+INFO 2021-08-17 01:15:00,746 basehttp 161 "GET /imagecode/?uuid=f544e106-45d4-456f-bd86-a4a6fc41ae83 HTTP/1.1" 200 54
+INFO 2021-08-17 01:15:26,128 basehttp 161 "GET /imagecode/?uuid=f544e106-45d4-456f-bd86-a4a6fc41ae83 HTTP/1.1" 200 54
+INFO 2021-08-17 01:16:42,939 basehttp 161 "GET /imagecode/?uuid=3bb685a0-f089-45fe-ad85-3c6c4eaf9b2f HTTP/1.1" 200 54
+INFO 2021-08-17 01:17:43,842 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-08-17 01:17:44,258 basehttp 161 "GET /register/ HTTP/1.1" 200 5380
+INFO 2021-08-17 01:17:44,328 basehttp 161 "GET /static/js/register.js HTTP/1.1" 304 0
+WARNING 2021-08-17 01:17:44,389 basehttp 161 "GET /static/js/axios.min.map HTTP/1.1" 404 1807
+INFO 2021-08-17 01:17:44,527 basehttp 161 "GET /imagecode/?uuid=dc243138-acc8-4b66-a879-0127c7cc90e0 HTTP/1.1" 200 54
+INFO 2021-08-17 01:17:44,536 basehttp 161 "GET /static/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 200 562427
+INFO 2021-08-17 01:17:45,470 basehttp 161 "GET /imagecode/?uuid=987d6fda-86e3-4234-862d-c2f7cc395086 HTTP/1.1" 200 54
+INFO 2021-08-17 01:17:47,685 basehttp 161 "GET /imagecode/?uuid=2162e923-67fb-4896-8abd-c20139104c74 HTTP/1.1" 200 54
+INFO 2021-08-17 01:17:56,549 basehttp 161 "GET /imagecode/?uuid=26136bb5-ecd2-4096-86e8-2a5b56ccf1a2 HTTP/1.1" 200 54
+ERROR 2021-08-17 01:18:00,976 views 69 (1364, "Field 'mobile' doesn't have a default value")
+WARNING 2021-08-17 01:18:00,976 log 224 Bad Request: /register/
+WARNING 2021-08-17 01:18:00,978 basehttp 161 "POST /register/ HTTP/1.1" 400 12
+WARNING 2021-08-17 01:18:04,084 basehttp 161 "GET /static/js/axios.min.map HTTP/1.1" 404 1807
+INFO 2021-08-17 01:18:04,122 basehttp 161 "GET /static/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 200 562427
+INFO 2021-08-17 01:18:04,187 basehttp 161 "GET /imagecode/?uuid=8ed996a6-2305-4d12-82e2-e666572ab800 HTTP/1.1" 200 54
+INFO 2021-08-17 01:18:11,770 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-08-17 01:18:16,854 basehttp 161 "GET /register/ HTTP/1.1" 200 5380
+INFO 2021-08-17 01:18:16,892 basehttp 161 "GET /static/js/register.js HTTP/1.1" 304 0
+WARNING 2021-08-17 01:18:16,953 basehttp 161 "GET /static/js/axios.min.map HTTP/1.1" 404 1807
+INFO 2021-08-17 01:18:16,987 basehttp 161 "GET /static/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 200 562427
+INFO 2021-08-17 01:18:27,926 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-08-17 01:18:28,332 basehttp 161 "GET /register/ HTTP/1.1" 200 5380
+WARNING 2021-08-17 01:18:28,434 basehttp 161 "GET /static/js/axios.min.map HTTP/1.1" 404 1807
+INFO 2021-08-17 01:18:28,468 basehttp 161 "GET /static/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 200 562427
+INFO 2021-08-17 01:18:33,361 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-08-17 01:18:33,842 basehttp 161 "GET /register/ HTTP/1.1" 200 5380
+WARNING 2021-08-17 01:18:33,919 basehttp 161 "GET /static/js/axios.min.map HTTP/1.1" 404 1807
+INFO 2021-08-17 01:18:33,946 basehttp 161 "GET /static/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 200 562427
+INFO 2021-08-17 01:18:43,601 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-08-17 01:18:44,229 basehttp 161 "GET / HTTP/1.1" 200 19238
+WARNING 2021-08-17 01:18:44,379 basehttp 161 "GET /static/js/axios.min.map HTTP/1.1" 404 1807
+INFO 2021-08-17 01:18:44,420 basehttp 161 "GET /static/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 200 562427
+INFO 2021-08-17 01:18:44,774 basehttp 161 "GET /media/article/2021/08/12/681616d64b03.jpg HTTP/1.1" 200 1814738
+INFO 2021-08-17 01:18:49,397 basehttp 161 "GET /login/ HTTP/1.1" 200 3180
+WARNING 2021-08-17 01:18:49,493 basehttp 161 "GET /static/js/axios.min.map HTTP/1.1" 404 1807
+INFO 2021-08-17 01:18:49,522 basehttp 161 "GET /static/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 200 562427
+INFO 2021-08-17 01:18:50,468 basehttp 161 "GET /register/ HTTP/1.1" 200 5380
+INFO 2021-08-17 01:18:50,508 basehttp 161 "GET /static/js/register.js HTTP/1.1" 304 0
+WARNING 2021-08-17 01:18:50,564 basehttp 161 "GET /static/js/axios.min.map HTTP/1.1" 404 1807
+INFO 2021-08-17 01:18:50,636 basehttp 161 "GET /static/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 200 562427
+INFO 2021-08-17 01:19:20,589 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-08-17 01:19:21,388 basehttp 161 "GET /register/ HTTP/1.1" 200 5380
+INFO 2021-08-17 01:19:21,422 basehttp 161 "GET /static/js/register.js HTTP/1.1" 304 0
+WARNING 2021-08-17 01:19:21,491 basehttp 161 "GET /static/js/axios.min.map HTTP/1.1" 404 1807
+INFO 2021-08-17 01:19:21,524 basehttp 161 "GET /static/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 200 562427
+INFO 2021-08-17 01:19:57,964 basehttp 161 "GET /imagecode/?uuid=8aea7811-def3-4bd6-a569-aad4a3d1a1a3 HTTP/1.1" 200 54
+ERROR 2021-08-17 01:20:16,276 views 69 (1364, "Field 'mobile' doesn't have a default value")
+WARNING 2021-08-17 01:20:16,277 log 224 Bad Request: /register/
+WARNING 2021-08-17 01:20:16,277 basehttp 161 "POST /register/ HTTP/1.1" 400 12
+WARNING 2021-08-17 01:20:18,403 basehttp 161 "GET /static/js/axios.min.map HTTP/1.1" 404 1807
+INFO 2021-08-17 01:20:18,442 basehttp 161 "GET /static/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 200 562427
+INFO 2021-08-17 01:20:46,683 basehttp 161 "GET /imagecode/?uuid=08bb1b9d-0f90-4f50-8c1c-e14f5f44696d HTTP/1.1" 200 54
+INFO 2021-08-17 01:21:00,301 basehttp 161 "GET /register/ HTTP/1.1" 200 5380
+INFO 2021-08-17 01:21:00,341 basehttp 161 "GET /static/js/register.js HTTP/1.1" 304 0
+WARNING 2021-08-17 01:21:00,476 basehttp 161 "GET /static/js/axios.min.map HTTP/1.1" 404 1807
+INFO 2021-08-17 01:21:00,521 basehttp 161 "GET /imagecode/?uuid=71255b04-0268-48a5-82ca-1623b64569f4 HTTP/1.1" 200 54
+INFO 2021-08-17 01:21:00,526 basehttp 161 "GET /static/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 200 562427
+ERROR 2021-08-17 01:21:11,158 views 69 (1364, "Field 'mobile' doesn't have a default value")
+WARNING 2021-08-17 01:21:11,158 log 224 Bad Request: /register/
+WARNING 2021-08-17 01:21:11,159 basehttp 161 "POST /register/ HTTP/1.1" 400 12
+WARNING 2021-08-17 01:21:12,633 basehttp 161 "GET /static/js/axios.min.map HTTP/1.1" 404 1807
+INFO 2021-08-17 01:21:12,665 basehttp 161 "GET /static/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 200 562427
+INFO 2021-08-17 01:21:12,726 basehttp 161 "GET /imagecode/?uuid=4e1d604e-a5b0-406b-adf0-508eba3e8218 HTTP/1.1" 200 54
+INFO 2021-08-17 01:25:02,379 basehttp 161 "GET /register/ HTTP/1.1" 200 5380
+INFO 2021-08-17 01:25:02,437 basehttp 161 "GET /static/js/register.js HTTP/1.1" 304 0
+WARNING 2021-08-17 01:25:02,520 basehttp 161 "GET /static/js/axios.min.map HTTP/1.1" 404 1807
+INFO 2021-08-17 01:25:02,544 basehttp 161 "GET /static/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 200 562427
+INFO 2021-08-17 01:25:02,595 basehttp 161 "GET /imagecode/?uuid=6b8a589a-b209-4012-8d0d-3b97d5decffa HTTP/1.1" 200 54
+INFO 2021-08-17 01:25:02,659 autoreload 251 C:\Users\suze\Desktop\kira\users\views.py changed, reloading.
+INFO 2021-08-17 01:25:04,187 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-08-17 01:25:14,380 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-08-17 01:25:21,650 basehttp 161 "GET / HTTP/1.1" 200 19238
+WARNING 2021-08-17 01:25:21,803 basehttp 161 "GET /static/js/axios.min.map HTTP/1.1" 404 1807
+INFO 2021-08-17 01:25:21,834 basehttp 161 "GET /static/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 200 562427
+INFO 2021-08-17 01:25:23,310 basehttp 161 "GET /login/ HTTP/1.1" 200 3180
+WARNING 2021-08-17 01:25:23,410 basehttp 161 "GET /static/js/axios.min.map HTTP/1.1" 404 1807
+INFO 2021-08-17 01:25:23,443 basehttp 161 "GET /static/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 200 562427
+INFO 2021-08-17 01:25:25,375 basehttp 161 "GET /register/ HTTP/1.1" 200 5380
+WARNING 2021-08-17 01:25:25,475 basehttp 161 "GET /static/js/axios.min.map HTTP/1.1" 404 1807
+INFO 2021-08-17 01:25:25,507 basehttp 161 "GET /static/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 200 562427
+INFO 2021-08-17 01:25:25,596 basehttp 161 "GET /imagecode/?uuid=fba07800-a055-42b1-9199-505de09d4c2b HTTP/1.1" 200 3365
+INFO 2021-08-17 01:25:48,591 basehttp 161 "GET /register/ HTTP/1.1" 200 5380
+WARNING 2021-08-17 01:25:48,703 basehttp 161 "GET /static/js/axios.min.map HTTP/1.1" 404 1807
+INFO 2021-08-17 01:25:48,728 basehttp 161 "GET /static/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 200 562427
+INFO 2021-08-17 01:25:48,779 basehttp 161 "GET /imagecode/?uuid=13ebc198-63ea-46e0-9b3b-52b52e41e95b HTTP/1.1" 200 2722
+INFO 2021-08-17 01:25:48,949 autoreload 251 C:\Users\suze\Desktop\kira\users\urls.py changed, reloading.
+INFO 2021-08-17 01:25:50,364 autoreload 637 Watching for file changes with StatReloader
+ERROR 2021-08-17 01:26:04,855 views 69 (1364, "Field 'mobile' doesn't have a default value")
+WARNING 2021-08-17 01:26:04,856 log 224 Bad Request: /register/
+WARNING 2021-08-17 01:26:04,857 basehttp 161 "POST /register/ HTTP/1.1" 400 12
+WARNING 2021-08-17 01:26:06,876 basehttp 161 "GET /static/js/axios.min.map HTTP/1.1" 404 1807
+INFO 2021-08-17 01:26:06,897 basehttp 161 "GET /static/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 200 562427
+INFO 2021-08-17 01:26:07,027 basehttp 161 "GET /imagecode/?uuid=a71cb4f1-3f87-41e6-8033-abb0265c1f9f HTTP/1.1" 200 3432
+INFO 2021-08-17 01:26:21,588 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-08-17 01:26:25,141 basehttp 161 "GET / HTTP/1.1" 200 19238
+WARNING 2021-08-17 01:26:25,276 basehttp 161 "GET /static/js/axios.min.map HTTP/1.1" 404 1807
+INFO 2021-08-17 01:26:25,344 basehttp 161 "GET /static/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 200 562427
+INFO 2021-08-17 01:26:26,556 basehttp 161 "GET /login/ HTTP/1.1" 200 3180
+WARNING 2021-08-17 01:26:26,674 basehttp 161 "GET /static/js/axios.min.map HTTP/1.1" 404 1807
+INFO 2021-08-17 01:26:26,705 basehttp 161 "GET /static/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 200 562427
+INFO 2021-08-17 01:26:27,571 basehttp 161 "GET /register/ HTTP/1.1" 200 5380
+INFO 2021-08-17 01:26:27,605 basehttp 161 "GET /static/js/register.js HTTP/1.1" 304 0
+WARNING 2021-08-17 01:26:27,670 basehttp 161 "GET /static/js/axios.min.map HTTP/1.1" 404 1807
+INFO 2021-08-17 01:26:27,701 basehttp 161 "GET /static/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 200 562427
+INFO 2021-08-17 01:26:27,791 basehttp 161 "GET /imagecode/?uuid=d91016b9-55c4-4c40-b53e-cb3a19344896 HTTP/1.1" 200 3406
+ERROR 2021-08-17 01:26:41,922 views 69 (1364, "Field 'mobile' doesn't have a default value")
+WARNING 2021-08-17 01:26:41,923 log 224 Bad Request: /register/
+WARNING 2021-08-17 01:26:41,923 basehttp 161 "POST /register/ HTTP/1.1" 400 12
+WARNING 2021-08-17 01:26:43,866 basehttp 161 "GET /static/js/axios.min.map HTTP/1.1" 404 1807
+INFO 2021-08-17 01:26:43,896 basehttp 161 "GET /static/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 200 562427
+INFO 2021-08-17 01:26:43,955 basehttp 161 "GET /imagecode/?uuid=5177ba76-d036-4921-81be-7fbaf060b52b HTTP/1.1" 200 3083
+INFO 2021-08-17 01:27:28,428 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-08-17 01:27:28,851 basehttp 161 "GET / HTTP/1.1" 200 19238
+WARNING 2021-08-17 01:27:29,002 basehttp 161 "GET /static/js/axios.min.map HTTP/1.1" 404 1807
+INFO 2021-08-17 01:27:29,041 basehttp 161 "GET /static/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 200 562427
+INFO 2021-08-17 01:27:30,016 basehttp 161 "GET /login/ HTTP/1.1" 200 3180
+WARNING 2021-08-17 01:27:30,158 basehttp 161 "GET /static/js/axios.min.map HTTP/1.1" 404 1807
+INFO 2021-08-17 01:27:30,209 basehttp 161 "GET /static/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 200 562427
+INFO 2021-08-17 01:27:30,986 basehttp 161 "GET /register/ HTTP/1.1" 200 5380
+WARNING 2021-08-17 01:27:31,078 basehttp 161 "GET /static/js/axios.min.map HTTP/1.1" 404 1807
+INFO 2021-08-17 01:27:31,109 basehttp 161 "GET /static/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 200 562427
+INFO 2021-08-17 01:27:31,198 basehttp 161 "GET /imagecode/?uuid=946f850a-9b77-4ca5-acd4-03dd9d7582f9 HTTP/1.1" 200 3087
+INFO 2021-08-17 01:29:58,478 autoreload 251 C:\Users\suze\Desktop\kira\users\models.py changed, reloading.
+INFO 2021-08-17 01:29:59,914 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-08-17 01:41:58,065 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-08-17 01:42:07,656 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-08-17 01:42:08,432 basehttp 161 "GET / HTTP/1.1" 200 19238
+WARNING 2021-08-17 01:42:08,592 basehttp 161 "GET /static/js/axios.min.map HTTP/1.1" 404 1807
+INFO 2021-08-17 01:42:08,695 basehttp 161 "GET /static/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 200 562427
+INFO 2021-08-17 01:42:10,658 basehttp 161 "GET /login/ HTTP/1.1" 200 3180
+WARNING 2021-08-17 01:42:10,744 basehttp 161 "GET /static/js/axios.min.map HTTP/1.1" 404 1807
+INFO 2021-08-17 01:42:10,803 basehttp 161 "GET /static/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 200 562427
+INFO 2021-08-17 01:42:11,993 basehttp 161 "GET /register/ HTTP/1.1" 200 5380
+INFO 2021-08-17 01:42:12,029 basehttp 161 "GET /static/js/register.js HTTP/1.1" 304 0
+WARNING 2021-08-17 01:42:12,077 basehttp 161 "GET /static/js/axios.min.map HTTP/1.1" 404 1807
+INFO 2021-08-17 01:42:12,112 basehttp 161 "GET /static/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 200 562427
+INFO 2021-08-17 01:42:12,202 basehttp 161 "GET /imagecode/?uuid=070405c8-9f49-49c6-a328-bebaf2c8a03b HTTP/1.1" 200 3209
+ERROR 2021-08-17 01:43:00,287 views 69 (1364, "Field 'mobile' doesn't have a default value")
+WARNING 2021-08-17 01:43:01,660 log 224 Bad Request: /register/
+WARNING 2021-08-17 01:43:01,663 basehttp 161 "POST /register/ HTTP/1.1" 400 12
+WARNING 2021-08-17 01:43:03,626 basehttp 161 "GET /static/js/axios.min.map HTTP/1.1" 404 1807
+INFO 2021-08-17 01:43:03,664 basehttp 161 "GET /imagecode/?uuid=86045835-7fbe-4a56-852b-8f49ff87f05f HTTP/1.1" 200 3098
+INFO 2021-08-17 01:43:03,671 basehttp 161 "GET /static/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 200 562427
+INFO 2021-08-17 01:43:12,640 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-08-17 01:43:13,187 basehttp 161 "GET /login/ HTTP/1.1" 200 3180
+WARNING 2021-08-17 01:43:13,279 basehttp 161 "GET /static/js/axios.min.map HTTP/1.1" 404 1807
+INFO 2021-08-17 01:43:13,408 basehttp 161 "GET /static/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 200 562427
+INFO 2021-08-17 01:43:14,902 basehttp 161 "GET /register/ HTTP/1.1" 200 5380
+WARNING 2021-08-17 01:43:14,967 basehttp 161 "GET /static/js/axios.min.map HTTP/1.1" 404 1807
+INFO 2021-08-17 01:43:15,018 basehttp 161 "GET /static/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 200 562427
+INFO 2021-08-17 01:43:15,116 basehttp 161 "GET /imagecode/?uuid=88162caa-86dc-49c9-8299-9a3124b5eb4d HTTP/1.1" 200 3338
+INFO 2021-08-17 01:43:21,498 basehttp 161 "GET /imagecode/?uuid=387617e5-7ead-4327-9b83-002d5ca551d6 HTTP/1.1" 200 3453
+ERROR 2021-08-17 01:43:44,495 log 224 Internal Server Error: /register/
+Traceback (most recent call last):
+  File "C:\Users\suze\Desktop\kira\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\suze\Desktop\kira\venv\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\suze\Desktop\kira\venv\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\suze\Desktop\kira\venv\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "C:\Users\suze\Desktop\kira\users\views.py", line 67, in post
+    user = User.objects.create_user( password=password)
+TypeError: create_user() missing 1 required positional argument: 'username'
+ERROR 2021-08-17 01:43:44,504 basehttp 161 "POST /register/ HTTP/1.1" 500 84169
+INFO 2021-08-17 01:44:22,727 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-08-17 01:44:24,923 basehttp 161 "GET / HTTP/1.1" 200 19238
+WARNING 2021-08-17 01:44:25,070 basehttp 161 "GET /static/js/axios.min.map HTTP/1.1" 404 1807
+INFO 2021-08-17 01:44:25,093 basehttp 161 "GET /static/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 200 562427
+INFO 2021-08-17 01:44:26,774 basehttp 161 "GET /login/ HTTP/1.1" 200 3180
+WARNING 2021-08-17 01:44:26,900 basehttp 161 "GET /static/js/axios.min.map HTTP/1.1" 404 1807
+INFO 2021-08-17 01:44:26,940 basehttp 161 "GET /static/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 200 562427
+INFO 2021-08-17 01:44:28,177 basehttp 161 "GET /register/ HTTP/1.1" 200 5380
+WARNING 2021-08-17 01:44:28,289 basehttp 161 "GET /static/js/axios.min.map HTTP/1.1" 404 1807
+INFO 2021-08-17 01:44:28,359 basehttp 161 "GET /imagecode/?uuid=9ac3a10a-8897-4cf7-a97a-a95efcaa01dd HTTP/1.1" 200 3031
+INFO 2021-08-17 01:44:28,363 basehttp 161 "GET /static/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 200 562427
+ERROR 2021-08-17 01:44:55,290 views 69 (1364, "Field 'mobile' doesn't have a default value")
+WARNING 2021-08-17 01:44:56,882 log 224 Bad Request: /register/
+WARNING 2021-08-17 01:44:56,885 basehttp 161 "POST /register/ HTTP/1.1" 400 12
+WARNING 2021-08-17 01:45:00,637 basehttp 161 "GET /static/js/axios.min.map HTTP/1.1" 404 1807
+INFO 2021-08-17 01:45:00,672 basehttp 161 "GET /imagecode/?uuid=53e1efad-3fc3-4a2c-b16a-d3bbd2dcfd81 HTTP/1.1" 200 2985
+INFO 2021-08-17 01:45:00,679 basehttp 161 "GET /static/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 200 562427
+INFO 2021-08-17 01:48:04,466 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-08-17 01:48:05,295 basehttp 161 "GET / HTTP/1.1" 200 19238
+WARNING 2021-08-17 01:48:05,459 basehttp 161 "GET /static/js/axios.min.map HTTP/1.1" 404 1807
+INFO 2021-08-17 01:48:05,481 basehttp 161 "GET /static/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 200 562427
+INFO 2021-08-17 01:48:06,036 basehttp 161 "GET /login/ HTTP/1.1" 200 3180
+WARNING 2021-08-17 01:48:06,186 basehttp 161 "GET /static/js/axios.min.map HTTP/1.1" 404 1807
+INFO 2021-08-17 01:48:06,247 basehttp 161 "GET /static/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 200 562427
+INFO 2021-08-17 01:48:07,465 basehttp 161 "GET /register/ HTTP/1.1" 200 5380
+INFO 2021-08-17 01:48:07,500 basehttp 161 "GET /static/js/register.js HTTP/1.1" 304 0
+WARNING 2021-08-17 01:48:07,581 basehttp 161 "GET /static/js/axios.min.map HTTP/1.1" 404 1807
+INFO 2021-08-17 01:48:07,606 basehttp 161 "GET /static/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 200 562427
+INFO 2021-08-17 01:48:07,697 basehttp 161 "GET /imagecode/?uuid=f5728678-faac-4cd2-9498-e7715879d3dd HTTP/1.1" 200 3197
+INFO 2021-08-17 01:48:38,015 basehttp 161 "POST /register/ HTTP/1.1" 302 0
+INFO 2021-08-17 01:48:56,021 basehttp 161 "GET / HTTP/1.1" 200 19238
+WARNING 2021-08-17 01:48:56,221 basehttp 161 "GET /static/js/axios.min.map HTTP/1.1" 404 1807
+INFO 2021-08-17 01:48:56,239 basehttp 161 "GET /static/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 200 562427
+INFO 2021-08-17 01:49:24,637 basehttp 161 "GET /logout/ HTTP/1.1" 302 0
+INFO 2021-08-17 01:49:24,710 basehttp 161 "GET / HTTP/1.1" 200 19238
+WARNING 2021-08-17 01:49:24,873 basehttp 161 "GET /static/js/axios.min.map HTTP/1.1" 404 1807
+INFO 2021-08-17 01:49:24,906 basehttp 161 "GET /static/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 200 562427
+INFO 2021-08-17 01:49:25,540 basehttp 161 "GET /login/ HTTP/1.1" 200 3180
+WARNING 2021-08-17 01:49:25,673 basehttp 161 "GET /static/js/axios.min.map HTTP/1.1" 404 1807
+INFO 2021-08-17 01:49:25,714 basehttp 161 "GET /static/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 200 562427
+INFO 2021-08-17 01:49:26,621 basehttp 161 "GET /register/ HTTP/1.1" 200 5380
+WARNING 2021-08-17 01:49:26,726 basehttp 161 "GET /static/js/axios.min.map HTTP/1.1" 404 1807
+INFO 2021-08-17 01:49:26,764 basehttp 161 "GET /static/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 200 562427
+INFO 2021-08-17 01:49:26,810 basehttp 161 "GET /imagecode/?uuid=5e2e291c-ab69-4d6e-b399-f0c033be9830 HTTP/1.1" 200 3156
+INFO 2021-08-17 02:00:39,856 basehttp 161 "GET /register/ HTTP/1.1" 200 5898
+INFO 2021-08-17 02:00:39,892 basehttp 161 "GET /static/js/register.js HTTP/1.1" 200 6857
+WARNING 2021-08-17 02:00:39,947 basehttp 161 "GET /static/js/axios.min.map HTTP/1.1" 404 1807
+INFO 2021-08-17 02:00:39,982 basehttp 161 "GET /static/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 200 562427
+INFO 2021-08-17 02:00:43,708 basehttp 161 "GET /login/ HTTP/1.1" 200 3180
+WARNING 2021-08-17 02:00:43,816 basehttp 161 "GET /static/js/axios.min.map HTTP/1.1" 404 1807
+INFO 2021-08-17 02:00:43,851 basehttp 161 "GET /static/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 200 562427
+INFO 2021-08-17 02:00:44,702 basehttp 161 "GET /register/ HTTP/1.1" 200 5898
+INFO 2021-08-17 02:00:44,740 basehttp 161 "GET /static/js/register.js HTTP/1.1" 304 0
+WARNING 2021-08-17 02:00:44,804 basehttp 161 "GET /static/js/axios.min.map HTTP/1.1" 404 1807
+INFO 2021-08-17 02:00:44,831 basehttp 161 "GET /static/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 200 562427
+INFO 2021-08-17 02:01:23,054 basehttp 161 "GET /register/ HTTP/1.1" 200 5898
+INFO 2021-08-17 02:01:23,086 basehttp 161 "GET /static/js/register.js HTTP/1.1" 200 6858
+WARNING 2021-08-17 02:01:23,152 basehttp 161 "GET /static/js/axios.min.map HTTP/1.1" 404 1807
+INFO 2021-08-17 02:01:23,179 basehttp 161 "GET /static/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 200 562427
+INFO 2021-08-17 02:01:24,204 basehttp 161 "GET /register/ HTTP/1.1" 200 5898
+INFO 2021-08-17 02:01:24,234 basehttp 161 "GET /static/js/register.js HTTP/1.1" 304 0
+WARNING 2021-08-17 02:01:24,283 basehttp 161 "GET /static/js/axios.min.map HTTP/1.1" 404 1807
+INFO 2021-08-17 02:01:24,310 basehttp 161 "GET /static/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 200 562427
+INFO 2021-08-17 02:01:27,541 basehttp 161 "GET /register/ HTTP/1.1" 200 5898
+INFO 2021-08-17 02:01:27,589 basehttp 161 "GET /static/js/host.js HTTP/1.1" 200 35
+INFO 2021-08-17 02:01:27,593 basehttp 161 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12941
+INFO 2021-08-17 02:01:27,594 basehttp 161 "GET /static/js/common.js HTTP/1.1" 200 891
+INFO 2021-08-17 02:01:27,595 basehttp 161 "GET /static/js/register.js HTTP/1.1" 200 6858
+INFO 2021-08-17 02:01:27,600 basehttp 161 "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 140942
+INFO 2021-08-17 02:01:27,604 basehttp 161 "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 289307
+WARNING 2021-08-17 02:01:27,669 basehttp 161 "GET /static/js/axios.min.map HTTP/1.1" 404 1807
+INFO 2021-08-17 02:01:27,703 basehttp 161 "GET /static/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 200 562427
+WARNING 2021-08-17 02:01:27,773 log 224 Not Found: /favicon.ico
+WARNING 2021-08-17 02:01:27,776 basehttp 161 "GET /favicon.ico HTTP/1.1" 404 3926
+INFO 2021-08-17 02:02:37,555 autoreload 251 C:\Users\suze\Desktop\kira\users\models.py changed, reloading.
+INFO 2021-08-17 02:02:38,828 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-08-17 02:06:41,449 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-08-17 02:06:41,822 basehttp 161 "GET /login/ HTTP/1.1" 200 3180
+WARNING 2021-08-17 02:06:41,953 basehttp 161 "GET /static/js/axios.min.map HTTP/1.1" 404 1807
+INFO 2021-08-17 02:06:41,980 basehttp 161 "GET /static/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 200 562427
+INFO 2021-08-17 02:06:42,732 basehttp 161 "GET /register/ HTTP/1.1" 200 5892
+INFO 2021-08-17 02:06:42,774 basehttp 161 "GET /static/js/register.js HTTP/1.1" 304 0
+WARNING 2021-08-17 02:06:42,832 basehttp 161 "GET /static/js/axios.min.map HTTP/1.1" 404 1807
+INFO 2021-08-17 02:06:42,878 basehttp 161 "GET /static/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 200 562427
+INFO 2021-08-17 02:14:03,159 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-08-17 02:14:07,912 basehttp 161 "GET / HTTP/1.1" 200 19238
+WARNING 2021-08-17 02:14:08,123 basehttp 161 "GET /static/js/axios.min.map HTTP/1.1" 404 1807
+INFO 2021-08-17 02:14:08,233 basehttp 161 "GET /static/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 200 562427
+INFO 2021-08-17 02:14:11,131 basehttp 161 "GET /?cat_id=2 HTTP/1.1" 200 6268
+INFO 2021-08-17 02:14:11,194 basehttp 161 "GET /media/article/2021/08/14/5FEB83AB8486A08D1A957E589EC35F67.jpg HTTP/1.1" 200 910129
+WARNING 2021-08-17 02:14:11,252 basehttp 161 "GET /static/js/axios.min.map HTTP/1.1" 404 1807
+INFO 2021-08-17 02:14:11,271 basehttp 161 "GET /static/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 200 562427
+INFO 2021-08-17 02:14:11,440 basehttp 161 "GET /media/article/2021/08/14/5FEB83AB8486A08D1A957E589EC35F67.jpg HTTP/1.1" 200 910129
+INFO 2021-08-17 02:14:12,438 basehttp 161 "GET / HTTP/1.1" 200 19238
+WARNING 2021-08-17 02:14:12,517 basehttp 161 "GET /static/js/axios.min.map HTTP/1.1" 404 1807
+INFO 2021-08-17 02:14:12,580 basehttp 161 "GET /static/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 200 562427
+INFO 2021-08-17 02:14:15,415 basehttp 161 "GET /login/ HTTP/1.1" 200 3180
+WARNING 2021-08-17 02:14:15,499 basehttp 161 "GET /static/js/axios.min.map HTTP/1.1" 404 1807
+INFO 2021-08-17 02:14:15,537 basehttp 161 "GET /static/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 200 562427
+INFO 2021-08-17 02:14:16,974 basehttp 161 "GET /register/ HTTP/1.1" 200 5892
+INFO 2021-08-17 02:14:17,009 basehttp 161 "GET /static/js/register.js HTTP/1.1" 304 0
+WARNING 2021-08-17 02:14:17,056 basehttp 161 "GET /static/js/axios.min.map HTTP/1.1" 404 1807
+INFO 2021-08-17 02:14:17,121 basehttp 161 "GET /static/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 200 562427
+INFO 2021-08-17 02:14:45,319 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-08-17 02:14:46,432 basehttp 161 "GET /register/ HTTP/1.1" 200 5892
+WARNING 2021-08-17 02:14:46,528 basehttp 161 "GET /static/js/axios.min.map HTTP/1.1" 404 1807
+INFO 2021-08-17 02:14:46,554 basehttp 161 "GET /static/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 200 562427
+WARNING 2021-08-17 02:15:18,961 log 224 Bad Request: /register/
+WARNING 2021-08-17 02:15:18,964 basehttp 161 "POST /register/ HTTP/1.1" 400 27
+WARNING 2021-08-17 02:15:22,659 basehttp 161 "GET /static/js/axios.min.map HTTP/1.1" 404 1807
+INFO 2021-08-17 02:15:22,680 basehttp 161 "GET /static/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 200 562427
+INFO 2021-08-17 02:15:28,016 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-08-17 02:15:30,264 basehttp 161 "GET /register/ HTTP/1.1" 200 5892
+WARNING 2021-08-17 02:15:30,361 basehttp 161 "GET /static/js/axios.min.map HTTP/1.1" 404 1807
+INFO 2021-08-17 02:15:30,400 basehttp 161 "GET /static/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 200 562427
+INFO 2021-08-17 02:16:38,947 basehttp 161 "POST /register/ HTTP/1.1" 302 0
+INFO 2021-08-17 02:16:54,831 basehttp 161 "GET / HTTP/1.1" 200 19238
+WARNING 2021-08-17 02:16:55,054 basehttp 161 "GET /static/js/axios.min.map HTTP/1.1" 404 1807
+INFO 2021-08-17 02:16:55,098 basehttp 161 "GET /static/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 200 562427
+ERROR 2021-08-17 02:16:59,158 log 224 Internal Server Error: /center/
+Traceback (most recent call last):
+  File "C:\Users\suze\Desktop\kira\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\suze\Desktop\kira\venv\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\suze\Desktop\kira\venv\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\suze\Desktop\kira\venv\lib\site-packages\django\contrib\auth\mixins.py", line 71, in dispatch
+    return super().dispatch(request, *args, **kwargs)
+  File "C:\Users\suze\Desktop\kira\venv\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "C:\Users\suze\Desktop\kira\users\views.py", line 333, in get
+    'mobile': user.mobile,
+  File "C:\Users\suze\Desktop\kira\venv\lib\site-packages\django\utils\functional.py", line 247, in inner
+    return func(self._wrapped, *args)
+AttributeError: 'User' object has no attribute 'mobile'
+ERROR 2021-08-17 02:16:59,162 basehttp 161 "GET /center/ HTTP/1.1" 500 90996
+ERROR 2021-08-17 02:18:21,999 log 224 Internal Server Error: /center/
+Traceback (most recent call last):
+  File "C:\Users\suze\Desktop\kira\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\suze\Desktop\kira\venv\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\suze\Desktop\kira\venv\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\suze\Desktop\kira\venv\lib\site-packages\django\contrib\auth\mixins.py", line 71, in dispatch
+    return super().dispatch(request, *args, **kwargs)
+  File "C:\Users\suze\Desktop\kira\venv\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "C:\Users\suze\Desktop\kira\users\views.py", line 333, in get
+    'email': user.email,
+  File "C:\Users\suze\Desktop\kira\venv\lib\site-packages\django\utils\functional.py", line 247, in inner
+    return func(self._wrapped, *args)
+AttributeError: 'User' object has no attribute 'mobile'
+ERROR 2021-08-17 02:18:22,002 basehttp 161 "GET /center/ HTTP/1.1" 500 91129
+INFO 2021-08-17 02:18:22,284 autoreload 251 C:\Users\suze\Desktop\kira\users\views.py changed, reloading.
+INFO 2021-08-17 02:18:23,590 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-08-17 02:18:24,430 basehttp 161 "GET /center/ HTTP/1.1" 200 4272
+INFO 2021-08-17 02:18:24,509 basehttp 161 "GET /static/js/center.js HTTP/1.1" 200 522
+INFO 2021-08-17 02:18:24,515 basehttp 161 "GET /static/img/mei.png HTTP/1.1" 200 230847
+WARNING 2021-08-17 02:18:24,542 basehttp 161 "GET /static/js/axios.min.map HTTP/1.1" 404 1807
+INFO 2021-08-17 02:18:24,567 basehttp 161 "GET /static/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 200 562427
+INFO 2021-08-17 02:18:28,702 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-08-17 02:18:35,373 basehttp 161 "GET /write/ HTTP/1.1" 200 5902
+INFO 2021-08-17 02:18:35,411 basehttp 161 "GET /static/js/write_blog.js HTTP/1.1" 200 521
+WARNING 2021-08-17 02:18:35,490 basehttp 161 "GET /static/js/axios.min.map HTTP/1.1" 404 1807
+INFO 2021-08-17 02:18:35,519 basehttp 161 "GET /static/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 200 562427
+INFO 2021-08-17 02:18:35,698 basehttp 161 "GET /static/ckeditor/ckeditor/lang/zh-cn.js?t=I3I8 HTTP/1.1" 200 18818
+INFO 2021-08-17 02:18:38,076 basehttp 161 "GET /logout/ HTTP/1.1" 302 0
+INFO 2021-08-17 02:18:38,136 basehttp 161 "GET / HTTP/1.1" 200 19238
+WARNING 2021-08-17 02:18:38,260 basehttp 161 "GET /static/js/axios.min.map HTTP/1.1" 404 1807
+INFO 2021-08-17 02:18:38,311 basehttp 161 "GET /static/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 200 562427
+INFO 2021-08-17 02:18:39,097 basehttp 161 "GET /login/ HTTP/1.1" 200 3180
+WARNING 2021-08-17 02:18:39,217 basehttp 161 "GET /static/js/axios.min.map HTTP/1.1" 404 1807
+INFO 2021-08-17 02:18:39,245 basehttp 161 "GET /static/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 200 562427
+INFO 2021-08-17 02:18:40,457 basehttp 161 "GET /register/ HTTP/1.1" 200 5892
+INFO 2021-08-17 02:18:40,493 basehttp 161 "GET /static/js/register.js HTTP/1.1" 304 0
+WARNING 2021-08-17 02:18:40,569 basehttp 161 "GET /static/js/axios.min.map HTTP/1.1" 404 1807
+INFO 2021-08-17 02:18:40,596 basehttp 161 "GET /static/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 200 562427
+INFO 2021-08-17 02:19:48,323 basehttp 161 "GET /register/ HTTP/1.1" 200 5892
+WARNING 2021-08-17 02:19:48,421 basehttp 161 "GET /static/js/axios.min.map HTTP/1.1" 404 1807
+INFO 2021-08-17 02:19:48,467 basehttp 161 "GET /static/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 200 562427
+INFO 2021-08-17 02:19:53,575 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-08-17 02:19:54,067 basehttp 161 "GET /register/ HTTP/1.1" 200 5892
+WARNING 2021-08-17 02:19:54,189 basehttp 161 "GET /static/js/axios.min.map HTTP/1.1" 404 1807
+INFO 2021-08-17 02:19:54,223 basehttp 161 "GET /static/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 200 562427
+INFO 2021-08-17 02:19:58,097 basehttp 161 "GET /register/ HTTP/1.1" 200 5892
+WARNING 2021-08-17 02:19:58,165 basehttp 161 "GET /static/js/axios.min.map HTTP/1.1" 404 1807
+INFO 2021-08-17 02:19:58,216 basehttp 161 "GET /static/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 200 562427
+INFO 2021-08-17 02:21:21,715 basehttp 161 "GET /register/ HTTP/1.1" 200 5964
+INFO 2021-08-17 02:21:21,764 basehttp 161 "GET /static/js/register.js HTTP/1.1" 200 6858
+WARNING 2021-08-17 02:21:21,802 basehttp 161 "GET /static/js/axios.min.map HTTP/1.1" 404 1807
+INFO 2021-08-17 02:21:21,851 basehttp 161 "GET /static/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 200 562427
+INFO 2021-08-17 02:21:24,018 basehttp 161 "GET /register/ HTTP/1.1" 200 5964
+INFO 2021-08-17 02:21:24,049 basehttp 161 "GET /static/js/register.js HTTP/1.1" 304 0
+WARNING 2021-08-17 02:21:24,095 basehttp 161 "GET /static/js/axios.min.map HTTP/1.1" 404 1807
+INFO 2021-08-17 02:21:24,120 basehttp 161 "GET /static/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 200 562427
+INFO 2021-08-17 02:23:36,330 autoreload 251 C:\Users\suze\Desktop\kira\users\models.py changed, reloading.
+INFO 2021-08-17 02:23:37,552 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-08-17 02:24:36,717 autoreload 251 C:\Users\suze\Desktop\kira\users\models.py changed, reloading.
+INFO 2021-08-17 02:24:37,909 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-08-17 02:24:45,750 autoreload 251 C:\Users\suze\Desktop\kira\users\models.py changed, reloading.
+INFO 2021-08-17 02:24:46,920 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-08-17 02:25:40,801 autoreload 251 C:\Users\suze\Desktop\kira\users\models.py changed, reloading.
+INFO 2021-08-17 02:25:42,280 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-08-17 02:25:42,849 basehttp 161 "GET /register/ HTTP/1.1" 200 5892
+INFO 2021-08-17 02:25:42,880 basehttp 161 "GET /static/js/register.js HTTP/1.1" 304 0
+WARNING 2021-08-17 02:25:42,929 basehttp 161 "GET /static/js/axios.min.map HTTP/1.1" 404 1807
+INFO 2021-08-17 02:25:42,939 basehttp 161 "GET /static/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 200 562427
+INFO 2021-08-17 02:26:32,768 basehttp 161 "GET /register/ HTTP/1.1" 200 5303
+INFO 2021-08-17 02:26:32,799 basehttp 161 "GET /static/js/register.js HTTP/1.1" 304 0
+WARNING 2021-08-17 02:26:32,881 basehttp 161 "GET /static/js/axios.min.map HTTP/1.1" 404 1807
+INFO 2021-08-17 02:26:32,909 basehttp 161 "GET /static/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 200 562427
+INFO 2021-08-17 02:26:34,691 basehttp 161 "GET /register/ HTTP/1.1" 200 5303
+WARNING 2021-08-17 02:26:34,762 basehttp 161 "GET /static/js/axios.min.map HTTP/1.1" 404 1807
+INFO 2021-08-17 02:26:34,789 basehttp 161 "GET /static/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 200 562427
+INFO 2021-08-17 02:27:03,697 basehttp 161 "GET /register/ HTTP/1.1" 200 5303
+INFO 2021-08-17 02:27:03,723 basehttp 161 "GET /static/js/register.js HTTP/1.1" 304 0
+WARNING 2021-08-17 02:27:03,762 basehttp 161 "GET /static/js/axios.min.map HTTP/1.1" 404 1807
+INFO 2021-08-17 02:27:03,772 basehttp 161 "GET /static/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 200 562427
+INFO 2021-08-17 02:27:04,726 basehttp 161 "GET /register/ HTTP/1.1" 200 5303
+WARNING 2021-08-17 02:27:04,792 basehttp 161 "GET /static/js/axios.min.map HTTP/1.1" 404 1807
+INFO 2021-08-17 02:27:04,806 basehttp 161 "GET /static/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 200 562427
+INFO 2021-08-17 02:27:09,704 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-08-17 02:27:10,370 basehttp 161 "GET /login/ HTTP/1.1" 200 3180
+WARNING 2021-08-17 02:27:10,463 basehttp 161 "GET /static/js/axios.min.map HTTP/1.1" 404 1807
+INFO 2021-08-17 02:27:10,488 basehttp 161 "GET /static/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 200 562427
+INFO 2021-08-17 02:27:11,600 basehttp 161 "GET /register/ HTTP/1.1" 200 5303
+WARNING 2021-08-17 02:27:11,671 basehttp 161 "GET /static/js/axios.min.map HTTP/1.1" 404 1807
+INFO 2021-08-17 02:27:11,719 basehttp 161 "GET /static/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 200 562427
+INFO 2021-08-17 02:27:28,216 basehttp 161 "GET /register/ HTTP/1.1" 200 5303
+WARNING 2021-08-17 02:27:28,283 basehttp 161 "GET /static/js/axios.min.map HTTP/1.1" 404 1807
+INFO 2021-08-17 02:27:28,297 basehttp 161 "GET /static/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 200 562427
+INFO 2021-08-17 02:27:29,692 basehttp 161 "GET /register/ HTTP/1.1" 200 5303
+WARNING 2021-08-17 02:27:29,763 basehttp 161 "GET /static/js/axios.min.map HTTP/1.1" 404 1807
+INFO 2021-08-17 02:27:29,793 basehttp 161 "GET /static/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 200 562427
+INFO 2021-08-17 02:27:33,735 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-08-17 02:27:34,182 basehttp 161 "GET /register/ HTTP/1.1" 200 5303
+WARNING 2021-08-17 02:27:34,258 basehttp 161 "GET /static/js/axios.min.map HTTP/1.1" 404 1807
+INFO 2021-08-17 02:27:34,396 basehttp 161 "GET /static/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 200 562427
+INFO 2021-08-17 02:27:36,315 basehttp 161 "GET /register/ HTTP/1.1" 200 5303
+WARNING 2021-08-17 02:27:36,433 basehttp 161 "GET /static/js/axios.min.map HTTP/1.1" 404 1807
+INFO 2021-08-17 02:27:36,481 basehttp 161 "GET /static/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 200 562427
+INFO 2021-08-17 02:27:39,335 basehttp 161 "GET /register/ HTTP/1.1" 200 5303
+INFO 2021-08-17 02:27:39,378 basehttp 161 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12941
+INFO 2021-08-17 02:27:39,385 basehttp 161 "GET /static/js/host.js HTTP/1.1" 200 35
+INFO 2021-08-17 02:27:39,386 basehttp 161 "GET /static/js/common.js HTTP/1.1" 200 891
+INFO 2021-08-17 02:27:39,388 basehttp 161 "GET /static/js/register.js HTTP/1.1" 200 6407
+INFO 2021-08-17 02:27:39,390 basehttp 161 "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 140942
+INFO 2021-08-17 02:27:39,395 basehttp 161 "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 289307
+WARNING 2021-08-17 02:27:39,464 basehttp 161 "GET /static/js/axios.min.map HTTP/1.1" 404 1807
+INFO 2021-08-17 02:27:39,490 basehttp 161 "GET /static/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 200 562427
+INFO 2021-08-17 02:27:39,583 basehttp 161 "GET /imagecode/?uuid=e5ab7bf1-397e-4682-9100-86b3c92b2b3b HTTP/1.1" 200 3594
+WARNING 2021-08-17 02:27:39,623 log 224 Not Found: /favicon.ico
+WARNING 2021-08-17 02:27:39,624 basehttp 161 "GET /favicon.ico HTTP/1.1" 404 3926
+INFO 2021-08-17 02:27:48,826 basehttp 161 "GET /register/ HTTP/1.1" 200 5303
+INFO 2021-08-17 02:27:48,872 basehttp 161 "GET /static/js/common.js HTTP/1.1" 200 891
+INFO 2021-08-17 02:27:48,875 basehttp 161 "GET /static/js/host.js HTTP/1.1" 200 35
+INFO 2021-08-17 02:27:48,877 basehttp 161 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12941
+INFO 2021-08-17 02:27:48,878 basehttp 161 "GET /static/js/register.js HTTP/1.1" 200 6858
+INFO 2021-08-17 02:27:48,881 basehttp 161 "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 140942
+INFO 2021-08-17 02:27:48,887 basehttp 161 "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 289307
+WARNING 2021-08-17 02:27:48,936 basehttp 161 "GET /static/js/axios.min.map HTTP/1.1" 404 1807
+INFO 2021-08-17 02:27:48,970 basehttp 161 "GET /static/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 200 562427
+WARNING 2021-08-17 02:27:49,046 log 224 Not Found: /favicon.ico
+WARNING 2021-08-17 02:27:49,047 basehttp 161 "GET /favicon.ico HTTP/1.1" 404 3926
+INFO 2021-08-17 02:28:04,056 basehttp 161 "GET /register/ HTTP/1.1" 200 5303
+INFO 2021-08-17 02:28:04,113 basehttp 161 "GET /static/js/register.js HTTP/1.1" 200 6407
+WARNING 2021-08-17 02:28:04,191 basehttp 161 "GET /static/js/axios.min.map HTTP/1.1" 404 1807
+INFO 2021-08-17 02:28:04,216 basehttp 161 "GET /imagecode/?uuid=1c55d745-74e3-480c-ba23-dd3f2b323452 HTTP/1.1" 200 3038
+INFO 2021-08-17 02:28:04,247 basehttp 161 "GET /static/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 200 562427
+INFO 2021-08-17 02:28:05,771 basehttp 161 "GET /imagecode/?uuid=4ba75ed9-830e-4f56-8201-a0e04f186161 HTTP/1.1" 200 3373
+INFO 2021-08-17 02:28:07,768 basehttp 161 "GET /imagecode/?uuid=5e03ce37-f475-44ed-96db-7547141652cc HTTP/1.1" 200 3184
+INFO 2021-08-17 02:28:10,173 basehttp 161 "GET /imagecode/?uuid=b29eabbe-158b-46e6-9454-867f2efe714d HTTP/1.1" 200 3134
+INFO 2021-08-17 02:31:17,674 basehttp 161 "GET /register/ HTTP/1.1" 200 5303
+INFO 2021-08-17 02:31:17,713 basehttp 161 "GET /static/js/register.js HTTP/1.1" 200 6926
+WARNING 2021-08-17 02:31:17,783 basehttp 161 "GET /static/js/axios.min.map HTTP/1.1" 404 1807
+INFO 2021-08-17 02:31:17,800 basehttp 161 "GET /static/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 200 562427
+INFO 2021-08-17 02:31:17,846 basehttp 161 "GET /imagecode/?uuid=2a488dc6-6424-4495-b819-e904080af2f5 HTTP/1.1" 200 2896
+INFO 2021-08-17 02:31:20,867 basehttp 161 "GET /register/ HTTP/1.1" 200 5303
+INFO 2021-08-17 02:31:20,915 basehttp 161 "GET /static/js/host.js HTTP/1.1" 200 35
+INFO 2021-08-17 02:31:20,917 basehttp 161 "GET /static/js/common.js HTTP/1.1" 200 891
+INFO 2021-08-17 02:31:20,917 basehttp 161 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12941
+INFO 2021-08-17 02:31:20,919 basehttp 161 "GET /static/js/register.js HTTP/1.1" 200 6926
+INFO 2021-08-17 02:31:20,922 basehttp 161 "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 140942
+INFO 2021-08-17 02:31:20,926 basehttp 161 "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 289307
+WARNING 2021-08-17 02:31:20,976 basehttp 161 "GET /static/js/axios.min.map HTTP/1.1" 404 1807
+INFO 2021-08-17 02:31:20,997 basehttp 161 "GET /static/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 200 562427
+INFO 2021-08-17 02:31:21,058 basehttp 161 "GET /imagecode/?uuid=5c9c6d7b-01b4-421d-8d95-98eeb523a628 HTTP/1.1" 200 3087
+WARNING 2021-08-17 02:31:21,122 log 224 Not Found: /favicon.ico
+WARNING 2021-08-17 02:31:21,123 basehttp 161 "GET /favicon.ico HTTP/1.1" 404 3926
+INFO 2021-08-17 02:34:59,366 basehttp 161 "GET /register/ HTTP/1.1" 200 5748
+INFO 2021-08-17 02:34:59,417 basehttp 161 "GET /static/js/register.js HTTP/1.1" 304 0
+WARNING 2021-08-17 02:34:59,501 basehttp 161 "GET /static/js/axios.min.map HTTP/1.1" 404 1807
+INFO 2021-08-17 02:34:59,541 basehttp 161 "GET /static/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 200 562427
+INFO 2021-08-17 02:34:59,607 basehttp 161 "GET /imagecode/?uuid=05d6859f-374e-45df-9441-fe3c7f8f7b7c HTTP/1.1" 200 3076
+INFO 2021-08-17 02:35:39,764 basehttp 161 "POST /register/ HTTP/1.1" 302 0
+INFO 2021-08-17 02:35:52,026 basehttp 161 "GET / HTTP/1.1" 200 19238
+WARNING 2021-08-17 02:35:52,223 basehttp 161 "GET /static/js/axios.min.map HTTP/1.1" 404 1807
+INFO 2021-08-17 02:35:52,240 basehttp 161 "GET /static/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 200 562427
+INFO 2021-08-17 02:36:09,470 basehttp 161 "GET /logout/ HTTP/1.1" 302 0
+INFO 2021-08-17 02:36:09,530 basehttp 161 "GET / HTTP/1.1" 200 19238
+WARNING 2021-08-17 02:36:09,688 basehttp 161 "GET /static/js/axios.min.map HTTP/1.1" 404 1807
+INFO 2021-08-17 02:36:09,717 basehttp 161 "GET /static/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 200 562427
+INFO 2021-08-17 02:36:10,341 basehttp 161 "GET /login/ HTTP/1.1" 200 3180
+WARNING 2021-08-17 02:36:10,466 basehttp 161 "GET /static/js/axios.min.map HTTP/1.1" 404 1807
+INFO 2021-08-17 02:36:10,486 basehttp 161 "GET /static/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 200 562427
+INFO 2021-08-17 02:36:11,525 basehttp 161 "GET /register/ HTTP/1.1" 200 5748
+INFO 2021-08-17 02:36:11,553 basehttp 161 "GET /static/js/register.js HTTP/1.1" 304 0
+WARNING 2021-08-17 02:36:11,634 basehttp 161 "GET /static/js/axios.min.map HTTP/1.1" 404 1807
+INFO 2021-08-17 02:36:11,664 basehttp 161 "GET /static/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 200 562427
+INFO 2021-08-17 02:36:11,706 basehttp 161 "GET /imagecode/?uuid=dfb07038-f452-4dc5-899b-594afc8cd707 HTTP/1.1" 200 3416
+INFO 2021-08-17 02:36:22,663 basehttp 161 "GET /imagecode/?uuid=58a6d7e3-969e-45ee-b1ee-5a81eee15cfd HTTP/1.1" 200 2650
+ERROR 2021-08-17 02:36:36,098 views 72 (1062, "Duplicate entry '11' for key 'tb_users.username'")
+WARNING 2021-08-17 02:36:37,916 log 224 Bad Request: /register/
+WARNING 2021-08-17 02:36:37,920 basehttp 161 "POST /register/ HTTP/1.1" 400 12
+WARNING 2021-08-17 02:36:39,976 basehttp 161 "GET /static/js/axios.min.map HTTP/1.1" 404 1807
+INFO 2021-08-17 02:36:40,015 basehttp 161 "GET /imagecode/?uuid=68eaf87c-be79-44b3-9fc8-d3004b0453a3 HTTP/1.1" 200 3022
+INFO 2021-08-17 02:36:40,019 basehttp 161 "GET /static/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 200 562427
+INFO 2021-08-17 02:37:32,343 basehttp 161 "GET /register/ HTTP/1.1" 200 5736
+INFO 2021-08-17 02:37:32,398 basehttp 161 "GET /static/js/register.js HTTP/1.1" 304 0
+WARNING 2021-08-17 02:37:32,477 basehttp 161 "GET /static/js/axios.min.map HTTP/1.1" 404 1807
+INFO 2021-08-17 02:37:32,501 basehttp 161 "GET /static/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 200 562427
+INFO 2021-08-17 02:37:32,558 basehttp 161 "GET /imagecode/?uuid=6615ad30-f73b-4111-b2e9-9169738cd638 HTTP/1.1" 200 3134
+INFO 2021-08-17 02:38:06,852 basehttp 161 "GET /register/ HTTP/1.1" 200 5732
+WARNING 2021-08-17 02:38:06,945 basehttp 161 "GET /static/js/axios.min.map HTTP/1.1" 404 1807
+INFO 2021-08-17 02:38:06,964 basehttp 161 "GET /static/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 200 562427
+INFO 2021-08-17 02:38:07,021 basehttp 161 "GET /imagecode/?uuid=d273196a-a77a-4bc3-9461-034659b9564a HTTP/1.1" 200 3134
+INFO 2021-08-17 02:38:12,206 basehttp 161 "GET /login/ HTTP/1.1" 200 3180
+WARNING 2021-08-17 02:38:12,340 basehttp 161 "GET /static/js/axios.min.map HTTP/1.1" 404 1807
+INFO 2021-08-17 02:38:12,359 basehttp 161 "GET /static/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 200 562427
+INFO 2021-08-17 02:41:45,488 basehttp 161 "GET / HTTP/1.1" 200 19238
+WARNING 2021-08-17 02:41:45,638 basehttp 161 "GET /static/js/axios.min.map HTTP/1.1" 404 1807
+INFO 2021-08-17 02:41:45,663 basehttp 161 "GET /static/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 200 562427

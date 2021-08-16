@@ -36,34 +36,38 @@ class RegisterView(View):
         4. 返回响应并跳转到登录页
         """
         # 1. 接收数据
-        mobile = request.POST.get('mobile')
+        # mobile = request.POST.get('mobile')
+        username = request.POST.get('username')
+        email = request.POST.get('email')
         password = request.POST.get('password')
         password2 = request.POST.get('password2')
-        smscode = request.POST.get('sms_code')
+        # smscode = request.POST.get('sms_code')
         # 2. 验证数据
         #     2.1 数据是否齐全
-        if not all([mobile, password, password2, smscode]):
+        if not all([username, email, password, password2]):
             return HttpResponseBadRequest('缺少必要的参数')
         #     2.2 手机号格式
-        if not re.match(r'^1[3-9]\d{9}$', mobile):
-            return HttpResponseBadRequest('手机号输入错误')
+        # if not re.match(r'^1[3-9]\d{9}$', mobile):
+        #     return HttpResponseBadRequest('手机号输入错误')
         #     2.3 密码格式
         if not re.match(r'^[0-9A-Za-z]{8,20}$', password):
             return HttpResponseBadRequest('密码格式错误，请输入8-20位数字+字母')
+        if not re.match(r'^[A-Za-z0-9\u4e00-\u9fa5]+@[a-zA-Z0-9_-]+(\.[a-zA-Z0-9_-]+)+$', email):
+            return HttpResponseBadRequest('邮箱格式错误')
         #     2.4 密码和确认密码是否一致
         if password != password2:
             return HttpResponseBadRequest('两次输入密码不一致')
         #     2.5 短信验证码是否和redis中的一致
-        redis_conn = get_redis_connection('default')
-        redis_sms_code = redis_conn.get('sms:%s' % mobile)
-        if redis_sms_code is None:
-            return HttpResponseBadRequest('短信验证码已过期')
-        if smscode != redis_sms_code.decode():
-            return HttpResponseBadRequest('短信验证码错误')
+        # redis_conn = get_redis_connection('default')
+        # redis_sms_code = redis_conn.get('sms:%s' % mobile)
+        # if redis_sms_code is None:
+        #     return HttpResponseBadRequest('短信验证码已过期')
+        # if smscode != redis_sms_code.decode():
+        #     return HttpResponseBadRequest('短信验证码错误')
         # 3. 保存注册信息
         # create_user 可以对密码进行加密
         try:
-            user = User.objects.create_user(username=mobile, mobile=mobile, password=password)
+            user = User.objects.create_user(username=username, password=password, email=email)
         except DatabaseError as e:
             logger.error(e)
             return HttpResponseBadRequest('注册失败')
@@ -96,13 +100,17 @@ class LoginView(View):
         7. 返回响应
         """
         # 1. 接收参数
-        mobile = request.POST.get('mobile')
+        # mobile = request.POST.get('mobile')
+        username = request.POST.get('username')
+        email = request.POST.get('email')
         password = request.POST.get('password')
         remember = request.POST.get('remember')
         # 2. 验证参数
         #     2.1 手机号
-        if not re.match(r'^1[3-9]\d{9}$', mobile):
-            return HttpResponseBadRequest('手机号错误')
+        # if not re.match(r'^1[3-9]\d{9}$', mobile):
+        #     return HttpResponseBadRequest('手机号错误')
+        if not re.match(r'^[A-Za-z0-9\u4e00-\u9fa5]+@[a-zA-Z0-9_-]+(\.[a-zA-Z0-9_-]+)+$', email):
+            return HttpResponseBadRequest('邮箱格式错误')
         #     2.2 密码
         if not re.match(r'^[0-9A-Za-z]{8,20}$', password):
             return HttpResponseBadRequest('密码错误')
@@ -110,7 +118,7 @@ class LoginView(View):
         # 如果用户名和密码匹配,返回user  如果用户名和密码不匹配,返回None
         # 默认的认证方法是用username来继续判断，而当前判断信息为mobile，所以需要修改默认的认证方式
         # 需要到User模型中修改
-        user = authenticate(mobile=mobile, password=password)
+        user = authenticate(username=username, password=password, email=email)
         if user is None:
             return HttpResponseBadRequest('用户名或密码错误')
         # 4. 状态保持
@@ -150,6 +158,7 @@ class ImageCodeView(View):
 
         # 1. 接收前端的uuid
         uuid = request.GET.get('uuid')
+        image_code = request.GET.get('image_code')
         # 2. 判断是否获取到uuid
         if uuid is None:
             return HttpResponseBadRequest('没有传递uuid')
@@ -158,58 +167,86 @@ class ImageCodeView(View):
         # 4. uuid为key 图片内容为value 保存到redis中 同时设置一个时效
         redis_conn = get_redis_connection('default')
         redis_conn.setex('img:%s' % uuid, 300, text)
-        # 5. 返回图片二进制
+
+        #   返回图片二进制
         return HttpResponse(image, content_type="image/jpeg")
 
 
-class SmsCodeView(View):
+class CheckImageView(View):
 
     def get(self, request):
-        """
-        1. 接收参数
-        2. 参数的验证
-           2.1 参数是否完整
-           2.2 图片验证码的验证
-                链接redis，获取redis中的验证码，并判断验证码是否存在或过期
-                如果未过期，获取后删除验证码
-                验证图片验证码(注意大小写、redis的数据类型为bytes)
-        3. 生成短信验证码(为了后期方便可以将短信验证码存放到日志中）
-        4. 保存短信验证码到redis
-        5. 发送短信
-        6. 返回响应
-        """
 
-        # 1. 接收参数
-        mobile = request.GET.get('mobile')
+        username = request.GET.get('username')
         image_code = request.GET.get('image_code')
         uuid = request.GET.get('uuid')
-        # 2. 参数的验证
-        #    2.1 参数是否完整
-        if not all([mobile, image_code, uuid]):
+        #   参数是否完整
+        if not all([username, image_code, uuid]):
             return JsonResponse({'code': RETCODE.NECESSARYPARAMERR, 'errmsg': '缺少参数'})
-        #    2.2 图片验证码的验证
+        #   图片验证码的验证
         redis_conn = get_redis_connection('default')
         redis_image_code = redis_conn.get('img:%s' % uuid)
-        #         链接redis，获取redis中的验证码，并判断验证码是否存在或过期
+        #   链接redis，获取redis中的验证码，并判断验证码是否存在或过期
         if redis_image_code is None:
             return JsonResponse({'code': RETCODE.IMAGECODEERR, 'errmsg': '图片验证码不存在或已过期'})
-        #         如果未过期，获取后删除验证码
+        #   如果未过期，获取后删除验证码
         try:
             redis_conn.delete('img:%s' % uuid)
         except Exception as e:
             logger.error(e)
-        #         验证图片验证码(注意大小写、redis的数据类型为bytes)
+        #   验证图片验证码(注意大小写、redis的数据类型为bytes)
         if redis_image_code.decode().lower() != image_code.lower():
             return JsonResponse({'code': RETCODE.IMAGECODEERR, 'errmsg': '图片验证码错误'})
-        # 3. 生成短信验证码(为了后期方便可以将短信验证码存放到日志中）
-        sms_code = '%06d' % randint(0, 999999)
-        logger.info(sms_code)
-        # 4. 保存短信验证码到redis
-        redis_conn.setex('sms:%s' % mobile, 300, sms_code)
-        # 5. 发送短信
-        CCP().send_template_sms(mobile, [sms_code, 5], 1)
-        # 6. 返回响应
         return JsonResponse({'code': RETCODE.OK})
+
+
+# class SmsCodeView(View):
+#
+#     def get(self, request):
+#         """
+#         1. 接收参数
+#         2. 参数的验证
+#            2.1 参数是否完整
+#            2.2 图片验证码的验证
+#                 链接redis，获取redis中的验证码，并判断验证码是否存在或过期
+#                 如果未过期，获取后删除验证码
+#                 验证图片验证码(注意大小写、redis的数据类型为bytes)
+#         3. 生成短信验证码(为了后期方便可以将短信验证码存放到日志中）
+#         4. 保存短信验证码到redis
+#         5. 发送短信
+#         6. 返回响应
+#         """
+#
+#         # 1. 接收参数
+#         mobile = request.GET.get('mobile')
+#         image_code = request.GET.get('image_code')
+#         uuid = request.GET.get('uuid')
+#         # 2. 参数的验证
+#         #    2.1 参数是否完整
+#         if not all([mobile, image_code, uuid]):
+#             return JsonResponse({'code': RETCODE.NECESSARYPARAMERR, 'errmsg': '缺少参数'})
+#         #    2.2 图片验证码的验证
+#         redis_conn = get_redis_connection('default')
+#         redis_image_code = redis_conn.get('img:%s' % uuid)
+#         #         链接redis，获取redis中的验证码，并判断验证码是否存在或过期
+#         if redis_image_code is None:
+#             return JsonResponse({'code': RETCODE.IMAGECODEERR, 'errmsg': '图片验证码不存在或已过期'})
+#         #         如果未过期，获取后删除验证码
+#         try:
+#             redis_conn.delete('img:%s' % uuid)
+#         except Exception as e:
+#             logger.error(e)
+#         #         验证图片验证码(注意大小写、redis的数据类型为bytes)
+#         if redis_image_code.decode().lower() != image_code.lower():
+#             return JsonResponse({'code': RETCODE.IMAGECODEERR, 'errmsg': '图片验证码错误'})
+#         # 3. 生成短信验证码(为了后期方便可以将短信验证码存放到日志中）
+#         sms_code = '%06d' % randint(0, 999999)
+#         logger.info(sms_code)
+#         # 4. 保存短信验证码到redis
+#         redis_conn.setex('sms:%s' % mobile, 300, sms_code)
+#         # 5. 发送短信
+#         CCP().send_template_sms(mobile, [sms_code, 5], 1)
+#         # 6. 返回响应
+#         return JsonResponse({'code': RETCODE.OK})
 
 
 class LogoutView(View):
@@ -293,7 +330,7 @@ class UserCenterView(LoginRequiredMixin, View):
         # 组织获取用户信息
         context = {
             'username': user.username,
-            'mobile': user.mobile,
+            'email': user.email,
             'avatar': user.avatar.url if user.avatar else None,
             'user_desc': user.user_desc
         }
