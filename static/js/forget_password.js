@@ -21,7 +21,10 @@ var vm = new Vue({
         sms_code_error:false,
         sms_code_error_message:'短信验证码错误',
         sms_code_message:'点击获取验证码',
-        image_code_url:''
+        image_code_url:'',
+        email:'',
+        email_error:false,
+        email_error_message:'请输入正确的邮箱',
     },
     mounted(){
         this.generate_image_code()
@@ -45,6 +48,15 @@ var vm = new Vue({
             this.uuid = this.generateUUID();
             // 设置页面中图片验证码img标签的src属性
             this.image_code_url = this.host + "/imagecode/?uuid=" + this.uuid;
+        },
+        //检查邮箱
+        check_email: function(){
+            var re = /^[A-Za-z0-9\u4e00-\u9fa5]+@[a-zA-Z0-9_-]+(\.[a-zA-Z0-9_-]+)+$/;
+            if (re.test(this.email)) {
+                this.email_error = false;
+            } else {
+                this.email_error = true;
+            }
         },
         //检查手机号
         check_mobile: function(){
@@ -149,13 +161,13 @@ var vm = new Vue({
         },
         //提交
         on_submit:function () {
-            this.check_mobile();
+            this.check_email();
             this.check_password();
             this.check_password2();
-            this.check_sms_code();
+            this.check_image_code();
 
-            if (this.mobile_error == true || this.password_error == true || this.password2_error == true
-                || this.image_code_error == true || this.sms_code_error == true) {
+            if (this.email_error == true || this.password_error == true || this.password2_error == true
+                || this.image_code_error == true) {
                 // 不满足注册条件：禁用表单
                 window.event.returnValue = false;
             }

@@ -54,11 +54,6 @@
                 <br>
                 <form method="post" enctype="multipart/form-data">
                     {% csrf_token %}
-                    <!-- username -->
-                <div class="form-group col-md-4">
-                    <label for="username">用户名</label>
-                    <input type="text" class="form-control" id="username" name="username" value="{{ username }}" >
-                </div>
                 <!--<br><h5 class="col-md-4">暂无头像</h5><br>-->
                 <br> <div class="col-md-4">头像</div>
                     {% if avatar%}
@@ -71,11 +66,15 @@
                         <label for="avatar">上传头像</label>
                         <input type="file" class="form-control-file" name="avatar" id="avatar">
                     </div>
-
-                    <!-- phone -->
+                    <!-- username -->
                     <div class="form-group col-md-4">
-                        <label for="phone">电话</label>
-                        <input type="text" class="form-control" disabled="disabled" id="phone" name="phone" value="{{ mobile }}">
+                        <label for="username">用户名</label>
+                        <input type="text" class="form-control" id="username" name="username" value="{{ username }}" >
+                    </div>
+                    <!-- email -->
+                    <div class="form-group col-md-4">
+                        <label for="email">邮箱</label>
+                        <input type="email" class="form-control" id="email" name="email" value="{{ email }}">
                     </div>
                     <!-- desc -->
                     <div class="form-group col-md-4">
@@ -94,7 +93,7 @@
 <!-- Footer -->
 <footer class="py-3 bg-dark" id="footer">
     <div class="container">
-        <h5 class="m-0 text-center text-white">Copyright @ qiruihua</h5>
+        <h5 class="m-0 text-center text-white">Copyright @ SuZe</h5>
     </div>
 </footer>
 </div>

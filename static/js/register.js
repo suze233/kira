@@ -168,7 +168,7 @@ var vm = new Vue({
             this.check_email();
             this.check_password();
             this.check_password2();
-            this.check_sms_code();
+            this.check_image_code();
 
             if (this.email_error == true || this.password_error == true || this.password2_error == true
                 || this.image_code_error == true) {

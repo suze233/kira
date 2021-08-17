@@ -102,23 +102,20 @@ class LoginView(View):
         # 1. 接收参数
         # mobile = request.POST.get('mobile')
         username = request.POST.get('username')
-        email = request.POST.get('email')
         password = request.POST.get('password')
         remember = request.POST.get('remember')
         # 2. 验证参数
         #     2.1 手机号
         # if not re.match(r'^1[3-9]\d{9}$', mobile):
         #     return HttpResponseBadRequest('手机号错误')
-        if not re.match(r'^[A-Za-z0-9\u4e00-\u9fa5]+@[a-zA-Z0-9_-]+(\.[a-zA-Z0-9_-]+)+$', email):
-            return HttpResponseBadRequest('邮箱格式错误')
         #     2.2 密码
         if not re.match(r'^[0-9A-Za-z]{8,20}$', password):
-            return HttpResponseBadRequest('密码错误')
+            return HttpResponseBadRequest('密码格式错误')
         # 3. 用户认证登录
         # 如果用户名和密码匹配,返回user  如果用户名和密码不匹配,返回None
         # 默认的认证方法是用username来继续判断，而当前判断信息为mobile，所以需要修改默认的认证方式
         # 需要到User模型中修改
-        user = authenticate(username=username, password=password, email=email)
+        user = authenticate(username=username, password=password)
         if user is None:
             return HttpResponseBadRequest('用户名或密码错误')
         # 4. 状态保持
@@ -276,17 +273,18 @@ class ForgetPassword(View):
         6. 返回响应
         """
         # 1.接收数据
-        mobile = request.POST.get('mobile')
+        username = request.POST.get('username')
+        email = request.POST.get('email')
         password = request.POST.get('password')
         password2 = request.POST.get('password2')
-        smscode = request.POST.get('sms_code')
+        # smscode = request.POST.get('sms_code')
         # 2. 验证数据
         #   2.1 数据是否齐全
-        if not all([mobile, password, password2, smscode]):
+        if not all([email, password, password2]):
             return HttpResponseBadRequest('缺少参数')
         #   2.2 手机号格式
-        if not re.match(r'^1[3-9]\d{9}$', mobile):
-            return HttpResponseBadRequest('手机号输入错误')
+        if not re.match(r'^[A-Za-z0-9\u4e00-\u9fa5]+@[a-zA-Z0-9_-]+(\.[a-zA-Z0-9_-]+)+$', email):
+            return HttpResponseBadRequest('请输入正确的邮箱')
         #   2.3 密码格式
         if not re.match(r'^[0-9A-Za-z]{8,20}$', password):
             return HttpResponseBadRequest('密码格式错误，请输入8-20位数字+字母')
@@ -294,21 +292,21 @@ class ForgetPassword(View):
         if password != password2:
             return HttpResponseBadRequest('两次输入密码不一致')
         #   2.5 短信验证码是否正确)
-        redis_conn = get_redis_connection('default')
-        redis_sms_code = redis_conn.get('sms:%s' % mobile)
-        if redis_sms_code is None:
-            return HttpResponseBadRequest('短信验证码已过期')
-        if smscode != redis_sms_code.decode():
-            return HttpResponseBadRequest('短信验证码错误')
+        # redis_conn = get_redis_connection('default')
+        # redis_sms_code = redis_conn.get('sms:%s' % mobile)
+        # if redis_sms_code is None:
+        #     return HttpResponseBadRequest('短信验证码已过期')
+        # if smscode != redis_sms_code.decode():
+        #     return HttpResponseBadRequest('短信验证码错误')
         # 3. 查询手机号
         try:
-            user = User.objects.get(mobile=mobile)
+            user = User.objects.get(username=username)
         except User.DoesNotExist:
             # 4.1 如果手机号不存在，进行新用户创建
             # try:
             #     User.objects.create_user(username=mobile, mobile=mobile, password=password)
             # except Exception:
-            return HttpResponseBadRequest('手机号输入错误')
+            return HttpResponseBadRequest('该用户不存在')
         else:
             # 4.2 如果手机号存在进行修改密码
             user.set_password(password)
@@ -346,11 +344,16 @@ class UserCenterView(LoginRequiredMixin, View):
         """
         user = request.user
         # 1. 接收参数
-        username = request.POST.get('username', user.username)
+        username = request.POST.get('username')
+        email = request.POST.get('email')
         user_desc = request.POST.get('desc', user.user_desc)
         avatar = request.FILES.get('avatar')
+
+        if not re.match(r'^[A-Za-z0-9\u4e00-\u9fa5]+@[a-zA-Z0-9_-]+(\.[a-zA-Z0-9_-]+)+$', email):
+            return HttpResponseBadRequest('请输入正确的邮箱')
         # 2. 将参数保存
         try:
+            user.email = email
             user.username = username
             user.user_desc = user_desc
             if avatar:
